@@ -1,38 +1,23 @@
-// Hourly snapshot builder. Calls the CoinMarketCap API and writes display-only JSON
-// (public/data/snapshot.json + history.json). The API key is read from env CMC_API_KEY
-// and sent only as a request header; it is never logged or written.
+// Snapshot builder. Writes display-only JSON (public/data/snapshot.json + history.json).
+// Source switch: CMC_SOURCE=fixture (default, offline, synthetic values in CMC response format)
+// or CMC_SOURCE=live (real API; key from env CMC_API_KEY, header only, never logged).
 //
 // Credit guard: checks /v1/key/info first (free). Drill-downs into sector constituents are
 // rotated a few per run, and skipped entirely when the monthly balance runs low.
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { SECTORS } from './sectors.mjs';
+import { SOURCE, cmc, creditsUsed, redact, usage } from './cmc.mjs';
+import { attention } from './narrative.mjs';
 
-const KEY = process.env.CMC_API_KEY;
 const OUT = process.env.OUT_DIR || 'public/data';
 const PREV = process.env.PREV_BASE || OUT; // URL of the live site's data/ or a local dir
 const DRILL_PER_RUN = +(process.env.DRILL_PER_RUN ?? 4);
 const COINS_PER_SECTOR = +(process.env.COINS_PER_SECTOR ?? 15);
 const MIN_CREDITS_LEFT = +(process.env.MIN_CREDITS_LEFT ?? 3000);
 const HISTORY_HOURS = +(process.env.HISTORY_HOURS ?? 168);
-const BASE = 'https://pro-api.coinmarketcap.com';
-
-if (!KEY) { console.error('CMC_API_KEY is not set — nothing fetched.'); process.exit(1); }
-
-const redact = (s) => String(s).split(KEY).join('***');
-let credits = 0;
-const endpoints = new Set();
-
-async function cmc(path, label) {
-  const res = await fetch(BASE + path, { headers: { 'X-CMC_PRO_API_KEY': KEY, Accept: 'application/json' } });
-  const body = await res.json().catch(() => null);
-  const st = body?.status ?? {};
-  const code = +(st.error_code ?? 0);
-  if (!res.ok || code !== 0) throw new Error(`${label}: HTTP ${res.status} ${redact(st.error_message ?? '')}`);
-  credits += +(st.credit_count ?? 0);
-  endpoints.add(path.split('?')[0]);
-  return body.data;
-}
+const NARRATIVE = process.env.NARRATIVE !== '0'; // attention endpoints for the narrative map
+const LIVE = SOURCE === 'live';
 
 async function loadPrev(name, fallback) {
   try {
@@ -50,12 +35,15 @@ const r2 = (v) => (v == null || !isFinite(v) ? null : Math.round(v * 100) / 100)
 
 async function main() {
   const prevSnap = await loadPrev('snapshot.json', null);
-  const prevHist = prevSnap?.synthetic ? { points: [] } : await loadPrev('history.json', { points: [] });
-  const prevById = new Map((prevSnap?.synthetic ? [] : prevSnap?.sectors ?? []).map((s) => [s.id, s]));
+  // never mix fixture and live data
+  const samePrev = prevSnap && !!prevSnap.synthetic === !LIVE;
+  const prevHist = samePrev ? await loadPrev('history.json', { points: [] }) : { points: [] };
+  const prevById = new Map((samePrev ? prevSnap.sectors : []).map((s) => [s.id, s]));
 
-  // 0. credit guard (key/info costs 0 credits)
-  const info = await cmc('/v1/key/info', 'key-info');
-  const left = info?.usage?.current_month?.credits_left ?? Infinity;
+  // 0. credit guard: month-to-date usage before the run (key/info costs 0 credits)
+  const before = await creditsUsed();
+  const left = before?.left ?? Infinity;
+  if (LIVE) console.log(`credits before: used ${before.used}, left ${before.left}`);
   if (left < MIN_CREDITS_LEFT) {
     console.log(`credits left ${left} < ${MIN_CREDITS_LEFT}: skipping this run, previous snapshot stays live.`);
     return;
@@ -103,7 +91,7 @@ async function main() {
         const w = coins.reduce((a, x) => a + x.marketCap, 0);
         change7d = w ? r2(coins.reduce((a, x) => a + x.marketCap * (x.change7d ?? 0), 0) / w) : null;
         coinsAt = now;
-        await new Promise((r) => setTimeout(r, 1500));
+        if (LIVE) await new Promise((r) => setTimeout(r, 1500));
       } catch (e) { console.warn(redact(e.message)); }
     }
     sectors.push({
@@ -114,9 +102,16 @@ async function main() {
     });
   }
 
+  // 3b. attention per sector (narrative map); skipped gracefully when the plan lacks the endpoints
+  const narrative = NARRATIVE
+    ? await attention(picked.map(({ s }) => ({ id: s.key, kw: s.kw, coinIds: new Set((sectors.find((x) => x.id === s.key)?.coins ?? []).map((c) => c.id)) })))
+    : { available: { posts: false, tokens: false, topics: false }, bySector: null, topics: [] };
+  for (const sec of sectors) sec.heat = narrative.bySector?.[sec.id] ?? null;
+
   const q = g.quote.USD;
   const snapshot = {
     generatedAt: now,
+    ...(LIVE ? {} : { synthetic: true }),
     market: {
       totalMarketCap: Math.round(q.total_market_cap),
       totalMarketCapChange24h: r2(q.total_market_cap_yesterday_percentage_change),
@@ -126,9 +121,10 @@ async function main() {
       fearGreed: fng ? { value: fng.value, label: fng.value_classification } : null,
     },
     sectors,
+    narrative: { available: narrative.available, topics: narrative.topics },
     meta: {
-      creditsThisRun: credits,
-      endpoints: [...endpoints],
+      creditsThisRun: usage.credits,
+      endpoints: [...usage.endpoints],
       notes: [`Constituents refreshed for ${stalest.length} of ${sectors.length} sectors this run (rotating).`],
     },
   };
@@ -142,7 +138,9 @@ async function main() {
   mkdirSync(OUT, { recursive: true });
   writeFileSync(join(OUT, 'snapshot.json'), JSON.stringify(snapshot));
   writeFileSync(join(OUT, 'history.json'), JSON.stringify({ points }));
-  console.log(`ok: ${sectors.length} sectors, drilled ${stalest.length}, history ${points.length} pts, credits this run ${credits}, month left ≈ ${left - credits}`);
+  const after = await creditsUsed();
+  console.log(`ok [${SOURCE}]: ${sectors.length} sectors, drilled ${stalest.length}, history ${points.length} pts, credits this run ${usage.credits}` +
+    (after ? `; month used ${before.used} → ${after.used}, left ${after.left}` : ''));
 }
 
 main().catch((e) => { console.error('fetch failed, previous snapshot kept:', redact(e.message)); process.exit(1); });

@@ -1,0 +1,402 @@
+{
+ "_note": "SYNTHETIC fixture in CoinMarketCap response format",
+ "status": {
+  "timestamp": "2026-11-22T18:43:49.782Z",
+  "error_code": 0,
+  "error_message": null,
+  "elapsed": 10,
+  "credit_count": 1,
+  "notice": null
+ },
+ "data": {
+  "id": "fx0015",
+  "name": "Liquid Staking Derivatives",
+  "title": "Liquid Staking Derivatives",
+  "description": "Synthetic Liquid Staking category",
+  "volume": 3181089376.49,
+  "num_tokens": 580,
+  "avg_price_change": 2.843152,
+  "market_cap": 29498636186.22,
+  "market_cap_change": 0.750256,
+  "volume_change": -19.015342,
+  "last_updated": "2021-11-10T10:35:12.354Z",
+  "coins": [
+   {
+    "id": 90600,
+    "name": "Liquid Staking Token A",
+    "symbol": "LSDA",
+    "slug": "lsd-token-0",
+    "tags": [
+     "lsd"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 50,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 28.962266,
+      "volume_24h": 743382072.23,
+      "percent_change_1h": -0.080801,
+      "percent_change_24h": -1.567004,
+      "percent_change_7d": 5.238448,
+      "percent_change_30d": 20.933315,
+      "market_cap": 3793195205.14,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90601,
+    "name": "Liquid Staking Token B",
+    "symbol": "LSDB",
+    "slug": "lsd-token-1",
+    "tags": [
+     "lsd"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 51,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 2.061185,
+      "volume_24h": 1166092402.91,
+      "percent_change_1h": -0.017396,
+      "percent_change_24h": 1.088652,
+      "percent_change_7d": 3.463477,
+      "percent_change_30d": -0.88689,
+      "market_cap": 10299948638.67,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90602,
+    "name": "Liquid Staking Token C",
+    "symbol": "LSDC",
+    "slug": "lsd-token-2",
+    "tags": [
+     "lsd"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 52,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.047883,
+      "volume_24h": 7904757.13,
+      "percent_change_1h": 0.375754,
+      "percent_change_24h": 3.566555,
+      "percent_change_7d": -2.756819,
+      "percent_change_30d": 4.29147,
+      "market_cap": 237331580.63,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90603,
+    "name": "Liquid Staking Token D",
+    "symbol": "LSDD",
+    "slug": "lsd-token-3",
+    "tags": [
+     "lsd"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 53,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.07602,
+      "volume_24h": 93177799.11,
+      "percent_change_1h": 0.566872,
+      "percent_change_24h": -1.505412,
+      "percent_change_7d": 3.726766,
+      "percent_change_30d": 2.923526,
+      "market_cap": 691694055.72,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90604,
+    "name": "Liquid Staking Token E",
+    "symbol": "LSDE",
+    "slug": "lsd-token-4",
+    "tags": [
+     "lsd"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 54,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 5.746438,
+      "volume_24h": 168161307.31,
+      "percent_change_1h": -0.4593,
+      "percent_change_24h": 2.492292,
+      "percent_change_7d": 1.643931,
+      "percent_change_30d": 4.133242,
+      "market_cap": 1590709671.65,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90605,
+    "name": "Liquid Staking Token F",
+    "symbol": "LSDF",
+    "slug": "lsd-token-5",
+    "tags": [
+     "lsd"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 55,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.051448,
+      "volume_24h": 27994063.46,
+      "percent_change_1h": 0.26195,
+      "percent_change_24h": -1.400507,
+      "percent_change_7d": -4.601327,
+      "percent_change_30d": -6.934903,
+      "market_cap": 623423639.29,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90606,
+    "name": "Liquid Staking Token G",
+    "symbol": "LSDG",
+    "slug": "lsd-token-6",
+    "tags": [
+     "lsd"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 56,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 139.708956,
+      "volume_24h": 73544943.43,
+      "percent_change_1h": 0.107767,
+      "percent_change_24h": 0.173349,
+      "percent_change_7d": 11.476173,
+      "percent_change_30d": 25.790327,
+      "market_cap": 873481317.16,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90607,
+    "name": "Liquid Staking Token H",
+    "symbol": "LSDH",
+    "slug": "lsd-token-7",
+    "tags": [
+     "lsd"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 57,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 143.457946,
+      "volume_24h": 13931160.64,
+      "percent_change_1h": 0.365506,
+      "percent_change_24h": 0.507868,
+      "percent_change_7d": 1.133709,
+      "percent_change_30d": -0.717873,
+      "market_cap": 93797472.22,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90608,
+    "name": "Liquid Staking Token I",
+    "symbol": "LSDI",
+    "slug": "lsd-token-8",
+    "tags": [
+     "lsd"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 58,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 104.70057,
+      "volume_24h": 279708254.67,
+      "percent_change_1h": 0.154478,
+      "percent_change_24h": -1.238818,
+      "percent_change_7d": 5.9383,
+      "percent_change_30d": 15.852849,
+      "market_cap": 1337156622.93,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90609,
+    "name": "Liquid Staking Token J",
+    "symbol": "LSDJ",
+    "slug": "lsd-token-9",
+    "tags": [
+     "lsd"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 59,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.050713,
+      "volume_24h": 7287612.47,
+      "percent_change_1h": -0.447934,
+      "percent_change_24h": 2.423917,
+      "percent_change_7d": 7.063358,
+      "percent_change_30d": 6.818009,
+      "market_cap": 38670443.92,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90610,
+    "name": "Liquid Staking Token K",
+    "symbol": "LSDK",
+    "slug": "lsd-token-10",
+    "tags": [
+     "lsd"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 60,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 3.177437,
+      "volume_24h": 88953052.05,
+      "percent_change_1h": 0.1451,
+      "percent_change_24h": 3.995781,
+      "percent_change_7d": -0.124537,
+      "percent_change_30d": -3.858776,
+      "market_cap": 1360201683.82,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90611,
+    "name": "Liquid Staking Token L",
+    "symbol": "LSDL",
+    "slug": "lsd-token-11",
+    "tags": [
+     "lsd"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 61,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 27.473774,
+      "volume_24h": 55860171.86,
+      "percent_change_1h": 0.033457,
+      "percent_change_24h": 2.143511,
+      "percent_change_7d": -6.150671,
+      "percent_change_30d": -19.30729,
+      "market_cap": 398949901.33,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90612,
+    "name": "Liquid Staking Token M",
+    "symbol": "LSDM",
+    "slug": "lsd-token-12",
+    "tags": [
+     "lsd"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 62,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 16.327979,
+      "volume_24h": 22520380.08,
+      "percent_change_1h": -0.549902,
+      "percent_change_24h": 3.167682,
+      "percent_change_7d": -6.053582,
+      "percent_change_30d": -18.012831,
+      "market_cap": 687119672.06,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90613,
+    "name": "Liquid Staking Token N",
+    "symbol": "LSDN",
+    "slug": "lsd-token-13",
+    "tags": [
+     "lsd"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 63,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 3.440024,
+      "volume_24h": 55765064.28,
+      "percent_change_1h": -0.379067,
+      "percent_change_24h": 1.56014,
+      "percent_change_7d": 9.734779,
+      "percent_change_30d": 7.581479,
+      "market_cap": 1253990634.5,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90649,
+    "name": "Restaking Token J",
+    "symbol": "RESJ",
+    "slug": "restaking-token-9",
+    "tags": [
+     "restaking",
+     "lsd"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 64,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 7.798535,
+      "volume_24h": 47290929.52,
+      "percent_change_1h": -0.176712,
+      "percent_change_24h": 1.503738,
+      "percent_change_7d": 7.099855,
+      "percent_change_30d": 10.312871,
+      "market_cap": 319238409.94,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   }
+  ]
+ }
+}

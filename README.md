@@ -18,13 +18,14 @@
 | **Sector detail** | 7-day market cap line, plus the largest constituents as diverging bars | Who is pulling the sector up or down? |
 | **Context** | Fear & Greed gauge, BTC/ETH dominance split, total market cap, breadth (sectors up / total) | Is this rotation, or just the whole market moving? |
 | **Replay** | Scrubber and play button over the rolling 7-day history | How did we get here? |
+| **Narratives** (2nd screen) | Quadrant. x = attention rank (CMC community posts, trending tokens, trending topics mapped to sectors), y = money-flow rank (24h market-cap and volume change). Plus trending topics with their sectors, and an attention ranking | Momentum (talk and money), Hype (talk, no money), Quiet build (money, no talk), or Cold? |
 
 The layout is mobile-native. Phones get tabbed views, slim bars and a taller treemap, not a shrunken desktop page. Light and dark themes follow the system setting, and a toggle overrides it.
 
 ## How it works
 
 ```
-GitHub Actions (every 2h)                         GitHub Pages (static)
+GitHub Actions (manual for now)                   GitHub Pages (static)
  ├─ restore last deployed snapshot.json/history.json
  ├─ fetch/fetch.mjs  ──►  CoinMarketCap API (key from Actions secret, header only)
  │     writes display-only JSON
@@ -37,6 +38,8 @@ GitHub Actions (every 2h)                         GitHub Pages (static)
 - **No data in git.** Snapshots live only inside the deployed Pages artifact. Each run restores the previously deployed files and keeps a rolling 7-day window of derived numbers for display. It does not store raw API responses (see *Licence note*).
 - **Credit guard.** Each run first calls `/v1/key/info` (0 credits). If the monthly balance is below `MIN_CREDITS_LEFT`, the run is skipped and the last snapshot stays live. Constituent drill-downs rotate four sectors per run, so each sector refreshes every ~12h.
 - **Graceful failure.** If the fetch fails, the previous snapshot is redeployed unchanged.
+- **One switch between fixtures and live data.** `CMC_SOURCE=fixture` (the default) runs the same transform code on offline responses in CMC's format with synthetic values. `CMC_SOURCE=live` calls the API. Synthetic data is flagged in the JSON and shows a banner in the UI.
+- **Schedule.** The Actions cron is **off** by default. It is meant to run every 2 hours only while the hackathon's upgraded API plan is active, and has to be switched off again when the plan returns to Basic.
 
 ## CoinMarketCap endpoints used
 
@@ -48,8 +51,11 @@ GitHub Actions (every 2h)                         GitHub Pages (static)
 | `GET /v1/global-metrics/quotes/latest` | total market cap, BTC/ETH dominance and their 24h change | 1 |
 | `GET /v3/fear-and-greed/latest` | sentiment context | 1 |
 | `GET /v2/cryptocurrency/quotes/historical` | one-off 7-day backfill of rotation history (`fetch/backfill.mjs`) | ≈75, once |
+| `GET /v1/content/posts/latest` | narrative map: community posts → sector attention | 1 *(availability on our plan not yet verified)* |
+| `GET /v1/community/trending/token` | narrative map: trending tokens → sector attention | 1 *(not yet verified)* |
+| `GET /v1/community/trending/topic` | narrative map: trending topics → sectors | 1 *(not yet verified)* |
 
-About **7 credits per run**, 12 runs a day.
+About **7 credits per run** for the rotation screen, plus up to 3 for the narrative screen. If an attention endpoint is unavailable on the current plan, the narrative screen degrades gracefully: it uses the sources it has, or shows an "unavailable" card.
 
 ## Real API calls (evidence)
 
@@ -157,22 +163,23 @@ backfill ok: 84 reconstructed points (+1 live), credits 72
 
 ```bash
 npm install
-npm run fixture          # synthetic preview data, no key (UI shows a "synthetic" banner)
-# or real data:
-export CMC_API_KEY=...   # never commit it
-npm run fetch            # writes public/data/snapshot.json + history.json
-node fetch/backfill.mjs  # optional: 7-day history (~75 credits)
+npm run fixture                         # offline: CMC-format fixtures → public/data (synthetic banner), 0 credits
+# real data:
+export CMC_API_KEY=...                  # never commit it
+CMC_SOURCE=live npm run fetch           # logs month-to-date credits before and after
+CMC_API_KEY=... node fetch/backfill.mjs # optional: 7-day history (~75 credits)
 npm run dev
-npm run build            # type-check + production build to dist/
+npm run build                           # type-check + production build to dist/
 ```
 
-Environment knobs for `fetch.mjs`: `DRILL_PER_RUN` (4), `COINS_PER_SECTOR` (15), `MIN_CREDITS_LEFT` (3000), `HISTORY_HOURS` (168), `PREV_BASE` (URL or dir of the previous snapshot).
+Environment knobs for `fetch.mjs`: `CMC_SOURCE` (fixture | live), `NARRATIVE` (1; 0 skips attention endpoints), `DRILL_PER_RUN` (4), `COINS_PER_SECTOR` (15), `MIN_CREDITS_LEFT` (3000), `HISTORY_HOURS` (168), `PREV_BASE` (URL or dir of the previous snapshot).
 
 ## Deploy your own
 
 1. Fork the repo and add the repository secret `CMC_API_KEY`.
 2. Under Settings → Pages, set the source to **GitHub Actions**.
-3. Run the *snapshot-and-deploy* workflow once with **backfill** ticked. It then runs every 2 hours.
+3. Run the *snapshot-and-deploy* workflow by hand, choosing source **live** (tick **backfill** the first time).
+4. To refresh automatically, uncomment the `schedule` block and set the repository variable `CMC_SOURCE=live`. Turn it off again when your plan's credits can't cover 12 runs a day.
 
 ## Licence note
 

@@ -1,0 +1,403 @@
+{
+ "_note": "SYNTHETIC fixture in CoinMarketCap response format",
+ "status": {
+  "timestamp": "2026-11-22T18:43:49.782Z",
+  "error_code": 0,
+  "error_message": null,
+  "elapsed": 10,
+  "credit_count": 1,
+  "notice": null
+ },
+ "data": {
+  "id": "fx0016",
+  "name": "Restaking",
+  "title": "Restaking",
+  "description": "Synthetic Restaking category",
+  "volume": 5685609736.71,
+  "num_tokens": 437,
+  "avg_price_change": 0.724573,
+  "market_cap": 40863081551.19,
+  "market_cap_change": 0.535333,
+  "volume_change": -20.786465,
+  "last_updated": "2021-11-10T10:35:12.354Z",
+  "coins": [
+   {
+    "id": 90640,
+    "name": "Restaking Token A",
+    "symbol": "RESA",
+    "slug": "restaking-token-0",
+    "tags": [
+     "restaking"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 50,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.695601,
+      "volume_24h": 15286486.95,
+      "percent_change_1h": 0.534532,
+      "percent_change_24h": 0.42183,
+      "percent_change_7d": -3.411211,
+      "percent_change_30d": -4.377116,
+      "market_cap": 211231842.9,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90641,
+    "name": "Restaking Token B",
+    "symbol": "RESB",
+    "slug": "restaking-token-1",
+    "tags": [
+     "restaking"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 51,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 86.331762,
+      "volume_24h": 4919494455.06,
+      "percent_change_1h": -0.30711,
+      "percent_change_24h": 0.805084,
+      "percent_change_7d": -4.838838,
+      "percent_change_30d": -15.662796,
+      "market_cap": 23884876774.42,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90642,
+    "name": "Restaking Token C",
+    "symbol": "RESC",
+    "slug": "restaking-token-2",
+    "tags": [
+     "restaking"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 52,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 171.001049,
+      "volume_24h": 7360858.93,
+      "percent_change_1h": 0.090557,
+      "percent_change_24h": 0.021293,
+      "percent_change_7d": 2.201529,
+      "percent_change_30d": 7.122014,
+      "market_cap": 161703431.47,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90643,
+    "name": "Restaking Token D",
+    "symbol": "RESD",
+    "slug": "restaking-token-3",
+    "tags": [
+     "restaking"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 53,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 3.086026,
+      "volume_24h": 75911239.49,
+      "percent_change_1h": 0.125267,
+      "percent_change_24h": 0.56447,
+      "percent_change_7d": -0.196147,
+      "percent_change_30d": 1.830811,
+      "market_cap": 358160643.01,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90644,
+    "name": "Restaking Token E",
+    "symbol": "RESE",
+    "slug": "restaking-token-4",
+    "tags": [
+     "restaking"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 54,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 9.0061,
+      "volume_24h": 183111467.02,
+      "percent_change_1h": -0.298628,
+      "percent_change_24h": -1.114351,
+      "percent_change_7d": -4.520474,
+      "percent_change_30d": -12.115889,
+      "market_cap": 2034954674.31,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90645,
+    "name": "Restaking Token F",
+    "symbol": "RESF",
+    "slug": "restaking-token-5",
+    "tags": [
+     "restaking"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 55,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 199.287154,
+      "volume_24h": 35604195.44,
+      "percent_change_1h": -0.093871,
+      "percent_change_24h": -2.503546,
+      "percent_change_7d": -1.441441,
+      "percent_change_30d": 0.066682,
+      "market_cap": 316666097.01,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90646,
+    "name": "Restaking Token G",
+    "symbol": "RESG",
+    "slug": "restaking-token-6",
+    "tags": [
+     "restaking"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 56,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 1.534066,
+      "volume_24h": 12734531.77,
+      "percent_change_1h": -0.293136,
+      "percent_change_24h": -3.807772,
+      "percent_change_7d": -3.463435,
+      "percent_change_30d": -3.70683,
+      "market_cap": 107069062.53,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90647,
+    "name": "Restaking Token H",
+    "symbol": "RESH",
+    "slug": "restaking-token-7",
+    "tags": [
+     "restaking"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 57,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 2.294014,
+      "volume_24h": 34710726.86,
+      "percent_change_1h": 0.525752,
+      "percent_change_24h": 3.201446,
+      "percent_change_7d": -0.9357,
+      "percent_change_30d": -3.418113,
+      "market_cap": 201998913.72,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90648,
+    "name": "Restaking Token I",
+    "symbol": "RESI",
+    "slug": "restaking-token-8",
+    "tags": [
+     "restaking"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 58,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 15.892432,
+      "volume_24h": 12124161.28,
+      "percent_change_1h": 0.490137,
+      "percent_change_24h": 0.492893,
+      "percent_change_7d": -8.204968,
+      "percent_change_30d": -12.81795,
+      "market_cap": 73338927.74,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90649,
+    "name": "Restaking Token J",
+    "symbol": "RESJ",
+    "slug": "restaking-token-9",
+    "tags": [
+     "restaking",
+     "lsd"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 59,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 5.179283,
+      "volume_24h": 57928472.17,
+      "percent_change_1h": -0.27988,
+      "percent_change_24h": 1.503738,
+      "percent_change_7d": 7.099855,
+      "percent_change_30d": 18.542101,
+      "market_cap": 319238409.94,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90650,
+    "name": "Restaking Token K",
+    "symbol": "RESK",
+    "slug": "restaking-token-10",
+    "tags": [
+     "restaking"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 60,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.090217,
+      "volume_24h": 35166433.9,
+      "percent_change_1h": 0.55907,
+      "percent_change_24h": 0.978853,
+      "percent_change_7d": -5.740164,
+      "percent_change_30d": -3.079629,
+      "market_cap": 1688266150.94,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90651,
+    "name": "Restaking Token L",
+    "symbol": "RESL",
+    "slug": "restaking-token-11",
+    "tags": [
+     "restaking"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 61,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 1.523109,
+      "volume_24h": 38132067.17,
+      "percent_change_1h": -0.049752,
+      "percent_change_24h": -0.789449,
+      "percent_change_7d": -1.440507,
+      "percent_change_30d": 6.307586,
+      "market_cap": 370157155.63,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90652,
+    "name": "Restaking Token M",
+    "symbol": "RESM",
+    "slug": "restaking-token-12",
+    "tags": [
+     "restaking"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 62,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.111102,
+      "volume_24h": 6623239.33,
+      "percent_change_1h": -0.33547,
+      "percent_change_24h": 1.703602,
+      "percent_change_7d": 4.176617,
+      "percent_change_30d": 1.443295,
+      "market_cap": 30608459.42,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90653,
+    "name": "Restaking Token N",
+    "symbol": "RESN",
+    "slug": "restaking-token-13",
+    "tags": [
+     "restaking"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 63,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 4.133954,
+      "volume_24h": 31373267.13,
+      "percent_change_1h": 0.026349,
+      "percent_change_24h": -2.555678,
+      "percent_change_7d": 1.760364,
+      "percent_change_30d": -3.477567,
+      "market_cap": 290773982.82,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90166,
+    "name": "DeFi Token G",
+    "symbol": "DEFG",
+    "slug": "defi-token-6",
+    "tags": [
+     "defi",
+     "restaking"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 64,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 17.145713,
+      "volume_24h": 178578686.03,
+      "percent_change_1h": -0.115413,
+      "percent_change_24h": -0.146841,
+      "percent_change_7d": 4.367355,
+      "percent_change_30d": 17.540878,
+      "market_cap": 2641420715.09,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   }
+  ]
+ }
+}

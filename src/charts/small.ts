@@ -29,7 +29,7 @@ export function breadth(changes: number[], domain: number): string {
 
 export function sparkline(el: HTMLElement, series: { t: string; v: number }[], height: number): void {
   const W = Math.max(160, el.clientWidth), H = height;
-  if (series.length < 2) { el.innerHTML = `<div class="empty">History builds up hourly.</div>`; return; }
+  if (series.length < 2) { el.innerHTML = `<div class="empty">History builds up with each snapshot.</div>`; return; }
   const vs = series.map((s) => s.v);
   const lo = Math.min(...vs), hi = Math.max(...vs);
   const span = hi - lo || 1;

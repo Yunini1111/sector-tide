@@ -1,0 +1,433 @@
+{
+ "_note": "SYNTHETIC fixture in CoinMarketCap response format",
+ "status": {
+  "timestamp": "2026-11-22T18:43:49.782Z",
+  "error_code": 0,
+  "error_message": null,
+  "elapsed": 10,
+  "credit_count": 1,
+  "notice": null
+ },
+ "data": {
+  "id": "fx0007",
+  "name": "Derivatives",
+  "title": "Derivatives",
+  "description": "Synthetic Derivatives category",
+  "volume": 998985014.27,
+  "num_tokens": 31,
+  "avg_price_change": -0.370855,
+  "market_cap": 16179453245.37,
+  "market_cap_change": -0.701436,
+  "volume_change": 11.191635,
+  "last_updated": "2021-11-10T10:35:12.354Z",
+  "coins": [
+   {
+    "id": 90280,
+    "name": "Derivatives Token A",
+    "symbol": "DERA",
+    "slug": "derivatives-token-0",
+    "tags": [
+     "derivatives"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 50,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.032482,
+      "volume_24h": 741547710.54,
+      "percent_change_1h": -0.216794,
+      "percent_change_24h": -0.756058,
+      "percent_change_7d": -7.203747,
+      "percent_change_30d": -8.900204,
+      "market_cap": 3540987622.03,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90281,
+    "name": "Derivatives Token B",
+    "symbol": "DERB",
+    "slug": "derivatives-token-1",
+    "tags": [
+     "derivatives"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 51,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 48.925616,
+      "volume_24h": 33969459.21,
+      "percent_change_1h": 0.355947,
+      "percent_change_24h": -1.025625,
+      "percent_change_7d": -3.985712,
+      "percent_change_30d": -11.884635,
+      "market_cap": 231351392.28,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90282,
+    "name": "Derivatives Token C",
+    "symbol": "DERC",
+    "slug": "derivatives-token-2",
+    "tags": [
+     "derivatives"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 52,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.243539,
+      "volume_24h": 13720938.84,
+      "percent_change_1h": 0.021975,
+      "percent_change_24h": -1.284779,
+      "percent_change_7d": -0.159409,
+      "percent_change_30d": -1.519401,
+      "market_cap": 283851640.26,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90283,
+    "name": "Derivatives Token D",
+    "symbol": "DERD",
+    "slug": "derivatives-token-3",
+    "tags": [
+     "derivatives"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 53,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.117587,
+      "volume_24h": 16106336.47,
+      "percent_change_1h": 0.507915,
+      "percent_change_24h": -1.376609,
+      "percent_change_7d": -1.944511,
+      "percent_change_30d": 0.823076,
+      "market_cap": 133308103.28,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90284,
+    "name": "Derivatives Token E",
+    "symbol": "DERE",
+    "slug": "derivatives-token-4",
+    "tags": [
+     "derivatives"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 54,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 57.516376,
+      "volume_24h": 260379011.45,
+      "percent_change_1h": -0.321459,
+      "percent_change_24h": -1.978827,
+      "percent_change_7d": -5.262219,
+      "percent_change_30d": -2.810599,
+      "market_cap": 1401394142.07,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90285,
+    "name": "Derivatives Token F",
+    "symbol": "DERF",
+    "slug": "derivatives-token-5",
+    "tags": [
+     "derivatives",
+     "prediction"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 55,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 22.709503,
+      "volume_24h": 35895671.58,
+      "percent_change_1h": -0.096488,
+      "percent_change_24h": 1.304843,
+      "percent_change_7d": -11.789971,
+      "percent_change_30d": -21.207179,
+      "market_cap": 1053241454.36,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90286,
+    "name": "Derivatives Token G",
+    "symbol": "DERG",
+    "slug": "derivatives-token-6",
+    "tags": [
+     "derivatives"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 56,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 240.99416,
+      "volume_24h": 4274927.86,
+      "percent_change_1h": -0.441688,
+      "percent_change_24h": -3.093472,
+      "percent_change_7d": -3.839815,
+      "percent_change_30d": -15.854376,
+      "market_cap": 66610683.28,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90287,
+    "name": "Derivatives Token H",
+    "symbol": "DERH",
+    "slug": "derivatives-token-7",
+    "tags": [
+     "derivatives"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 57,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 75.71709,
+      "volume_24h": 233786126.72,
+      "percent_change_1h": 0.074788,
+      "percent_change_24h": -1.604254,
+      "percent_change_7d": -1.967143,
+      "percent_change_30d": -7.168656,
+      "market_cap": 1861261554.71,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90288,
+    "name": "Derivatives Token I",
+    "symbol": "DERI",
+    "slug": "derivatives-token-8",
+    "tags": [
+     "derivatives",
+     "privacy"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 58,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 118.190501,
+      "volume_24h": 5867483.59,
+      "percent_change_1h": 0.203133,
+      "percent_change_24h": -0.613983,
+      "percent_change_7d": -5.870774,
+      "percent_change_30d": -8.106334,
+      "market_cap": 147554711.38,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90289,
+    "name": "Derivatives Token J",
+    "symbol": "DERJ",
+    "slug": "derivatives-token-9",
+    "tags": [
+     "derivatives",
+     "rwa"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 59,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.035155,
+      "volume_24h": 6142382.52,
+      "percent_change_1h": -0.209344,
+      "percent_change_24h": -1.346244,
+      "percent_change_7d": -5.464368,
+      "percent_change_30d": -15.62172,
+      "market_cap": 97738052.44,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90290,
+    "name": "Derivatives Token K",
+    "symbol": "DERK",
+    "slug": "derivatives-token-10",
+    "tags": [
+     "derivatives"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 60,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 3.498485,
+      "volume_24h": 259689563.6,
+      "percent_change_1h": 0.209577,
+      "percent_change_24h": 0.569847,
+      "percent_change_7d": -7.456921,
+      "percent_change_30d": -28.20188,
+      "market_cap": 1334542506.25,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90291,
+    "name": "Derivatives Token L",
+    "symbol": "DERL",
+    "slug": "derivatives-token-11",
+    "tags": [
+     "derivatives"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 61,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.574275,
+      "volume_24h": 72205665.04,
+      "percent_change_1h": 0.087494,
+      "percent_change_24h": -2.744321,
+      "percent_change_7d": 4.045607,
+      "percent_change_30d": 6.369304,
+      "market_cap": 594335181.98,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90292,
+    "name": "Derivatives Token M",
+    "symbol": "DERM",
+    "slug": "derivatives-token-12",
+    "tags": [
+     "derivatives"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 62,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 1.579408,
+      "volume_24h": 4439003.62,
+      "percent_change_1h": 0.616561,
+      "percent_change_24h": 1.381459,
+      "percent_change_7d": -4.083397,
+      "percent_change_30d": -14.421684,
+      "market_cap": 29628196.11,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90293,
+    "name": "Derivatives Token N",
+    "symbol": "DERN",
+    "slug": "derivatives-token-13",
+    "tags": [
+     "derivatives"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 63,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 32.018642,
+      "volume_24h": 123169221.08,
+      "percent_change_1h": 0.110607,
+      "percent_change_24h": -2.74121,
+      "percent_change_7d": -2.571614,
+      "percent_change_30d": -2.581352,
+      "market_cap": 585591182.7,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90247,
+    "name": "Lending Token H",
+    "symbol": "LENH",
+    "slug": "lending-token-7",
+    "tags": [
+     "lending",
+     "derivatives"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 64,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 39.948068,
+      "volume_24h": 18508692.84,
+      "percent_change_1h": 0.394545,
+      "percent_change_24h": -1.241293,
+      "percent_change_7d": -7.713188,
+      "percent_change_30d": -20.52677,
+      "market_cap": 114263103.43,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90245,
+    "name": "Lending Token F",
+    "symbol": "LENF",
+    "slug": "lending-token-5",
+    "tags": [
+     "lending",
+     "dex",
+     "zk",
+     "derivatives"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 65,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 1.249399,
+      "volume_24h": 305097101.47,
+      "percent_change_1h": 0.533984,
+      "percent_change_24h": 1.208024,
+      "percent_change_7d": -6.585041,
+      "percent_change_30d": -5.60518,
+      "market_cap": 1467903069.75,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   }
+  ]
+ }
+}

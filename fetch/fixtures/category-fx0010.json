@@ -1,0 +1,428 @@
+{
+ "_note": "SYNTHETIC fixture in CoinMarketCap response format",
+ "status": {
+  "timestamp": "2026-11-22T18:43:49.782Z",
+  "error_code": 0,
+  "error_message": null,
+  "elapsed": 10,
+  "credit_count": 1,
+  "notice": null
+ },
+ "data": {
+  "id": "fx0010",
+  "name": "Real World Assets Protocols",
+  "title": "Real World Assets Protocols",
+  "description": "Synthetic Real World Assets category",
+  "volume": 2283744244.95,
+  "num_tokens": 39,
+  "avg_price_change": -1.768612,
+  "market_cap": 41681849269.18,
+  "market_cap_change": -1.725222,
+  "volume_change": 3.603899,
+  "last_updated": "2021-11-10T10:35:12.354Z",
+  "coins": [
+   {
+    "id": 90400,
+    "name": "Real World Assets Token A",
+    "symbol": "RWAA",
+    "slug": "rwa-token-0",
+    "tags": [
+     "rwa"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 50,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 45.884476,
+      "volume_24h": 484022233.21,
+      "percent_change_1h": 0.317671,
+      "percent_change_24h": -4.420068,
+      "percent_change_7d": -5.068693,
+      "percent_change_30d": -16.923722,
+      "market_cap": 3846526338.6,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90401,
+    "name": "Real World Assets Token B",
+    "symbol": "RWAB",
+    "slug": "rwa-token-1",
+    "tags": [
+     "rwa"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 51,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.609432,
+      "volume_24h": 167644863,
+      "percent_change_1h": 0.110757,
+      "percent_change_24h": -0.853438,
+      "percent_change_7d": -10.327911,
+      "percent_change_30d": -15.891431,
+      "market_cap": 811281977.57,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90402,
+    "name": "Real World Assets Token C",
+    "symbol": "RWAC",
+    "slug": "rwa-token-2",
+    "tags": [
+     "rwa"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 52,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.889117,
+      "volume_24h": 196506454.53,
+      "percent_change_1h": 0.189193,
+      "percent_change_24h": -2.591441,
+      "percent_change_7d": -1.331888,
+      "percent_change_30d": -5.420641,
+      "market_cap": 3724151312,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90403,
+    "name": "Real World Assets Token D",
+    "symbol": "RWAD",
+    "slug": "rwa-token-3",
+    "tags": [
+     "rwa"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 53,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 78.630179,
+      "volume_24h": 1151394905.74,
+      "percent_change_1h": 0.132476,
+      "percent_change_24h": -1.30101,
+      "percent_change_7d": -4.092595,
+      "percent_change_30d": -5.450613,
+      "market_cap": 11131440177.72,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90404,
+    "name": "Real World Assets Token E",
+    "symbol": "RWAE",
+    "slug": "rwa-token-4",
+    "tags": [
+     "rwa"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 54,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 24.208776,
+      "volume_24h": 752585245.28,
+      "percent_change_1h": 0.216687,
+      "percent_change_24h": -2.676755,
+      "percent_change_7d": 0.927074,
+      "percent_change_30d": 5.743283,
+      "market_cap": 4518224538.08,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90405,
+    "name": "Real World Assets Token F",
+    "symbol": "RWAF",
+    "slug": "rwa-token-5",
+    "tags": [
+     "rwa"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 55,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.085324,
+      "volume_24h": 58996563.02,
+      "percent_change_1h": 0.487927,
+      "percent_change_24h": -2.282413,
+      "percent_change_7d": -8.714393,
+      "percent_change_30d": -14.181463,
+      "market_cap": 829743817.58,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90406,
+    "name": "Real World Assets Token G",
+    "symbol": "RWAG",
+    "slug": "rwa-token-6",
+    "tags": [
+     "rwa"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 56,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 14.902643,
+      "volume_24h": 120735889.22,
+      "percent_change_1h": -0.273461,
+      "percent_change_24h": -2.459069,
+      "percent_change_7d": -6.01365,
+      "percent_change_30d": -12.633503,
+      "market_cap": 1247053309.33,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90407,
+    "name": "Real World Assets Token H",
+    "symbol": "RWAH",
+    "slug": "rwa-token-7",
+    "tags": [
+     "rwa"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 57,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 2.327637,
+      "volume_24h": 5512534.48,
+      "percent_change_1h": -0.08173,
+      "percent_change_24h": -2.033988,
+      "percent_change_7d": 0.323041,
+      "percent_change_30d": 13.712685,
+      "market_cap": 66983439.75,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90408,
+    "name": "Real World Assets Token I",
+    "symbol": "RWAI",
+    "slug": "rwa-token-8",
+    "tags": [
+     "rwa"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 58,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 293.777581,
+      "volume_24h": 33672563.72,
+      "percent_change_1h": -0.43226,
+      "percent_change_24h": -4.417556,
+      "percent_change_7d": -6.509137,
+      "percent_change_30d": -16.000587,
+      "market_cap": 233071087.42,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90409,
+    "name": "Real World Assets Token J",
+    "symbol": "RWAJ",
+    "slug": "rwa-token-9",
+    "tags": [
+     "rwa"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 59,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 5.909637,
+      "volume_24h": 4127729.83,
+      "percent_change_1h": 0.200846,
+      "percent_change_24h": -4.191554,
+      "percent_change_7d": -12.076266,
+      "percent_change_30d": -18.627427,
+      "market_cap": 32735452.67,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90410,
+    "name": "Real World Assets Token K",
+    "symbol": "RWAK",
+    "slug": "rwa-token-10",
+    "tags": [
+     "rwa"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 60,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 213.330227,
+      "volume_24h": 563293607.37,
+      "percent_change_1h": -0.226065,
+      "percent_change_24h": -0.180041,
+      "percent_change_7d": -0.034805,
+      "percent_change_30d": 9.087068,
+      "market_cap": 3430930303.98,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90411,
+    "name": "Real World Assets Token L",
+    "symbol": "RWAL",
+    "slug": "rwa-token-11",
+    "tags": [
+     "rwa"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 61,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.940836,
+      "volume_24h": 5261385.33,
+      "percent_change_1h": -0.053193,
+      "percent_change_24h": -0.573433,
+      "percent_change_7d": -3.276749,
+      "percent_change_30d": -2.223259,
+      "market_cap": 60061471.61,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90412,
+    "name": "Real World Assets Token M",
+    "symbol": "RWAM",
+    "slug": "rwa-token-12",
+    "tags": [
+     "rwa"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 62,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 1.447015,
+      "volume_24h": 154977202.88,
+      "percent_change_1h": -0.463958,
+      "percent_change_24h": -0.654215,
+      "percent_change_7d": -6.645122,
+      "percent_change_30d": 0.385439,
+      "market_cap": 781121483.62,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90413,
+    "name": "Real World Assets Token N",
+    "symbol": "RWAN",
+    "slug": "rwa-token-13",
+    "tags": [
+     "rwa"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 63,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 10.706273,
+      "volume_24h": 274938772.57,
+      "percent_change_1h": 0.224827,
+      "percent_change_24h": 2.3753,
+      "percent_change_7d": -3.233661,
+      "percent_change_30d": 7.514053,
+      "market_cap": 1363999613.7,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90289,
+    "name": "Derivatives Token J",
+    "symbol": "DERJ",
+    "slug": "derivatives-token-9",
+    "tags": [
+     "derivatives",
+     "rwa"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 64,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.031677,
+      "volume_24h": 4708905.29,
+      "percent_change_1h": -0.681235,
+      "percent_change_24h": -1.346244,
+      "percent_change_7d": -5.464368,
+      "percent_change_30d": -25.120137,
+      "market_cap": 97738052.44,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90440,
+    "name": "DePIN Token A",
+    "symbol": "DEPA",
+    "slug": "depin-token-0",
+    "tags": [
+     "depin",
+     "rwa"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 65,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.764913,
+      "volume_24h": 162028593.16,
+      "percent_change_1h": 0.230655,
+      "percent_change_24h": 0.607861,
+      "percent_change_7d": 2.491551,
+      "percent_change_30d": 5.667557,
+      "market_cap": 1170417039.28,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   }
+  ]
+ }
+}

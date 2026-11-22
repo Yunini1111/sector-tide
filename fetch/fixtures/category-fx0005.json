@@ -1,0 +1,405 @@
+{
+ "_note": "SYNTHETIC fixture in CoinMarketCap response format",
+ "status": {
+  "timestamp": "2026-11-22T18:43:49.782Z",
+  "error_code": 0,
+  "error_message": null,
+  "elapsed": 10,
+  "credit_count": 1,
+  "notice": null
+ },
+ "data": {
+  "id": "fx0005",
+  "name": "Decentralized Exchange (DEX) Token",
+  "title": "Decentralized Exchange (DEX) Token",
+  "description": "Synthetic DEX category",
+  "volume": 1934164813.39,
+  "num_tokens": 354,
+  "avg_price_change": 0.785332,
+  "market_cap": 19417243098.51,
+  "market_cap_change": 1.453237,
+  "volume_change": -29.686566,
+  "last_updated": "2021-11-10T10:35:12.354Z",
+  "coins": [
+   {
+    "id": 90200,
+    "name": "DEX Token A",
+    "symbol": "DEXA",
+    "slug": "dex-token-0",
+    "tags": [
+     "dex"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 50,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 11.041748,
+      "volume_24h": 175428560,
+      "percent_change_1h": 0.078891,
+      "percent_change_24h": -0.818767,
+      "percent_change_7d": -0.507067,
+      "percent_change_30d": -1.03599,
+      "market_cap": 2836966335.74,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90201,
+    "name": "DEX Token B",
+    "symbol": "DEXB",
+    "slug": "dex-token-1",
+    "tags": [
+     "dex"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 51,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 16.482976,
+      "volume_24h": 35661839.84,
+      "percent_change_1h": 0.173075,
+      "percent_change_24h": 2.120225,
+      "percent_change_7d": 7.075001,
+      "percent_change_30d": 7.443502,
+      "market_cap": 440816032.2,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90202,
+    "name": "DEX Token C",
+    "symbol": "DEXC",
+    "slug": "dex-token-2",
+    "tags": [
+     "dex"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 52,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.101314,
+      "volume_24h": 254992564.26,
+      "percent_change_1h": 0.145268,
+      "percent_change_24h": 3.551466,
+      "percent_change_7d": 3.158842,
+      "percent_change_30d": 7.102648,
+      "market_cap": 1588724047.35,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90203,
+    "name": "DEX Token D",
+    "symbol": "DEXD",
+    "slug": "dex-token-3",
+    "tags": [
+     "dex",
+     "nft"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 53,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.643868,
+      "volume_24h": 17574724.66,
+      "percent_change_1h": -0.561374,
+      "percent_change_24h": -0.309799,
+      "percent_change_7d": 3.837841,
+      "percent_change_30d": 9.960396,
+      "market_cap": 261354319.15,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90204,
+    "name": "DEX Token E",
+    "symbol": "DEXE",
+    "slug": "dex-token-4",
+    "tags": [
+     "dex"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 54,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 13.185545,
+      "volume_24h": 962478461.86,
+      "percent_change_1h": -0.141882,
+      "percent_change_24h": 2.053258,
+      "percent_change_7d": -1.32797,
+      "percent_change_30d": 2.331139,
+      "market_cap": 4386438502.86,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90205,
+    "name": "DEX Token F",
+    "symbol": "DEXF",
+    "slug": "dex-token-5",
+    "tags": [
+     "dex"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 55,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 4.425367,
+      "volume_24h": 15698291.46,
+      "percent_change_1h": 0.529981,
+      "percent_change_24h": 2.751425,
+      "percent_change_7d": 0.006552,
+      "percent_change_30d": 9.853189,
+      "market_cap": 93154490.11,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90206,
+    "name": "DEX Token G",
+    "symbol": "DEXG",
+    "slug": "dex-token-6",
+    "tags": [
+     "dex"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 56,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 2.44942,
+      "volume_24h": 15134317.47,
+      "percent_change_1h": 0.184652,
+      "percent_change_24h": -0.227509,
+      "percent_change_7d": 10.431632,
+      "percent_change_30d": 26.220896,
+      "market_cap": 160571171.42,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90207,
+    "name": "DEX Token H",
+    "symbol": "DEXH",
+    "slug": "dex-token-7",
+    "tags": [
+     "dex"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 57,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.078785,
+      "volume_24h": 8147129.73,
+      "percent_change_1h": 0.029142,
+      "percent_change_24h": 2.280068,
+      "percent_change_7d": -2.033357,
+      "percent_change_30d": -4.276117,
+      "market_cap": 48167253.79,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90208,
+    "name": "DEX Token I",
+    "symbol": "DEXI",
+    "slug": "dex-token-8",
+    "tags": [
+     "dex"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 58,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 2.988141,
+      "volume_24h": 4015797.2,
+      "percent_change_1h": -0.185861,
+      "percent_change_24h": 2.374688,
+      "percent_change_7d": 2.105618,
+      "percent_change_30d": 3.293095,
+      "market_cap": 83224895.83,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90209,
+    "name": "DEX Token J",
+    "symbol": "DEXJ",
+    "slug": "dex-token-9",
+    "tags": [
+     "dex"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 59,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.084406,
+      "volume_24h": 252143984.08,
+      "percent_change_1h": 0.615919,
+      "percent_change_24h": 2.368023,
+      "percent_change_7d": 0.741285,
+      "percent_change_30d": -0.448354,
+      "market_cap": 2041078088.94,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90210,
+    "name": "DEX Token K",
+    "symbol": "DEXK",
+    "slug": "dex-token-10",
+    "tags": [
+     "dex"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 60,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 171.82929,
+      "volume_24h": 40784991.34,
+      "percent_change_1h": 0.152419,
+      "percent_change_24h": -0.194484,
+      "percent_change_7d": 0.442082,
+      "percent_change_30d": -5.651751,
+      "market_cap": 195210267.16,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90211,
+    "name": "DEX Token L",
+    "symbol": "DEXL",
+    "slug": "dex-token-11",
+    "tags": [
+     "dex"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 61,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 7.17425,
+      "volume_24h": 21855050.35,
+      "percent_change_1h": 0.14269,
+      "percent_change_24h": 2.51312,
+      "percent_change_7d": 7.320937,
+      "percent_change_30d": 15.786051,
+      "market_cap": 225812110.98,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90212,
+    "name": "DEX Token M",
+    "symbol": "DEXM",
+    "slug": "dex-token-12",
+    "tags": [
+     "dex"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 62,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 44.521282,
+      "volume_24h": 5924783.44,
+      "percent_change_1h": 0.093276,
+      "percent_change_24h": -1.624446,
+      "percent_change_7d": 9.299472,
+      "percent_change_30d": 12.336044,
+      "market_cap": 49856934.78,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90213,
+    "name": "DEX Token N",
+    "symbol": "DEXN",
+    "slug": "dex-token-13",
+    "tags": [
+     "dex"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 63,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.040378,
+      "volume_24h": 34363839.71,
+      "percent_change_1h": -0.397076,
+      "percent_change_24h": 1.095365,
+      "percent_change_7d": 4.431603,
+      "percent_change_30d": 13.400666,
+      "market_cap": 1654516958.74,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90245,
+    "name": "Lending Token F",
+    "symbol": "LENF",
+    "slug": "lending-token-5",
+    "tags": [
+     "lending",
+     "dex",
+     "zk",
+     "derivatives"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 64,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.319765,
+      "volume_24h": 44255197.51,
+      "percent_change_1h": 0.300556,
+      "percent_change_24h": 1.208024,
+      "percent_change_7d": -6.585041,
+      "percent_change_30d": -20.689814,
+      "market_cap": 1467903069.75,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   }
+  ]
+ }
+}

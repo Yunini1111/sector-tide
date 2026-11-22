@@ -1,0 +1,403 @@
+{
+ "_note": "SYNTHETIC fixture in CoinMarketCap response format",
+ "status": {
+  "timestamp": "2026-11-22T18:43:49.782Z",
+  "error_code": 0,
+  "error_message": null,
+  "elapsed": 10,
+  "credit_count": 1,
+  "notice": null
+ },
+ "data": {
+  "id": "fx0012",
+  "name": "Oracles",
+  "title": "Oracles",
+  "description": "Synthetic Oracles category",
+  "volume": 4791956964.94,
+  "num_tokens": 83,
+  "avg_price_change": -0.613099,
+  "market_cap": 36583387093.59,
+  "market_cap_change": -0.558786,
+  "volume_change": -10.692358,
+  "last_updated": "2021-11-10T10:35:12.354Z",
+  "coins": [
+   {
+    "id": 90480,
+    "name": "Oracles Token A",
+    "symbol": "ORAA",
+    "slug": "oracles-token-0",
+    "tags": [
+     "oracles"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 50,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 21.427924,
+      "volume_24h": 47123278.25,
+      "percent_change_1h": -0.150562,
+      "percent_change_24h": 0.529406,
+      "percent_change_7d": -0.842093,
+      "percent_change_30d": 2.530624,
+      "market_cap": 1380783681.28,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90481,
+    "name": "Oracles Token B",
+    "symbol": "ORAB",
+    "slug": "oracles-token-1",
+    "tags": [
+     "oracles",
+     "l2"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 51,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 2.660141,
+      "volume_24h": 37822721.03,
+      "percent_change_1h": -0.493012,
+      "percent_change_24h": 0.570461,
+      "percent_change_7d": -4.066333,
+      "percent_change_30d": 0.437035,
+      "market_cap": 177044149.15,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90482,
+    "name": "Oracles Token C",
+    "symbol": "ORAC",
+    "slug": "oracles-token-2",
+    "tags": [
+     "oracles"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 52,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 9.915746,
+      "volume_24h": 273014678.88,
+      "percent_change_1h": 0.596984,
+      "percent_change_24h": 1.943778,
+      "percent_change_7d": -3.203414,
+      "percent_change_30d": -9.71423,
+      "market_cap": 1318728505.53,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90483,
+    "name": "Oracles Token D",
+    "symbol": "ORAD",
+    "slug": "oracles-token-3",
+    "tags": [
+     "oracles"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 53,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 87.783019,
+      "volume_24h": 716246246.22,
+      "percent_change_1h": 0.151109,
+      "percent_change_24h": -0.371964,
+      "percent_change_7d": -9.359655,
+      "percent_change_30d": -14.990676,
+      "market_cap": 7956067724.33,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90484,
+    "name": "Oracles Token E",
+    "symbol": "ORAE",
+    "slug": "oracles-token-4",
+    "tags": [
+     "oracles"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 54,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.14408,
+      "volume_24h": 35671461.32,
+      "percent_change_1h": 0.107187,
+      "percent_change_24h": 1.282945,
+      "percent_change_7d": 3.963523,
+      "percent_change_30d": 8.245625,
+      "market_cap": 457842049.56,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90485,
+    "name": "Oracles Token F",
+    "symbol": "ORAF",
+    "slug": "oracles-token-5",
+    "tags": [
+     "oracles"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 55,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 7.225952,
+      "volume_24h": 784245597.21,
+      "percent_change_1h": 0.184177,
+      "percent_change_24h": -0.512611,
+      "percent_change_7d": -9.094439,
+      "percent_change_30d": -24.628708,
+      "market_cap": 6677169745.47,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90486,
+    "name": "Oracles Token G",
+    "symbol": "ORAG",
+    "slug": "oracles-token-6",
+    "tags": [
+     "oracles"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 56,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 1.716837,
+      "volume_24h": 347897309.94,
+      "percent_change_1h": 0.082561,
+      "percent_change_24h": 1.499717,
+      "percent_change_7d": 0.694266,
+      "percent_change_30d": 18.476007,
+      "market_cap": 1742741212.72,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90487,
+    "name": "Oracles Token H",
+    "symbol": "ORAH",
+    "slug": "oracles-token-7",
+    "tags": [
+     "oracles"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 57,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.248266,
+      "volume_24h": 409203100.93,
+      "percent_change_1h": -0.238685,
+      "percent_change_24h": -2.946237,
+      "percent_change_7d": -8.048126,
+      "percent_change_30d": -2.382661,
+      "market_cap": 6477052866.56,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90488,
+    "name": "Oracles Token I",
+    "symbol": "ORAI",
+    "slug": "oracles-token-8",
+    "tags": [
+     "oracles"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 58,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.208331,
+      "volume_24h": 76045612.94,
+      "percent_change_1h": 0.243542,
+      "percent_change_24h": 2.489366,
+      "percent_change_7d": -3.317384,
+      "percent_change_30d": -0.53584,
+      "market_cap": 1275884526.05,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90489,
+    "name": "Oracles Token J",
+    "symbol": "ORAJ",
+    "slug": "oracles-token-9",
+    "tags": [
+     "oracles"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 59,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 197.856055,
+      "volume_24h": 3604957.03,
+      "percent_change_1h": -0.370098,
+      "percent_change_24h": -1.933393,
+      "percent_change_7d": -1.103357,
+      "percent_change_30d": -0.219753,
+      "market_cap": 43870138.85,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90490,
+    "name": "Oracles Token K",
+    "symbol": "ORAK",
+    "slug": "oracles-token-10",
+    "tags": [
+     "oracles"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 60,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.035668,
+      "volume_24h": 4432494.55,
+      "percent_change_1h": -0.10318,
+      "percent_change_24h": 1.730751,
+      "percent_change_7d": 5.678582,
+      "percent_change_30d": 22.64529,
+      "market_cap": 28302307.75,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90491,
+    "name": "Oracles Token L",
+    "symbol": "ORAL",
+    "slug": "oracles-token-11",
+    "tags": [
+     "oracles"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 61,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 27.662201,
+      "volume_24h": 37498078.36,
+      "percent_change_1h": -0.152819,
+      "percent_change_24h": 0.651699,
+      "percent_change_7d": -0.918836,
+      "percent_change_30d": 2.295989,
+      "market_cap": 1086473948.25,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90492,
+    "name": "Oracles Token M",
+    "symbol": "ORAM",
+    "slug": "oracles-token-12",
+    "tags": [
+     "oracles"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 62,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.063998,
+      "volume_24h": 22282428.62,
+      "percent_change_1h": -0.136762,
+      "percent_change_24h": -0.663927,
+      "percent_change_7d": -2.888391,
+      "percent_change_30d": -10.857302,
+      "market_cap": 213251860.5,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90493,
+    "name": "Oracles Token N",
+    "symbol": "ORAN",
+    "slug": "oracles-token-13",
+    "tags": [
+     "oracles"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 63,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.141708,
+      "volume_24h": 3367496.79,
+      "percent_change_1h": 0.121535,
+      "percent_change_24h": -1.108638,
+      "percent_change_7d": 4.819369,
+      "percent_change_30d": 11.787985,
+      "market_cap": 15362859.45,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90893,
+    "name": "Metaverse Token N",
+    "symbol": "METN",
+    "slug": "metaverse-token-13",
+    "tags": [
+     "metaverse",
+     "oracles"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 64,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 84.686275,
+      "volume_24h": 76020108.35,
+      "percent_change_1h": 0.657335,
+      "percent_change_24h": -2.823151,
+      "percent_change_7d": 8.878226,
+      "percent_change_30d": 20.299955,
+      "market_cap": 416134099.41,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   }
+  ]
+ }
+}

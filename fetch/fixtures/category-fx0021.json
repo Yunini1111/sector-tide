@@ -1,0 +1,403 @@
+{
+ "_note": "SYNTHETIC fixture in CoinMarketCap response format",
+ "status": {
+  "timestamp": "2026-11-22T18:43:49.782Z",
+  "error_code": 0,
+  "error_message": null,
+  "elapsed": 10,
+  "credit_count": 1,
+  "notice": null
+ },
+ "data": {
+  "id": "fx0021",
+  "name": "NFTs & Collectibles",
+  "title": "NFTs & Collectibles",
+  "description": "Synthetic NFT category",
+  "volume": 1423104287.81,
+  "num_tokens": 323,
+  "avg_price_change": -3.122062,
+  "market_cap": 39789871554.89,
+  "market_cap_change": -3.355662,
+  "volume_change": 36.078716,
+  "last_updated": "2021-11-10T10:35:12.354Z",
+  "coins": [
+   {
+    "id": 90840,
+    "name": "NFT Token A",
+    "symbol": "NFTA",
+    "slug": "nft-token-0",
+    "tags": [
+     "nft"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 50,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 93.544368,
+      "volume_24h": 32779465.2,
+      "percent_change_1h": -0.208944,
+      "percent_change_24h": -2.832984,
+      "percent_change_7d": -13.677425,
+      "percent_change_30d": -23.476418,
+      "market_cap": 365529064.82,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90841,
+    "name": "NFT Token B",
+    "symbol": "NFTB",
+    "slug": "nft-token-1",
+    "tags": [
+     "nft"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 51,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 52.698572,
+      "volume_24h": 886076271.68,
+      "percent_change_1h": 0.26137,
+      "percent_change_24h": -4.284015,
+      "percent_change_7d": -7.40189,
+      "percent_change_30d": -28.918079,
+      "market_cap": 15105602222.87,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90842,
+    "name": "NFT Token C",
+    "symbol": "NFTC",
+    "slug": "nft-token-2",
+    "tags": [
+     "nft"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 52,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 2.30641,
+      "volume_24h": 29113660.71,
+      "percent_change_1h": 0.139064,
+      "percent_change_24h": -4.32549,
+      "percent_change_7d": -14.137445,
+      "percent_change_30d": -19.667764,
+      "market_cap": 210015451.64,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90843,
+    "name": "NFT Token D",
+    "symbol": "NFTD",
+    "slug": "nft-token-3",
+    "tags": [
+     "nft"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 53,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 1.000123,
+      "volume_24h": 42452238.61,
+      "percent_change_1h": -0.009198,
+      "percent_change_24h": -3.523232,
+      "percent_change_7d": -3.909979,
+      "percent_change_30d": -2.388769,
+      "market_cap": 223441280.2,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90844,
+    "name": "NFT Token E",
+    "symbol": "NFTE",
+    "slug": "nft-token-4",
+    "tags": [
+     "nft"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 54,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 46.556865,
+      "volume_24h": 428130331.29,
+      "percent_change_1h": -0.486644,
+      "percent_change_24h": -2.806366,
+      "percent_change_7d": -11.096361,
+      "percent_change_30d": -23.094916,
+      "market_cap": 12188727807.21,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90845,
+    "name": "NFT Token F",
+    "symbol": "NFTF",
+    "slug": "nft-token-5",
+    "tags": [
+     "nft"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 55,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 4.017716,
+      "volume_24h": 235236777.58,
+      "percent_change_1h": 0.023129,
+      "percent_change_24h": -1.539679,
+      "percent_change_7d": -5.391184,
+      "percent_change_30d": -6.093992,
+      "market_cap": 2378161624.64,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90846,
+    "name": "NFT Token G",
+    "symbol": "NFTG",
+    "slug": "nft-token-6",
+    "tags": [
+     "nft"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 56,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 18.284057,
+      "volume_24h": 20238458.86,
+      "percent_change_1h": -0.029722,
+      "percent_change_24h": -0.450159,
+      "percent_change_7d": -5.250258,
+      "percent_change_30d": 2.686406,
+      "market_cap": 158505915.22,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90847,
+    "name": "NFT Token H",
+    "symbol": "NFTH",
+    "slug": "nft-token-7",
+    "tags": [
+     "nft"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 57,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 13.338529,
+      "volume_24h": 1727334.38,
+      "percent_change_1h": 0.121079,
+      "percent_change_24h": -2.590942,
+      "percent_change_7d": -12.022468,
+      "percent_change_30d": -14.801469,
+      "market_cap": 58645251.94,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90848,
+    "name": "NFT Token I",
+    "symbol": "NFTI",
+    "slug": "nft-token-8",
+    "tags": [
+     "nft"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 58,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.533351,
+      "volume_24h": 5557762.04,
+      "percent_change_1h": 0.533165,
+      "percent_change_24h": -2.80639,
+      "percent_change_7d": -10.784425,
+      "percent_change_30d": -21.572574,
+      "market_cap": 39508249.74,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90849,
+    "name": "NFT Token J",
+    "symbol": "NFTJ",
+    "slug": "nft-token-9",
+    "tags": [
+     "nft"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 59,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 2.593437,
+      "volume_24h": 13562201.15,
+      "percent_change_1h": 0.007956,
+      "percent_change_24h": -2.867872,
+      "percent_change_7d": -9.519506,
+      "percent_change_30d": -31.197932,
+      "market_cap": 93204482.44,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90850,
+    "name": "NFT Token K",
+    "symbol": "NFTK",
+    "slug": "nft-token-10",
+    "tags": [
+     "nft"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 60,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 120.68013,
+      "volume_24h": 2521979.66,
+      "percent_change_1h": -0.354374,
+      "percent_change_24h": -1.235051,
+      "percent_change_7d": -14.951111,
+      "percent_change_30d": -26.730048,
+      "market_cap": 52960219.65,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90851,
+    "name": "NFT Token L",
+    "symbol": "NFTL",
+    "slug": "nft-token-11",
+    "tags": [
+     "nft"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 61,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 1.288227,
+      "volume_24h": 94612180.33,
+      "percent_change_1h": 0.012128,
+      "percent_change_24h": -1.110046,
+      "percent_change_7d": -14.660581,
+      "percent_change_30d": -30.606487,
+      "market_cap": 534013987.21,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90852,
+    "name": "NFT Token M",
+    "symbol": "NFTM",
+    "slug": "nft-token-12",
+    "tags": [
+     "nft"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 62,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 50.56199,
+      "volume_24h": 22703109.28,
+      "percent_change_1h": 0.367317,
+      "percent_change_24h": -0.789414,
+      "percent_change_7d": -8.486253,
+      "percent_change_30d": -13.580638,
+      "market_cap": 147773383.52,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90853,
+    "name": "NFT Token N",
+    "symbol": "NFTN",
+    "slug": "nft-token-13",
+    "tags": [
+     "nft",
+     "modular"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 63,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 156.053836,
+      "volume_24h": 913231.59,
+      "percent_change_1h": 0.239278,
+      "percent_change_24h": -3.345102,
+      "percent_change_7d": -8.828818,
+      "percent_change_30d": -14.563184,
+      "market_cap": 14453983.65,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90203,
+    "name": "DEX Token D",
+    "symbol": "DEXD",
+    "slug": "dex-token-3",
+    "tags": [
+     "dex",
+     "nft"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 64,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.036145,
+      "volume_24h": 53163150.6,
+      "percent_change_1h": -0.384934,
+      "percent_change_24h": -0.309799,
+      "percent_change_7d": 3.837841,
+      "percent_change_30d": -1.781229,
+      "market_cap": 261354319.15,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   }
+  ]
+ }
+}

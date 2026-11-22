@@ -20,6 +20,10 @@
       <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><rect width="32" height="32" rx="8" class="logo-bg"/><path d="M4 19c4-5 8-5 12 0s8 5 12 0" class="logo-wave"/><path d="M4 12c4-4 8-4 12 0s8 4 12 0" class="logo-wave thin"/></svg>
       <span>Sector Tide</span>
     </div>
+    <nav class="views" aria-label="Screens">
+      <button data-screen="rotation" aria-current="page">Rotation</button>
+      <button data-screen="narr">Narratives</button>
+    </nav>
     <a class="cmc" href="https://coinmarketcap.com/" target="_blank" rel="noopener">Data provided by <b>CoinMarketCap.com</b></a>
     <div class="top-right">
       <span class="updated" id="updated"></span>
@@ -49,9 +53,12 @@
   </section>
 
   <nav class="tabs" aria-label="Views">
-    <button data-tab="map" aria-selected="true">Map</button>
-    <button data-tab="rot" aria-selected="false">Rotation</button>
-    <button data-tab="rank" aria-selected="false">Rank</button>
+    <button data-tab="map" data-for="rotation" aria-selected="true">Map</button>
+    <button data-tab="rot" data-for="rotation" aria-selected="false">Rotation</button>
+    <button data-tab="rank" data-for="rotation" aria-selected="false">Rank</button>
+    <button data-tab="nq" data-for="narr" aria-selected="true">Quadrant</button>
+    <button data-tab="nt" data-for="narr" aria-selected="false">Topics</button>
+    <button data-tab="nr" data-for="narr" aria-selected="false">Attention</button>
   </nav>
 
   <main class="grid">
@@ -69,6 +76,24 @@
       <h2>Ranking <small id="rank-win">24h</small></h2>
       <div id="ranking" class="chart"></div>
     </section>
+    <section class="card n-quad" data-view="nq">
+      <h2>Attention × money <small>rank among sectors</small></h2>
+      <div class="axis-hint y">money ↑</div>
+      <div id="narr" class="chart"></div>
+      <div class="axis-hint x">attention →</div>
+    </section>
+    <section class="card n-topics" data-view="nt">
+      <h2>Trending topics <small>CMC community</small></h2>
+      <div id="topics"></div>
+    </section>
+    <section class="card n-rank" data-view="nr">
+      <h2>Attention <small id="heat-src"></small></h2>
+      <div id="heatrank" class="chart"></div>
+    </section>
+    <section class="card n-none" hidden>
+      <h2>Narratives unavailable</h2>
+      <p class="t-s">Community attention endpoints are not available on the current API plan.</p>
+    </section>
     <section class="card v-detail" id="detail" aria-live="polite"></section>
   </main>
 
@@ -78,10 +103,10 @@
         <p><b>Map</b> — each tile is a sector; bigger tile, bigger market cap; green rising, red falling.</p>
         <p><b>Rotation</b> — sectors drift clockwise: Improving → Leading → Weakening → Lagging. Right = stronger over 7 days, up = stronger today, both vs the median sector. The line is the selected sector's path over recent hours.</p>
         <p><b>Replay</b> — press play to watch the sectors drift over recent days.</p>
+        <p><b>Narratives</b> — right = more talked about on CoinMarketCap's community (posts, trending tokens and topics), up = more money flowing in (24h market-cap and volume change). Momentum: both. Hype: talk without money. Quiet build: money without talk.</p>
       </div>
       <div><h3>Method</h3>
-        <p>Sector 24h change is CoinMarketCap's market-cap change for the category. Sector 7d change is the market-cap-weighted 7-day change of its largest constituents. Snapshots refresh every two hours; only the window needed for display is kept.</p>
-        <p id="meta-note"></p>
+        <p>Sector 24h change is CoinMarketCap's market-cap change for the category. Sector 7d change is the market-cap-weighted 7-day change of its largest constituents. Snapshots refresh on a schedule; only the window needed for display is kept.</p>
       </div>
       <div><h3>Source</h3>
         <p><a href="https://coinmarketcap.com/" target="_blank" rel="noopener">Data provided by CoinMarketCap.com</a>. Not financial advice.</p>

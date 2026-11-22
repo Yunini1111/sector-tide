@@ -1,0 +1,26 @@
+{
+ "_note": "SYNTHETIC fixture in CoinMarketCap response format",
+ "status": {
+  "timestamp": "2026-11-22T18:43:49.782Z",
+  "error_code": 0,
+  "error_message": null,
+  "elapsed": 10,
+  "credit_count": 1,
+  "notice": null
+ },
+ "data": {
+  "btc_dominance": 58.6,
+  "eth_dominance": 10.2,
+  "btc_dominance_24h_percentage_change": 0.33792,
+  "eth_dominance_24h_percentage_change": -0.042695,
+  "last_updated": "2026-11-22T18:43:49.782Z",
+  "quote": {
+   "USD": {
+    "total_market_cap": 2080000000000,
+    "total_volume_24h": 61000000000,
+    "total_market_cap_yesterday_percentage_change": 1.500366,
+    "last_updated": "2026-11-22T18:43:49.782Z"
+   }
+  }
+ }
+}

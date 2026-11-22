@@ -1,0 +1,2313 @@
+{
+ "_note": "SYNTHETIC fixture in CoinMarketCap response format",
+ "status": {
+  "timestamp": "2026-11-22T18:43:49.782Z",
+  "error_code": 0,
+  "error_message": null,
+  "elapsed": 10,
+  "credit_count": 1,
+  "notice": null
+ },
+ "data": [
+  {
+   "id": "post-0",
+   "user": {
+    "id": "u0",
+    "username": "user0",
+    "verified": true
+   },
+   "title": "DEFK looks strong",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-22T18:43:49.782Z",
+   "likes": 234,
+   "comments_count": 45,
+   "shares_count": 8,
+   "views": 2836,
+   "related_coins": [
+    90170
+   ],
+   "tags": [
+    "agent"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-1",
+   "user": {
+    "id": "u1",
+    "username": "user1",
+    "verified": false
+   },
+   "title": "DEPA thread",
+   "content": "synthetic",
+   "post_type": "analysis",
+   "created_at": "2026-11-22T18:28:49.782Z",
+   "likes": 230,
+   "comments_count": 59,
+   "shares_count": 9,
+   "views": 726,
+   "related_coins": [
+    90440
+   ],
+   "tags": [
+    "wireless"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-2",
+   "user": {
+    "id": "u2",
+    "username": "user2",
+    "verified": true
+   },
+   "title": "DERM breakout?",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-22T18:13:49.782Z",
+   "likes": 157,
+   "comments_count": 6,
+   "shares_count": 14,
+   "views": 4054,
+   "related_coins": [
+    90292
+   ],
+   "tags": [
+    "perp"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-3",
+   "user": {
+    "id": "u3",
+    "username": "user3",
+    "verified": false
+   },
+   "title": "PREK looks strong",
+   "content": "synthetic",
+   "post_type": "analysis",
+   "created_at": "2026-11-22T17:58:49.782Z",
+   "likes": 364,
+   "comments_count": 19,
+   "shares_count": 5,
+   "views": 181,
+   "related_coins": [
+    90770
+   ],
+   "tags": [
+    "prediction markets"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-4",
+   "user": {
+    "id": "u4",
+    "username": "user4",
+    "verified": true
+   },
+   "title": "DERI chart check",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-22T17:43:49.782Z",
+   "likes": 43,
+   "comments_count": 41,
+   "shares_count": 0,
+   "views": 3077,
+   "related_coins": [
+    90288
+   ],
+   "tags": [
+    "derivatives"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-5",
+   "user": {
+    "id": "u5",
+    "username": "user5",
+    "verified": true
+   },
+   "title": "LENF update",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-22T17:28:49.782Z",
+   "likes": 18,
+   "comments_count": 28,
+   "shares_count": 4,
+   "views": 4170,
+   "related_coins": [
+    90245
+   ],
+   "tags": [
+    "amm"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-6",
+   "user": {
+    "id": "u6",
+    "username": "user6",
+    "verified": false
+   },
+   "title": "DERL breakout?",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-22T17:13:49.782Z",
+   "likes": 187,
+   "comments_count": 22,
+   "shares_count": 11,
+   "views": 3149,
+   "related_coins": [
+    90291
+   ],
+   "tags": [
+    "derivatives"
+   ],
+   "sentiment": "bearish"
+  },
+  {
+   "id": "post-7",
+   "user": {
+    "id": "u7",
+    "username": "user7",
+    "verified": false
+   },
+   "title": "DEPA chart check",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-22T16:58:49.782Z",
+   "likes": 172,
+   "comments_count": 10,
+   "shares_count": 17,
+   "views": 314,
+   "related_coins": [
+    90440
+   ],
+   "tags": [
+    "treasury"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-8",
+   "user": {
+    "id": "u8",
+    "username": "user8",
+    "verified": false
+   },
+   "title": "DERB chart check",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-22T16:43:49.782Z",
+   "likes": 43,
+   "comments_count": 19,
+   "shares_count": 12,
+   "views": 610,
+   "related_coins": [
+    90281
+   ],
+   "tags": [
+    "perps"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-9",
+   "user": {
+    "id": "u9",
+    "username": "user9",
+    "verified": true
+   },
+   "title": "LL breakout?",
+   "content": "synthetic",
+   "post_type": "analysis",
+   "created_at": "2026-11-22T16:28:49.782Z",
+   "likes": 130,
+   "comments_count": 23,
+   "shares_count": 19,
+   "views": 8112,
+   "related_coins": [
+    90131
+   ],
+   "tags": [
+    "l2"
+   ],
+   "sentiment": "bearish"
+  },
+  {
+   "id": "post-10",
+   "user": {
+    "id": "u10",
+    "username": "user10",
+    "verified": true
+   },
+   "title": "ZKG breakout?",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-22T16:13:49.782Z",
+   "likes": 235,
+   "comments_count": 49,
+   "shares_count": 17,
+   "views": 995,
+   "related_coins": [
+    90686
+   ],
+   "tags": [
+    "snark"
+   ],
+   "sentiment": "bearish"
+  },
+  {
+   "id": "post-11",
+   "user": {
+    "id": "u11",
+    "username": "user11",
+    "verified": true
+   },
+   "title": "PRIK thread",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-22T15:58:49.782Z",
+   "likes": 319,
+   "comments_count": 31,
+   "shares_count": 20,
+   "views": 6208,
+   "related_coins": [
+    90570
+   ],
+   "tags": [
+    "privacy"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-12",
+   "user": {
+    "id": "u12",
+    "username": "user12",
+    "verified": false
+   },
+   "title": "MEMD breakout?",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-22T15:43:49.782Z",
+   "likes": 89,
+   "comments_count": 10,
+   "shares_count": 7,
+   "views": 8412,
+   "related_coins": [
+    90323
+   ],
+   "tags": [
+    "cat"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-13",
+   "user": {
+    "id": "u13",
+    "username": "user13",
+    "verified": false
+   },
+   "title": "PRIN thread",
+   "content": "synthetic",
+   "post_type": "analysis",
+   "created_at": "2026-11-22T15:28:49.782Z",
+   "likes": 108,
+   "comments_count": 47,
+   "shares_count": 13,
+   "views": 2440,
+   "related_coins": [
+    90573
+   ],
+   "tags": [
+    "anonymous"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-14",
+   "user": {
+    "id": "u14",
+    "username": "user14",
+    "verified": false
+   },
+   "title": "STOD thread",
+   "content": "synthetic",
+   "post_type": "analysis",
+   "created_at": "2026-11-22T15:13:49.782Z",
+   "likes": 261,
+   "comments_count": 19,
+   "shares_count": 12,
+   "views": 5309,
+   "related_coins": [
+    90523
+   ],
+   "tags": [
+    "filecoin"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-15",
+   "user": {
+    "id": "u15",
+    "username": "user15",
+    "verified": true
+   },
+   "title": "MEMI thread",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-22T14:58:49.782Z",
+   "likes": 160,
+   "comments_count": 41,
+   "shares_count": 16,
+   "views": 6176,
+   "related_coins": [
+    90328
+   ],
+   "tags": [
+    "memes"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-16",
+   "user": {
+    "id": "u16",
+    "username": "user16",
+    "verified": false
+   },
+   "title": "RWAD thread",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-22T14:43:49.782Z",
+   "likes": 243,
+   "comments_count": 11,
+   "shares_count": 20,
+   "views": 1210,
+   "related_coins": [
+    90403
+   ],
+   "tags": [
+    "real world asset"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-17",
+   "user": {
+    "id": "u17",
+    "username": "user17",
+    "verified": false
+   },
+   "title": "PRIF breakout?",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-22T14:28:49.782Z",
+   "likes": 70,
+   "comments_count": 49,
+   "shares_count": 20,
+   "views": 6075,
+   "related_coins": [
+    90565
+   ],
+   "tags": [
+    "privacy"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-18",
+   "user": {
+    "id": "u18",
+    "username": "user18",
+    "verified": false
+   },
+   "title": "DERF thread",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-22T14:13:49.782Z",
+   "likes": 142,
+   "comments_count": 59,
+   "shares_count": 20,
+   "views": 639,
+   "related_coins": [
+    90285
+   ],
+   "tags": [
+    "futures"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-19",
+   "user": {
+    "id": "u19",
+    "username": "user19",
+    "verified": false
+   },
+   "title": "RESB chart check",
+   "content": "synthetic",
+   "post_type": "analysis",
+   "created_at": "2026-11-22T13:58:49.782Z",
+   "likes": 377,
+   "comments_count": 43,
+   "shares_count": 0,
+   "views": 6655,
+   "related_coins": [
+    90641
+   ],
+   "tags": [
+    "restaking"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-20",
+   "user": {
+    "id": "u20",
+    "username": "user20",
+    "verified": false
+   },
+   "title": "RWAG update",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-22T13:43:49.782Z",
+   "likes": 292,
+   "comments_count": 29,
+   "shares_count": 8,
+   "views": 4876,
+   "related_coins": [
+    90406
+   ],
+   "tags": [
+    "treasury"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-21",
+   "user": {
+    "id": "u21",
+    "username": "user21",
+    "verified": true
+   },
+   "title": "PRIA chart check",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-22T13:28:49.782Z",
+   "likes": 126,
+   "comments_count": 32,
+   "shares_count": 13,
+   "views": 6532,
+   "related_coins": [
+    90560
+   ],
+   "tags": [
+    "zcash"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-22",
+   "user": {
+    "id": "u22",
+    "username": "user22",
+    "verified": false
+   },
+   "title": "PREH update",
+   "content": "synthetic",
+   "post_type": "analysis",
+   "created_at": "2026-11-22T13:13:49.782Z",
+   "likes": 236,
+   "comments_count": 30,
+   "shares_count": 12,
+   "views": 5856,
+   "related_coins": [
+    90767
+   ],
+   "tags": [
+    "prediction markets"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-23",
+   "user": {
+    "id": "u23",
+    "username": "user23",
+    "verified": false
+   },
+   "title": "AIAG breakout?",
+   "content": "synthetic",
+   "post_type": "analysis",
+   "created_at": "2026-11-22T12:58:49.782Z",
+   "likes": 145,
+   "comments_count": 37,
+   "shares_count": 0,
+   "views": 5769,
+   "related_coins": [
+    90046
+   ],
+   "tags": [
+    "agentic"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-24",
+   "user": {
+    "id": "u24",
+    "username": "user24",
+    "verified": false
+   },
+   "title": "PRIK breakout?",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-22T12:43:49.782Z",
+   "likes": 34,
+   "comments_count": 7,
+   "shares_count": 4,
+   "views": 7011,
+   "related_coins": [
+    90570
+   ],
+   "tags": [
+    "private"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-25",
+   "user": {
+    "id": "u25",
+    "username": "user25",
+    "verified": false
+   },
+   "title": "PRED breakout?",
+   "content": "synthetic",
+   "post_type": "analysis",
+   "created_at": "2026-11-22T12:28:49.782Z",
+   "likes": 345,
+   "comments_count": 41,
+   "shares_count": 12,
+   "views": 8367,
+   "related_coins": [
+    90763
+   ],
+   "tags": [
+    "prediction market"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-26",
+   "user": {
+    "id": "u26",
+    "username": "user26",
+    "verified": true
+   },
+   "title": "ORAB chart check",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-22T12:13:49.782Z",
+   "likes": 323,
+   "comments_count": 60,
+   "shares_count": 17,
+   "views": 2195,
+   "related_coins": [
+    90481
+   ],
+   "tags": [
+    "rollup"
+   ],
+   "sentiment": "bearish"
+  },
+  {
+   "id": "post-27",
+   "user": {
+    "id": "u27",
+    "username": "user27",
+    "verified": false
+   },
+   "title": "PRID thread",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-22T11:58:49.782Z",
+   "likes": 199,
+   "comments_count": 24,
+   "shares_count": 16,
+   "views": 7047,
+   "related_coins": [
+    90563
+   ],
+   "tags": [
+    "privacy"
+   ],
+   "sentiment": "bearish"
+  },
+  {
+   "id": "post-28",
+   "user": {
+    "id": "u28",
+    "username": "user28",
+    "verified": true
+   },
+   "title": "MEMH thread",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-22T11:43:49.782Z",
+   "likes": 83,
+   "comments_count": 32,
+   "shares_count": 13,
+   "views": 785,
+   "related_coins": [
+    90327
+   ],
+   "tags": [
+    "memecoin"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-29",
+   "user": {
+    "id": "u29",
+    "username": "user29",
+    "verified": false
+   },
+   "title": "PREI chart check",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-22T11:28:49.782Z",
+   "likes": 182,
+   "comments_count": 33,
+   "shares_count": 2,
+   "views": 4427,
+   "related_coins": [
+    90768
+   ],
+   "tags": [
+    "betting"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-30",
+   "user": {
+    "id": "u30",
+    "username": "user30",
+    "verified": false
+   },
+   "title": "AIF update",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-22T11:13:49.782Z",
+   "likes": 271,
+   "comments_count": 13,
+   "shares_count": 19,
+   "views": 7170,
+   "related_coins": [
+    90005
+   ],
+   "tags": [
+    "llm"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-31",
+   "user": {
+    "id": "u31",
+    "username": "user31",
+    "verified": false
+   },
+   "title": "DEFG update",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-22T10:58:49.782Z",
+   "likes": 166,
+   "comments_count": 50,
+   "shares_count": 9,
+   "views": 4618,
+   "related_coins": [
+    90166
+   ],
+   "tags": [
+    "tvl"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-32",
+   "user": {
+    "id": "u32",
+    "username": "user32",
+    "verified": false
+   },
+   "title": "DERI thread",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-22T10:43:49.782Z",
+   "likes": 152,
+   "comments_count": 43,
+   "shares_count": 16,
+   "views": 8240,
+   "related_coins": [
+    90288
+   ],
+   "tags": [
+    "zcash"
+   ],
+   "sentiment": "bearish"
+  },
+  {
+   "id": "post-33",
+   "user": {
+    "id": "u33",
+    "username": "user33",
+    "verified": false
+   },
+   "title": "AIAL thread",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-22T10:28:49.782Z",
+   "likes": 265,
+   "comments_count": 49,
+   "shares_count": 16,
+   "views": 6267,
+   "related_coins": [
+    90051
+   ],
+   "tags": [
+    "agentic"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-34",
+   "user": {
+    "id": "u34",
+    "username": "user34",
+    "verified": false
+   },
+   "title": "DEFK looks strong",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-22T10:13:49.782Z",
+   "likes": 254,
+   "comments_count": 18,
+   "shares_count": 18,
+   "views": 2588,
+   "related_coins": [
+    90170
+   ],
+   "tags": [
+    "agentic"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-35",
+   "user": {
+    "id": "u35",
+    "username": "user35",
+    "verified": false
+   },
+   "title": "INTG looks strong",
+   "content": "synthetic",
+   "post_type": "analysis",
+   "created_at": "2026-11-22T09:58:49.782Z",
+   "likes": 91,
+   "comments_count": 3,
+   "shares_count": 15,
+   "views": 6005,
+   "related_coins": [
+    90726
+   ],
+   "tags": [
+    "mainnet"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-36",
+   "user": {
+    "id": "u36",
+    "username": "user36",
+    "verified": false
+   },
+   "title": "MEMK thread",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-22T09:43:49.782Z",
+   "likes": 281,
+   "comments_count": 1,
+   "shares_count": 18,
+   "views": 4425,
+   "related_coins": [
+    90330
+   ],
+   "tags": [
+    "memes"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-37",
+   "user": {
+    "id": "u0",
+    "username": "user0",
+    "verified": true
+   },
+   "title": "LL thread",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-22T09:28:49.782Z",
+   "likes": 387,
+   "comments_count": 18,
+   "shares_count": 19,
+   "views": 8611,
+   "related_coins": [
+    90131
+   ],
+   "tags": [
+    "rollup"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-38",
+   "user": {
+    "id": "u1",
+    "username": "user1",
+    "verified": false
+   },
+   "title": "DERM breakout?",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-22T09:13:49.782Z",
+   "likes": 387,
+   "comments_count": 26,
+   "shares_count": 14,
+   "views": 7518,
+   "related_coins": [
+    90292
+   ],
+   "tags": [
+    "perp"
+   ],
+   "sentiment": "bearish"
+  },
+  {
+   "id": "post-39",
+   "user": {
+    "id": "u2",
+    "username": "user2",
+    "verified": false
+   },
+   "title": "AIAM thread",
+   "content": "synthetic",
+   "post_type": "analysis",
+   "created_at": "2026-11-22T08:58:49.782Z",
+   "likes": 28,
+   "comments_count": 22,
+   "shares_count": 7,
+   "views": 3370,
+   "related_coins": [
+    90052
+   ],
+   "tags": [
+    "agent"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-40",
+   "user": {
+    "id": "u3",
+    "username": "user3",
+    "verified": false
+   },
+   "title": "RWAD thread",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-22T08:43:49.782Z",
+   "likes": 237,
+   "comments_count": 24,
+   "shares_count": 3,
+   "views": 6083,
+   "related_coins": [
+    90403
+   ],
+   "tags": [
+    "rwa"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-41",
+   "user": {
+    "id": "u4",
+    "username": "user4",
+    "verified": true
+   },
+   "title": "LN breakout?",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-22T08:28:49.782Z",
+   "likes": 187,
+   "comments_count": 11,
+   "shares_count": 15,
+   "views": 3020,
+   "related_coins": [
+    90133
+   ],
+   "tags": [
+    "l2"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-42",
+   "user": {
+    "id": "u5",
+    "username": "user5",
+    "verified": false
+   },
+   "title": "RESN chart check",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-22T08:13:49.782Z",
+   "likes": 60,
+   "comments_count": 7,
+   "shares_count": 15,
+   "views": 938,
+   "related_coins": [
+    90653
+   ],
+   "tags": [
+    "eigenlayer"
+   ],
+   "sentiment": "bearish"
+  },
+  {
+   "id": "post-43",
+   "user": {
+    "id": "u6",
+    "username": "user6",
+    "verified": false
+   },
+   "title": "ORAF thread",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-22T07:58:49.782Z",
+   "likes": 160,
+   "comments_count": 22,
+   "shares_count": 6,
+   "views": 5447,
+   "related_coins": [
+    90485
+   ],
+   "tags": [
+    "price feed"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-44",
+   "user": {
+    "id": "u7",
+    "username": "user7",
+    "verified": false
+   },
+   "title": "LA thread",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-22T07:43:49.782Z",
+   "likes": 230,
+   "comments_count": 39,
+   "shares_count": 4,
+   "views": 938,
+   "related_coins": [
+    90080
+   ],
+   "tags": [
+    "l1"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-45",
+   "user": {
+    "id": "u8",
+    "username": "user8",
+    "verified": false
+   },
+   "title": "RWAE chart check",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-22T07:28:49.782Z",
+   "likes": 7,
+   "comments_count": 59,
+   "shares_count": 6,
+   "views": 794,
+   "related_coins": [
+    90404
+   ],
+   "tags": [
+    "tokenization"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-46",
+   "user": {
+    "id": "u9",
+    "username": "user9",
+    "verified": false
+   },
+   "title": "DERE update",
+   "content": "synthetic",
+   "post_type": "analysis",
+   "created_at": "2026-11-22T07:13:49.782Z",
+   "likes": 155,
+   "comments_count": 57,
+   "shares_count": 6,
+   "views": 3934,
+   "related_coins": [
+    90284
+   ],
+   "tags": [
+    "futures"
+   ],
+   "sentiment": "bearish"
+  },
+  {
+   "id": "post-47",
+   "user": {
+    "id": "u10",
+    "username": "user10",
+    "verified": false
+   },
+   "title": "MEMD chart check",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-22T06:58:49.782Z",
+   "likes": 216,
+   "comments_count": 23,
+   "shares_count": 2,
+   "views": 556,
+   "related_coins": [
+    90323
+   ],
+   "tags": [
+    "memecoin"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-48",
+   "user": {
+    "id": "u11",
+    "username": "user11",
+    "verified": false
+   },
+   "title": "AIAI breakout?",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-22T06:43:49.782Z",
+   "likes": 322,
+   "comments_count": 55,
+   "shares_count": 1,
+   "views": 299,
+   "related_coins": [
+    90048
+   ],
+   "tags": [
+    "agent"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-49",
+   "user": {
+    "id": "u12",
+    "username": "user12",
+    "verified": true
+   },
+   "title": "CEXL chart check",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-22T06:28:49.782Z",
+   "likes": 288,
+   "comments_count": 9,
+   "shares_count": 9,
+   "views": 6338,
+   "related_coins": [
+    90811
+   ],
+   "tags": [
+    "exchange"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-50",
+   "user": {
+    "id": "u13",
+    "username": "user13",
+    "verified": false
+   },
+   "title": "PREG looks strong",
+   "content": "synthetic",
+   "post_type": "analysis",
+   "created_at": "2026-11-22T06:13:49.782Z",
+   "likes": 246,
+   "comments_count": 45,
+   "shares_count": 14,
+   "views": 5992,
+   "related_coins": [
+    90766
+   ],
+   "tags": [
+    "prediction market"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-51",
+   "user": {
+    "id": "u14",
+    "username": "user14",
+    "verified": true
+   },
+   "title": "NFTC chart check",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-22T05:58:49.782Z",
+   "likes": 341,
+   "comments_count": 30,
+   "shares_count": 1,
+   "views": 1356,
+   "related_coins": [
+    90842
+   ],
+   "tags": [
+    "nfts"
+   ],
+   "sentiment": "bearish"
+  },
+  {
+   "id": "post-52",
+   "user": {
+    "id": "u15",
+    "username": "user15",
+    "verified": false
+   },
+   "title": "DEFG thread",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-22T05:43:49.782Z",
+   "likes": 154,
+   "comments_count": 30,
+   "shares_count": 14,
+   "views": 3478,
+   "related_coins": [
+    90166
+   ],
+   "tags": [
+    "defi"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-53",
+   "user": {
+    "id": "u16",
+    "username": "user16",
+    "verified": false
+   },
+   "title": "AIAL looks strong",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-22T05:28:49.782Z",
+   "likes": 94,
+   "comments_count": 1,
+   "shares_count": 17,
+   "views": 265,
+   "related_coins": [
+    90051
+   ],
+   "tags": [
+    "agentic"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-54",
+   "user": {
+    "id": "u17",
+    "username": "user17",
+    "verified": true
+   },
+   "title": "DERA breakout?",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-22T05:13:49.782Z",
+   "likes": 112,
+   "comments_count": 19,
+   "shares_count": 16,
+   "views": 1273,
+   "related_coins": [
+    90280
+   ],
+   "tags": [
+    "perp"
+   ],
+   "sentiment": "bearish"
+  },
+  {
+   "id": "post-55",
+   "user": {
+    "id": "u18",
+    "username": "user18",
+    "verified": false
+   },
+   "title": "NFTK looks strong",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-22T04:58:49.782Z",
+   "likes": 29,
+   "comments_count": 40,
+   "shares_count": 18,
+   "views": 5928,
+   "related_coins": [
+    90850
+   ],
+   "tags": [
+    "nft"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-56",
+   "user": {
+    "id": "u19",
+    "username": "user19",
+    "verified": true
+   },
+   "title": "RWAA update",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-22T04:43:49.782Z",
+   "likes": 123,
+   "comments_count": 26,
+   "shares_count": 8,
+   "views": 42,
+   "related_coins": [
+    90400
+   ],
+   "tags": [
+    "treasury"
+   ],
+   "sentiment": "bearish"
+  },
+  {
+   "id": "post-57",
+   "user": {
+    "id": "u20",
+    "username": "user20",
+    "verified": false
+   },
+   "title": "ZKF update",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-22T04:28:49.782Z",
+   "likes": 327,
+   "comments_count": 15,
+   "shares_count": 16,
+   "views": 6526,
+   "related_coins": [
+    90685
+   ],
+   "tags": [
+    "zk"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-58",
+   "user": {
+    "id": "u21",
+    "username": "user21",
+    "verified": false
+   },
+   "title": "DERJ looks strong",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-22T04:13:49.782Z",
+   "likes": 148,
+   "comments_count": 0,
+   "shares_count": 2,
+   "views": 3939,
+   "related_coins": [
+    90289
+   ],
+   "tags": [
+    "derivatives"
+   ],
+   "sentiment": "bearish"
+  },
+  {
+   "id": "post-59",
+   "user": {
+    "id": "u22",
+    "username": "user22",
+    "verified": false
+   },
+   "title": "DERD breakout?",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-22T03:58:49.782Z",
+   "likes": 325,
+   "comments_count": 4,
+   "shares_count": 14,
+   "views": 3580,
+   "related_coins": [
+    90283
+   ],
+   "tags": [
+    "options"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-60",
+   "user": {
+    "id": "u23",
+    "username": "user23",
+    "verified": true
+   },
+   "title": "PREI looks strong",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-22T03:43:49.782Z",
+   "likes": 35,
+   "comments_count": 24,
+   "shares_count": 15,
+   "views": 4368,
+   "related_coins": [
+    90768
+   ],
+   "tags": [
+    "betting"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-61",
+   "user": {
+    "id": "u24",
+    "username": "user24",
+    "verified": false
+   },
+   "title": "DEPF looks strong",
+   "content": "synthetic",
+   "post_type": "analysis",
+   "created_at": "2026-11-22T03:28:49.782Z",
+   "likes": 226,
+   "comments_count": 4,
+   "shares_count": 4,
+   "views": 6637,
+   "related_coins": [
+    90445
+   ],
+   "tags": [
+    "depin"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-62",
+   "user": {
+    "id": "u25",
+    "username": "user25",
+    "verified": false
+   },
+   "title": "DEPD thread",
+   "content": "synthetic",
+   "post_type": "analysis",
+   "created_at": "2026-11-22T03:13:49.782Z",
+   "likes": 35,
+   "comments_count": 8,
+   "shares_count": 19,
+   "views": 5665,
+   "related_coins": [
+    90443
+   ],
+   "tags": [
+    "sensor"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-63",
+   "user": {
+    "id": "u26",
+    "username": "user26",
+    "verified": false
+   },
+   "title": "AIAG breakout?",
+   "content": "synthetic",
+   "post_type": "analysis",
+   "created_at": "2026-11-22T02:58:49.782Z",
+   "likes": 393,
+   "comments_count": 50,
+   "shares_count": 12,
+   "views": 8955,
+   "related_coins": [
+    90046
+   ],
+   "tags": [
+    "agents"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-64",
+   "user": {
+    "id": "u27",
+    "username": "user27",
+    "verified": false
+   },
+   "title": "GAMM chart check",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-22T02:43:49.782Z",
+   "likes": 53,
+   "comments_count": 58,
+   "shares_count": 19,
+   "views": 149,
+   "related_coins": [
+    90372
+   ],
+   "tags": [
+    "game"
+   ],
+   "sentiment": "bearish"
+  },
+  {
+   "id": "post-65",
+   "user": {
+    "id": "u28",
+    "username": "user28",
+    "verified": false
+   },
+   "title": "PREJ thread",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-22T02:28:49.782Z",
+   "likes": 368,
+   "comments_count": 43,
+   "shares_count": 11,
+   "views": 6095,
+   "related_coins": [
+    90769
+   ],
+   "tags": [
+    "prediction markets"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-66",
+   "user": {
+    "id": "u29",
+    "username": "user29",
+    "verified": false
+   },
+   "title": "DERG looks strong",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-22T02:13:49.782Z",
+   "likes": 216,
+   "comments_count": 8,
+   "shares_count": 12,
+   "views": 2623,
+   "related_coins": [
+    90286
+   ],
+   "tags": [
+    "perpetual"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-67",
+   "user": {
+    "id": "u30",
+    "username": "user30",
+    "verified": false
+   },
+   "title": "PRIN update",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-22T01:58:49.782Z",
+   "likes": 40,
+   "comments_count": 33,
+   "shares_count": 3,
+   "views": 709,
+   "related_coins": [
+    90573
+   ],
+   "tags": [
+    "anonymous"
+   ],
+   "sentiment": "bearish"
+  },
+  {
+   "id": "post-68",
+   "user": {
+    "id": "u31",
+    "username": "user31",
+    "verified": false
+   },
+   "title": "STOH breakout?",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-22T01:43:49.782Z",
+   "likes": 393,
+   "comments_count": 36,
+   "shares_count": 9,
+   "views": 7150,
+   "related_coins": [
+    90527
+   ],
+   "tags": [
+    "storage"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-69",
+   "user": {
+    "id": "u32",
+    "username": "user32",
+    "verified": false
+   },
+   "title": "RWAN chart check",
+   "content": "synthetic",
+   "post_type": "analysis",
+   "created_at": "2026-11-22T01:28:49.782Z",
+   "likes": 309,
+   "comments_count": 35,
+   "shares_count": 9,
+   "views": 1907,
+   "related_coins": [
+    90413
+   ],
+   "tags": [
+    "tokenization"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-70",
+   "user": {
+    "id": "u33",
+    "username": "user33",
+    "verified": false
+   },
+   "title": "MEMJ looks strong",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-22T01:13:49.782Z",
+   "likes": 22,
+   "comments_count": 3,
+   "shares_count": 8,
+   "views": 7699,
+   "related_coins": [
+    90329
+   ],
+   "tags": [
+    "memecoin"
+   ],
+   "sentiment": "bearish"
+  },
+  {
+   "id": "post-71",
+   "user": {
+    "id": "u34",
+    "username": "user34",
+    "verified": false
+   },
+   "title": "DEXA thread",
+   "content": "synthetic",
+   "post_type": "analysis",
+   "created_at": "2026-11-22T00:58:49.782Z",
+   "likes": 60,
+   "comments_count": 49,
+   "shares_count": 14,
+   "views": 7942,
+   "related_coins": [
+    90200
+   ],
+   "tags": [
+    "swap"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-72",
+   "user": {
+    "id": "u35",
+    "username": "user35",
+    "verified": false
+   },
+   "title": "PRIB breakout?",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-22T00:43:49.782Z",
+   "likes": 375,
+   "comments_count": 5,
+   "shares_count": 6,
+   "views": 8155,
+   "related_coins": [
+    90561
+   ],
+   "tags": [
+    "anonymous"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-73",
+   "user": {
+    "id": "u36",
+    "username": "user36",
+    "verified": false
+   },
+   "title": "LK looks strong",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-22T00:28:49.782Z",
+   "likes": 39,
+   "comments_count": 38,
+   "shares_count": 12,
+   "views": 885,
+   "related_coins": [
+    90090
+   ],
+   "tags": [
+    "l1"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-74",
+   "user": {
+    "id": "u0",
+    "username": "user0",
+    "verified": false
+   },
+   "title": "PRIA update",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-22T00:13:49.782Z",
+   "likes": 99,
+   "comments_count": 30,
+   "shares_count": 7,
+   "views": 8860,
+   "related_coins": [
+    90560
+   ],
+   "tags": [
+    "privacy"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-75",
+   "user": {
+    "id": "u1",
+    "username": "user1",
+    "verified": false
+   },
+   "title": "RESD thread",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-21T23:58:49.782Z",
+   "likes": 165,
+   "comments_count": 41,
+   "shares_count": 14,
+   "views": 1979,
+   "related_coins": [
+    90643
+   ],
+   "tags": [
+    "lrt"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-76",
+   "user": {
+    "id": "u2",
+    "username": "user2",
+    "verified": true
+   },
+   "title": "PREL update",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-21T23:43:49.782Z",
+   "likes": 170,
+   "comments_count": 6,
+   "shares_count": 15,
+   "views": 6613,
+   "related_coins": [
+    90771
+   ],
+   "tags": [
+    "prediction markets"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-77",
+   "user": {
+    "id": "u3",
+    "username": "user3",
+    "verified": false
+   },
+   "title": "DERF thread",
+   "content": "synthetic",
+   "post_type": "analysis",
+   "created_at": "2026-11-21T23:28:49.782Z",
+   "likes": 308,
+   "comments_count": 6,
+   "shares_count": 5,
+   "views": 4626,
+   "related_coins": [
+    90285
+   ],
+   "tags": [
+    "polymarket"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-78",
+   "user": {
+    "id": "u4",
+    "username": "user4",
+    "verified": false
+   },
+   "title": "MEMM update",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-21T23:13:49.782Z",
+   "likes": 30,
+   "comments_count": 49,
+   "shares_count": 2,
+   "views": 618,
+   "related_coins": [
+    90332
+   ],
+   "tags": [
+    "dog"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-79",
+   "user": {
+    "id": "u5",
+    "username": "user5",
+    "verified": false
+   },
+   "title": "PREF breakout?",
+   "content": "synthetic",
+   "post_type": "analysis",
+   "created_at": "2026-11-21T22:58:49.782Z",
+   "likes": 11,
+   "comments_count": 30,
+   "shares_count": 1,
+   "views": 3900,
+   "related_coins": [
+    90765
+   ],
+   "tags": [
+    "prediction markets"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-80",
+   "user": {
+    "id": "u6",
+    "username": "user6",
+    "verified": false
+   },
+   "title": "GAMG looks strong",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-21T22:43:49.782Z",
+   "likes": 37,
+   "comments_count": 13,
+   "shares_count": 15,
+   "views": 8313,
+   "related_coins": [
+    90366
+   ],
+   "tags": [
+    "gaming"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-81",
+   "user": {
+    "id": "u7",
+    "username": "user7",
+    "verified": false
+   },
+   "title": "MODN update",
+   "content": "synthetic",
+   "post_type": "analysis",
+   "created_at": "2026-11-21T22:28:49.782Z",
+   "likes": 35,
+   "comments_count": 46,
+   "shares_count": 18,
+   "views": 524,
+   "related_coins": [
+    90933
+   ],
+   "tags": [
+    "data availability"
+   ],
+   "sentiment": "bearish"
+  },
+  {
+   "id": "post-82",
+   "user": {
+    "id": "u8",
+    "username": "user8",
+    "verified": false
+   },
+   "title": "LSDM breakout?",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-21T22:13:49.782Z",
+   "likes": 360,
+   "comments_count": 24,
+   "shares_count": 16,
+   "views": 8144,
+   "related_coins": [
+    90612
+   ],
+   "tags": [
+    "staking"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-83",
+   "user": {
+    "id": "u9",
+    "username": "user9",
+    "verified": false
+   },
+   "title": "PRIN update",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-21T21:58:49.782Z",
+   "likes": 123,
+   "comments_count": 31,
+   "shares_count": 11,
+   "views": 1738,
+   "related_coins": [
+    90573
+   ],
+   "tags": [
+    "anonymous"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-84",
+   "user": {
+    "id": "u10",
+    "username": "user10",
+    "verified": true
+   },
+   "title": "LSDN looks strong",
+   "content": "synthetic",
+   "post_type": "analysis",
+   "created_at": "2026-11-21T21:43:49.782Z",
+   "likes": 79,
+   "comments_count": 58,
+   "shares_count": 4,
+   "views": 2574,
+   "related_coins": [
+    90613
+   ],
+   "tags": [
+    "staking"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-85",
+   "user": {
+    "id": "u11",
+    "username": "user11",
+    "verified": false
+   },
+   "title": "MEMM update",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-21T21:28:49.782Z",
+   "likes": 97,
+   "comments_count": 53,
+   "shares_count": 14,
+   "views": 4502,
+   "related_coins": [
+    90332
+   ],
+   "tags": [
+    "cat"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-86",
+   "user": {
+    "id": "u12",
+    "username": "user12",
+    "verified": true
+   },
+   "title": "PREH chart check",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-21T21:13:49.782Z",
+   "likes": 150,
+   "comments_count": 27,
+   "shares_count": 4,
+   "views": 7272,
+   "related_coins": [
+    90767
+   ],
+   "tags": [
+    "polymarket"
+   ],
+   "sentiment": "bearish"
+  },
+  {
+   "id": "post-87",
+   "user": {
+    "id": "u13",
+    "username": "user13",
+    "verified": true
+   },
+   "title": "PRIM looks strong",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-21T20:58:49.782Z",
+   "likes": 346,
+   "comments_count": 8,
+   "shares_count": 18,
+   "views": 8935,
+   "related_coins": [
+    90572
+   ],
+   "tags": [
+    "anonymous"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-88",
+   "user": {
+    "id": "u14",
+    "username": "user14",
+    "verified": true
+   },
+   "title": "AIN thread",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-21T20:43:49.782Z",
+   "likes": 306,
+   "comments_count": 44,
+   "shares_count": 13,
+   "views": 3560,
+   "related_coins": [
+    90013
+   ],
+   "tags": [
+    "zcash"
+   ],
+   "sentiment": "bearish"
+  },
+  {
+   "id": "post-89",
+   "user": {
+    "id": "u15",
+    "username": "user15",
+    "verified": false
+   },
+   "title": "DERH breakout?",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-21T20:28:49.782Z",
+   "likes": 282,
+   "comments_count": 56,
+   "shares_count": 5,
+   "views": 670,
+   "related_coins": [
+    90287
+   ],
+   "tags": [
+    "futures"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-90",
+   "user": {
+    "id": "u16",
+    "username": "user16",
+    "verified": true
+   },
+   "title": "MEMF update",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-21T20:13:49.782Z",
+   "likes": 277,
+   "comments_count": 25,
+   "shares_count": 10,
+   "views": 8551,
+   "related_coins": [
+    90325
+   ],
+   "tags": [
+    "frog"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-91",
+   "user": {
+    "id": "u17",
+    "username": "user17",
+    "verified": false
+   },
+   "title": "PRII looks strong",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-21T19:58:49.782Z",
+   "likes": 341,
+   "comments_count": 19,
+   "shares_count": 16,
+   "views": 2633,
+   "related_coins": [
+    90568
+   ],
+   "tags": [
+    "zcash"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-92",
+   "user": {
+    "id": "u18",
+    "username": "user18",
+    "verified": false
+   },
+   "title": "DERK update",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-21T19:43:49.782Z",
+   "likes": 65,
+   "comments_count": 26,
+   "shares_count": 5,
+   "views": 6557,
+   "related_coins": [
+    90290
+   ],
+   "tags": [
+    "perp"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-93",
+   "user": {
+    "id": "u19",
+    "username": "user19",
+    "verified": true
+   },
+   "title": "MEMI looks strong",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-21T19:28:49.782Z",
+   "likes": 360,
+   "comments_count": 13,
+   "shares_count": 3,
+   "views": 184,
+   "related_coins": [
+    90328
+   ],
+   "tags": [
+    "cat"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-94",
+   "user": {
+    "id": "u20",
+    "username": "user20",
+    "verified": true
+   },
+   "title": "DEPA update",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-21T19:13:49.782Z",
+   "likes": 149,
+   "comments_count": 51,
+   "shares_count": 15,
+   "views": 4076,
+   "related_coins": [
+    90440
+   ],
+   "tags": [
+    "treasury"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-95",
+   "user": {
+    "id": "u21",
+    "username": "user21",
+    "verified": false
+   },
+   "title": "MEMJ update",
+   "content": "synthetic",
+   "post_type": "news",
+   "created_at": "2026-11-21T18:58:49.782Z",
+   "likes": 131,
+   "comments_count": 32,
+   "shares_count": 20,
+   "views": 8845,
+   "related_coins": [
+    90329
+   ],
+   "tags": [
+    "dog"
+   ],
+   "sentiment": "bullish"
+  },
+  {
+   "id": "post-96",
+   "user": {
+    "id": "u22",
+    "username": "user22",
+    "verified": false
+   },
+   "title": "PREN looks strong",
+   "content": "synthetic",
+   "post_type": "general",
+   "created_at": "2026-11-21T18:43:49.782Z",
+   "likes": 271,
+   "comments_count": 43,
+   "shares_count": 4,
+   "views": 2411,
+   "related_coins": [
+    90773
+   ],
+   "tags": [
+    "betting"
+   ],
+   "sentiment": "neutral"
+  },
+  {
+   "id": "post-97",
+   "user": {
+    "id": "u23",
+    "username": "user23",
+    "verified": false
+   },
+   "title": "ORAF thread",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-21T18:28:49.782Z",
+   "likes": 51,
+   "comments_count": 43,
+   "shares_count": 16,
+   "views": 5717,
+   "related_coins": [
+    90485
+   ],
+   "tags": [
+    "oracle"
+   ],
+   "sentiment": "bearish"
+  },
+  {
+   "id": "post-98",
+   "user": {
+    "id": "u24",
+    "username": "user24",
+    "verified": false
+   },
+   "title": "MEMM update",
+   "content": "synthetic",
+   "post_type": "prediction",
+   "created_at": "2026-11-21T18:13:49.782Z",
+   "likes": 321,
+   "comments_count": 27,
+   "shares_count": 10,
+   "views": 3556,
+   "related_coins": [
+    90332
+   ],
+   "tags": [
+    "memes"
+   ],
+   "sentiment": "bearish"
+  },
+  {
+   "id": "post-99",
+   "user": {
+    "id": "u25",
+    "username": "user25",
+    "verified": false
+   },
+   "title": "MEMA chart check",
+   "content": "synthetic",
+   "post_type": "analysis",
+   "created_at": "2026-11-21T17:58:49.782Z",
+   "likes": 346,
+   "comments_count": 12,
+   "shares_count": 15,
+   "views": 8586,
+   "related_coins": [
+    90320
+   ],
+   "tags": [
+    "meme"
+   ],
+   "sentiment": "bearish"
+  }
+ ]
+}

@@ -1,0 +1,402 @@
+{
+ "_note": "SYNTHETIC fixture in CoinMarketCap response format",
+ "status": {
+  "timestamp": "2026-11-22T18:43:49.782Z",
+  "error_code": 0,
+  "error_message": null,
+  "elapsed": 10,
+  "credit_count": 1,
+  "notice": null
+ },
+ "data": {
+  "id": "fx0023",
+  "name": "Modular Blockchain",
+  "title": "Modular Blockchain",
+  "description": "Synthetic Modular category",
+  "volume": 1547850910.4,
+  "num_tokens": 506,
+  "avg_price_change": -1.191269,
+  "market_cap": 43808583451.07,
+  "market_cap_change": -1.671431,
+  "volume_change": 19.055148,
+  "last_updated": "2021-11-10T10:35:12.354Z",
+  "coins": [
+   {
+    "id": 90920,
+    "name": "Modular Token A",
+    "symbol": "MODA",
+    "slug": "modular-token-0",
+    "tags": [
+     "modular"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 50,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 2.581231,
+      "volume_24h": 55505629.42,
+      "percent_change_1h": 0.357173,
+      "percent_change_24h": 0.82335,
+      "percent_change_7d": 0.839528,
+      "percent_change_30d": 2.895997,
+      "market_cap": 2339735906.65,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90921,
+    "name": "Modular Token B",
+    "symbol": "MODB",
+    "slug": "modular-token-1",
+    "tags": [
+     "modular"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 51,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 58.41777,
+      "volume_24h": 232582535.68,
+      "percent_change_1h": -0.316963,
+      "percent_change_24h": -0.066073,
+      "percent_change_7d": -6.61435,
+      "percent_change_30d": -19.398747,
+      "market_cap": 3808474289.91,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90922,
+    "name": "Modular Token C",
+    "symbol": "MODC",
+    "slug": "modular-token-2",
+    "tags": [
+     "modular"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 52,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 213.071182,
+      "volume_24h": 101972830.32,
+      "percent_change_1h": 0.293517,
+      "percent_change_24h": 0.689272,
+      "percent_change_7d": -1.682835,
+      "percent_change_30d": 0.167891,
+      "market_cap": 844540076.8,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90923,
+    "name": "Modular Token D",
+    "symbol": "MODD",
+    "slug": "modular-token-3",
+    "tags": [
+     "modular"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 53,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.04195,
+      "volume_24h": 1544324092.74,
+      "percent_change_1h": -0.553254,
+      "percent_change_24h": -1.95423,
+      "percent_change_7d": -6.939556,
+      "percent_change_30d": -5.525538,
+      "market_cap": 9602623199.89,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90924,
+    "name": "Modular Token E",
+    "symbol": "MODE",
+    "slug": "modular-token-4",
+    "tags": [
+     "modular"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 54,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 181.045534,
+      "volume_24h": 331461410.8,
+      "percent_change_1h": -0.196459,
+      "percent_change_24h": -2.124666,
+      "percent_change_7d": -4.252969,
+      "percent_change_30d": -13.8919,
+      "market_cap": 4305181689.9,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90925,
+    "name": "Modular Token F",
+    "symbol": "MODF",
+    "slug": "modular-token-5",
+    "tags": [
+     "modular"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 55,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 36.228529,
+      "volume_24h": 456376756.71,
+      "percent_change_1h": 0.22494,
+      "percent_change_24h": -2.48054,
+      "percent_change_7d": -4.266131,
+      "percent_change_30d": -3.791813,
+      "market_cap": 4894016236.5,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90926,
+    "name": "Modular Token G",
+    "symbol": "MODG",
+    "slug": "modular-token-6",
+    "tags": [
+     "modular"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 56,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 6.738332,
+      "volume_24h": 1716365405.22,
+      "percent_change_1h": -0.115191,
+      "percent_change_24h": -2.638489,
+      "percent_change_7d": -0.796973,
+      "percent_change_30d": -7.439941,
+      "market_cap": 7836225200.54,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90927,
+    "name": "Modular Token H",
+    "symbol": "MODH",
+    "slug": "modular-token-7",
+    "tags": [
+     "modular"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 57,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 306.203309,
+      "volume_24h": 4613913.26,
+      "percent_change_1h": -0.10213,
+      "percent_change_24h": -0.184496,
+      "percent_change_7d": 1.012436,
+      "percent_change_30d": 0.520684,
+      "market_cap": 72772540.66,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90928,
+    "name": "Modular Token I",
+    "symbol": "MODI",
+    "slug": "modular-token-8",
+    "tags": [
+     "modular"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 58,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 2.303258,
+      "volume_24h": 25816860.66,
+      "percent_change_1h": -0.218356,
+      "percent_change_24h": 0.488228,
+      "percent_change_7d": -5.038784,
+      "percent_change_30d": -5.837465,
+      "market_cap": 653054899.37,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90929,
+    "name": "Modular Token J",
+    "symbol": "MODJ",
+    "slug": "modular-token-9",
+    "tags": [
+     "modular"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 59,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 11.976343,
+      "volume_24h": 12425588.71,
+      "percent_change_1h": 0.164909,
+      "percent_change_24h": -4.158389,
+      "percent_change_7d": -9.210915,
+      "percent_change_30d": -19.856305,
+      "market_cap": 108278814.08,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90930,
+    "name": "Modular Token K",
+    "symbol": "MODK",
+    "slug": "modular-token-10",
+    "tags": [
+     "modular"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 60,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 36.829936,
+      "volume_24h": 11435835.49,
+      "percent_change_1h": 0.072605,
+      "percent_change_24h": 1.900693,
+      "percent_change_7d": -6.976982,
+      "percent_change_30d": -25.836104,
+      "market_cap": 112134733.29,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90931,
+    "name": "Modular Token L",
+    "symbol": "MODL",
+    "slug": "modular-token-11",
+    "tags": [
+     "modular"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 61,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.102712,
+      "volume_24h": 56349343.37,
+      "percent_change_1h": -0.231931,
+      "percent_change_24h": -0.275979,
+      "percent_change_7d": -1.877168,
+      "percent_change_30d": 1.922005,
+      "market_cap": 353566408.73,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90932,
+    "name": "Modular Token M",
+    "symbol": "MODM",
+    "slug": "modular-token-12",
+    "tags": [
+     "modular"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 62,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 48.650699,
+      "volume_24h": 5609018.82,
+      "percent_change_1h": 0.802778,
+      "percent_change_24h": -1.026004,
+      "percent_change_7d": -4.339718,
+      "percent_change_30d": -9.336225,
+      "market_cap": 62105535.75,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90933,
+    "name": "Modular Token N",
+    "symbol": "MODN",
+    "slug": "modular-token-13",
+    "tags": [
+     "modular"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 63,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 218.295981,
+      "volume_24h": 6435423.73,
+      "percent_change_1h": 0.268409,
+      "percent_change_24h": 0.867204,
+      "percent_change_7d": -2.168102,
+      "percent_change_30d": -4.623127,
+      "market_cap": 39703245.14,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90853,
+    "name": "NFT Token N",
+    "symbol": "NFTN",
+    "slug": "nft-token-13",
+    "tags": [
+     "nft",
+     "modular"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 64,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 125.867681,
+      "volume_24h": 3005343.55,
+      "percent_change_1h": -0.191598,
+      "percent_change_24h": -3.345102,
+      "percent_change_7d": -8.828818,
+      "percent_change_30d": -24.70963,
+      "market_cap": 14453983.65,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   }
+  ]
+ }
+}

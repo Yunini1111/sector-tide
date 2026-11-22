@@ -29,7 +29,8 @@ for (let i = 0; i < ids.length; i += 20) {
   const batch = ids.slice(i, i + 20);
   const res = await fetch(`https://pro-api.coinmarketcap.com/v2/cryptocurrency/quotes/historical?id=${batch.join(',')}&interval=2h&count=${STEPS}`,
     { headers: { 'X-CMC_PRO_API_KEY': KEY, Accept: 'application/json' } });
-  const body = await res.json();
+  const body = await res.json().catch(() => null);
+  if (!body?.status) { console.error(`historical quotes: HTTP ${res.status}`); process.exit(1); }
   if (!res.ok || +body.status.error_code) { console.error(redact(body.status?.error_message)); process.exit(1); }
   credits += body.status.credit_count;
   for (const [id, d] of Object.entries(body.data)) {

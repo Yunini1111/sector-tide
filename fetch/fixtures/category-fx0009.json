@@ -1,0 +1,403 @@
+{
+ "_note": "SYNTHETIC fixture in CoinMarketCap response format",
+ "status": {
+  "timestamp": "2026-11-22T18:43:49.782Z",
+  "error_code": 0,
+  "error_message": null,
+  "elapsed": 10,
+  "credit_count": 1,
+  "notice": null
+ },
+ "data": {
+  "id": "fx0009",
+  "name": "Gaming",
+  "title": "Gaming",
+  "description": "Synthetic Gaming category",
+  "volume": 4393944313.8,
+  "num_tokens": 331,
+  "avg_price_change": -1.515854,
+  "market_cap": 69756262702.13,
+  "market_cap_change": -2.740678,
+  "volume_change": 3.35909,
+  "last_updated": "2021-11-10T10:35:12.354Z",
+  "coins": [
+   {
+    "id": 90360,
+    "name": "Gaming Token A",
+    "symbol": "GAMA",
+    "slug": "gaming-token-0",
+    "tags": [
+     "gaming"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 50,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 6.628285,
+      "volume_24h": 115989695.29,
+      "percent_change_1h": -0.159847,
+      "percent_change_24h": 1.551022,
+      "percent_change_7d": -10.685525,
+      "percent_change_30d": -20.129997,
+      "market_cap": 553744389.57,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90361,
+    "name": "Gaming Token B",
+    "symbol": "GAMB",
+    "slug": "gaming-token-1",
+    "tags": [
+     "gaming"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 51,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 9.19108,
+      "volume_24h": 2566973724.16,
+      "percent_change_1h": -0.271372,
+      "percent_change_24h": -4.282204,
+      "percent_change_7d": -5.763172,
+      "percent_change_30d": -9.532269,
+      "market_cap": 23323306305.71,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90362,
+    "name": "Gaming Token C",
+    "symbol": "GAMC",
+    "slug": "gaming-token-2",
+    "tags": [
+     "gaming"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 52,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.69255,
+      "volume_24h": 17067108.2,
+      "percent_change_1h": 0.098761,
+      "percent_change_24h": -2.980552,
+      "percent_change_7d": -2.533884,
+      "percent_change_30d": -20.803776,
+      "market_cap": 250634380.51,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90363,
+    "name": "Gaming Token D",
+    "symbol": "GAMD",
+    "slug": "gaming-token-3",
+    "tags": [
+     "gaming"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 53,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.257641,
+      "volume_24h": 2061371490.11,
+      "percent_change_1h": 0.0563,
+      "percent_change_24h": -3.545642,
+      "percent_change_7d": -4.842687,
+      "percent_change_30d": -15.082381,
+      "market_cap": 10803306567.71,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90364,
+    "name": "Gaming Token E",
+    "symbol": "GAME",
+    "slug": "gaming-token-4",
+    "tags": [
+     "gaming"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 54,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.345454,
+      "volume_24h": 8613057.96,
+      "percent_change_1h": 0.058505,
+      "percent_change_24h": -3.213212,
+      "percent_change_7d": -4.987599,
+      "percent_change_30d": 1.858459,
+      "market_cap": 274962968.85,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90365,
+    "name": "Gaming Token F",
+    "symbol": "GAMF",
+    "slug": "gaming-token-5",
+    "tags": [
+     "gaming"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 55,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.161966,
+      "volume_24h": 1470559590.12,
+      "percent_change_1h": -0.359427,
+      "percent_change_24h": -3.933337,
+      "percent_change_7d": -5.490908,
+      "percent_change_30d": -11.484004,
+      "market_cap": 7982179048.17,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90366,
+    "name": "Gaming Token G",
+    "symbol": "GAMG",
+    "slug": "gaming-token-6",
+    "tags": [
+     "gaming",
+     "depin"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 56,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 1.377716,
+      "volume_24h": 53018381.89,
+      "percent_change_1h": 0.572617,
+      "percent_change_24h": 0.239904,
+      "percent_change_7d": -7.172427,
+      "percent_change_30d": -8.370324,
+      "market_cap": 602599348.82,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90367,
+    "name": "Gaming Token H",
+    "symbol": "GAMH",
+    "slug": "gaming-token-7",
+    "tags": [
+     "gaming"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 57,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 92.183307,
+      "volume_24h": 14081326.26,
+      "percent_change_1h": 0.093733,
+      "percent_change_24h": -3.717163,
+      "percent_change_7d": -6.56123,
+      "percent_change_30d": -9.006415,
+      "market_cap": 100189109.98,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90368,
+    "name": "Gaming Token I",
+    "symbol": "GAMI",
+    "slug": "gaming-token-8",
+    "tags": [
+     "gaming"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 58,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 57.42599,
+      "volume_24h": 16055036.77,
+      "percent_change_1h": 0.319332,
+      "percent_change_24h": -1.39207,
+      "percent_change_7d": -4.76461,
+      "percent_change_30d": -16.474801,
+      "market_cap": 75795543.94,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90369,
+    "name": "Gaming Token J",
+    "symbol": "GAMJ",
+    "slug": "gaming-token-9",
+    "tags": [
+     "gaming"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 59,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 28.270966,
+      "volume_24h": 15867586.2,
+      "percent_change_1h": 0.076345,
+      "percent_change_24h": -5.140586,
+      "percent_change_7d": -2.186916,
+      "percent_change_30d": -5.724899,
+      "market_cap": 88589209.31,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90370,
+    "name": "Gaming Token K",
+    "symbol": "GAMK",
+    "slug": "gaming-token-10",
+    "tags": [
+     "gaming"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 60,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.04108,
+      "volume_24h": 12435555.63,
+      "percent_change_1h": -0.224529,
+      "percent_change_24h": 0.173062,
+      "percent_change_7d": -11.718769,
+      "percent_change_30d": -13.97965,
+      "market_cap": 118131117.2,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90371,
+    "name": "Gaming Token L",
+    "symbol": "GAML",
+    "slug": "gaming-token-11",
+    "tags": [
+     "gaming"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 61,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 3.278771,
+      "volume_24h": 10872209.04,
+      "percent_change_1h": 0.522529,
+      "percent_change_24h": -2.012006,
+      "percent_change_7d": 2.164913,
+      "percent_change_30d": -0.103105,
+      "market_cap": 88543196.42,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90372,
+    "name": "Gaming Token M",
+    "symbol": "GAMM",
+    "slug": "gaming-token-12",
+    "tags": [
+     "gaming"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 62,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 152.45461,
+      "volume_24h": 385498037.09,
+      "percent_change_1h": 0.518107,
+      "percent_change_24h": -2.603272,
+      "percent_change_7d": -6.152581,
+      "percent_change_30d": -23.735194,
+      "market_cap": 2619373192.52,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90373,
+    "name": "Gaming Token N",
+    "symbol": "GAMN",
+    "slug": "gaming-token-13",
+    "tags": [
+     "gaming"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 63,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 42.57774,
+      "volume_24h": 14562244.89,
+      "percent_change_1h": 0.104677,
+      "percent_change_24h": -0.813883,
+      "percent_change_7d": -3.176183,
+      "percent_change_30d": 4.283796,
+      "market_cap": 509053208.99,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90446,
+    "name": "DePIN Token G",
+    "symbol": "DEPG",
+    "slug": "depin-token-6",
+    "tags": [
+     "depin",
+     "gaming"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 64,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 191.866741,
+      "volume_24h": 536819588.4,
+      "percent_change_1h": -0.566855,
+      "percent_change_24h": 3.040459,
+      "percent_change_7d": 1.328584,
+      "percent_change_30d": -0.433057,
+      "market_cap": 8414602574,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   }
+  ]
+ }
+}

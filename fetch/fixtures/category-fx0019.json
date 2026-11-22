@@ -1,0 +1,403 @@
+{
+ "_note": "SYNTHETIC fixture in CoinMarketCap response format",
+ "status": {
+  "timestamp": "2026-11-22T18:43:49.782Z",
+  "error_code": 0,
+  "error_message": null,
+  "elapsed": 10,
+  "credit_count": 1,
+  "notice": null
+ },
+ "data": {
+  "id": "fx0019",
+  "name": "Prediction Markets",
+  "title": "Prediction Markets",
+  "description": "Synthetic Prediction Markets category",
+  "volume": 1203593306.81,
+  "num_tokens": 82,
+  "avg_price_change": 1.355456,
+  "market_cap": 23468843563.35,
+  "market_cap_change": 0.630774,
+  "volume_change": 6.976666,
+  "last_updated": "2021-11-10T10:35:12.354Z",
+  "coins": [
+   {
+    "id": 90760,
+    "name": "Prediction Markets Token A",
+    "symbol": "PREA",
+    "slug": "prediction-token-0",
+    "tags": [
+     "prediction"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 50,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.033966,
+      "volume_24h": 357137139.37,
+      "percent_change_1h": -0.08828,
+      "percent_change_24h": 1.518218,
+      "percent_change_7d": -0.211209,
+      "percent_change_30d": 0.076208,
+      "market_cap": 3325920226.08,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90761,
+    "name": "Prediction Markets Token B",
+    "symbol": "PREB",
+    "slug": "prediction-token-1",
+    "tags": [
+     "prediction"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 51,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 2.396013,
+      "volume_24h": 122390160.16,
+      "percent_change_1h": 0.397755,
+      "percent_change_24h": -1.185031,
+      "percent_change_7d": 2.921243,
+      "percent_change_30d": 7.707525,
+      "market_cap": 2515569220.63,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90762,
+    "name": "Prediction Markets Token C",
+    "symbol": "PREC",
+    "slug": "prediction-token-2",
+    "tags": [
+     "prediction",
+     "storage"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 52,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 1.275132,
+      "volume_24h": 153827802.92,
+      "percent_change_1h": -0.441215,
+      "percent_change_24h": 2.286091,
+      "percent_change_7d": 2.513883,
+      "percent_change_30d": 10.550153,
+      "market_cap": 3188479732.79,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90763,
+    "name": "Prediction Markets Token D",
+    "symbol": "PRED",
+    "slug": "prediction-token-3",
+    "tags": [
+     "prediction"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 53,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.309874,
+      "volume_24h": 255352537.82,
+      "percent_change_1h": -0.340907,
+      "percent_change_24h": -3.512466,
+      "percent_change_7d": -1.878426,
+      "percent_change_30d": -11.016301,
+      "market_cap": 1577630975.59,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90764,
+    "name": "Prediction Markets Token E",
+    "symbol": "PREE",
+    "slug": "prediction-token-4",
+    "tags": [
+     "prediction"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 54,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 10.274422,
+      "volume_24h": 419066203.26,
+      "percent_change_1h": -0.035248,
+      "percent_change_24h": 1.210215,
+      "percent_change_7d": 4.72407,
+      "percent_change_30d": 6.985859,
+      "market_cap": 2390257937.83,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90765,
+    "name": "Prediction Markets Token F",
+    "symbol": "PREF",
+    "slug": "prediction-token-5",
+    "tags": [
+     "prediction"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 55,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.045754,
+      "volume_24h": 2464415.59,
+      "percent_change_1h": -0.490519,
+      "percent_change_24h": 1.318095,
+      "percent_change_7d": 6.858282,
+      "percent_change_30d": 10.720141,
+      "market_cap": 71439742.11,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90766,
+    "name": "Prediction Markets Token G",
+    "symbol": "PREG",
+    "slug": "prediction-token-6",
+    "tags": [
+     "prediction"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 56,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.367901,
+      "volume_24h": 192835796.41,
+      "percent_change_1h": -0.483466,
+      "percent_change_24h": 0.18433,
+      "percent_change_7d": 1.460897,
+      "percent_change_30d": 12.281761,
+      "market_cap": 930099455.48,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90767,
+    "name": "Prediction Markets Token H",
+    "symbol": "PREH",
+    "slug": "prediction-token-7",
+    "tags": [
+     "prediction"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 57,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 196.867976,
+      "volume_24h": 22188253.26,
+      "percent_change_1h": -0.043104,
+      "percent_change_24h": 0.037256,
+      "percent_change_7d": 2.804582,
+      "percent_change_30d": -3.043904,
+      "market_cap": 403243129.3,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90768,
+    "name": "Prediction Markets Token I",
+    "symbol": "PREI",
+    "slug": "prediction-token-8",
+    "tags": [
+     "prediction"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 58,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.186168,
+      "volume_24h": 235148802.38,
+      "percent_change_1h": 0.385502,
+      "percent_change_24h": 0.337219,
+      "percent_change_7d": -0.139327,
+      "percent_change_30d": 5.931449,
+      "market_cap": 1119073997.42,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90769,
+    "name": "Prediction Markets Token J",
+    "symbol": "PREJ",
+    "slug": "prediction-token-9",
+    "tags": [
+     "prediction"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 59,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.087652,
+      "volume_24h": 39313719.23,
+      "percent_change_1h": -0.472572,
+      "percent_change_24h": -2.333427,
+      "percent_change_7d": -2.71346,
+      "percent_change_30d": -9.997718,
+      "market_cap": 406901651.54,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90770,
+    "name": "Prediction Markets Token K",
+    "symbol": "PREK",
+    "slug": "prediction-token-10",
+    "tags": [
+     "prediction"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 60,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 36.286277,
+      "volume_24h": 2512944.1,
+      "percent_change_1h": -0.138162,
+      "percent_change_24h": 1.457323,
+      "percent_change_7d": -5.75174,
+      "percent_change_30d": -21.93581,
+      "market_cap": 33716979.29,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90771,
+    "name": "Prediction Markets Token L",
+    "symbol": "PREL",
+    "slug": "prediction-token-11",
+    "tags": [
+     "prediction"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 61,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.082817,
+      "volume_24h": 26631801.93,
+      "percent_change_1h": -0.427733,
+      "percent_change_24h": -1.240896,
+      "percent_change_7d": -3.816072,
+      "percent_change_30d": -6.006921,
+      "market_cap": 143316854.9,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90772,
+    "name": "Prediction Markets Token M",
+    "symbol": "PREM",
+    "slug": "prediction-token-12",
+    "tags": [
+     "prediction"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 62,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 166.877156,
+      "volume_24h": 214563631.77,
+      "percent_change_1h": -0.671816,
+      "percent_change_24h": 2.589512,
+      "percent_change_7d": 6.287456,
+      "percent_change_30d": 13.359272,
+      "market_cap": 1575054632.3,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90773,
+    "name": "Prediction Markets Token N",
+    "symbol": "PREN",
+    "slug": "prediction-token-13",
+    "tags": [
+     "prediction"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 63,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 1.687816,
+      "volume_24h": 7304112.5,
+      "percent_change_1h": 0.054094,
+      "percent_change_24h": 2.458651,
+      "percent_change_7d": -3.815531,
+      "percent_change_30d": -11.372872,
+      "market_cap": 41128861.05,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90285,
+    "name": "Derivatives Token F",
+    "symbol": "DERF",
+    "slug": "derivatives-token-5",
+    "tags": [
+     "derivatives",
+     "prediction"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 64,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 30.591617,
+      "volume_24h": 180115157.79,
+      "percent_change_1h": -0.640912,
+      "percent_change_24h": 1.304843,
+      "percent_change_7d": -11.789971,
+      "percent_change_30d": -31.157916,
+      "market_cap": 1053241454.36,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   }
+  ]
+ }
+}

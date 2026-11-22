@@ -25,6 +25,13 @@ export interface Sector {
   /** largest constituents, by market cap (may be stale up to a few hours, see coinsAt) */
   coins: Coin[];
   coinsAt: string | null;
+  /** community attention, 0–100 relative to the hottest sector (null when unavailable) */
+  heat?: { score: number; posts: number; tokens: number; topics: number } | null;
+}
+
+export interface Narrative {
+  available: { posts: boolean; tokens: boolean; topics: boolean };
+  topics: { name: string; score: number; sentiment: string | null; sectors: string[] }[];
 }
 
 export interface Market {
@@ -42,6 +49,7 @@ export interface Snapshot {
   synthetic?: boolean;
   market: Market;
   sectors: Sector[];
+  narrative?: Narrative;
   meta: { creditsThisRun: number; endpoints: string[]; notes: string[] };
 }
 

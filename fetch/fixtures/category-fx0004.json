@@ -1,0 +1,379 @@
+{
+ "_note": "SYNTHETIC fixture in CoinMarketCap response format",
+ "status": {
+  "timestamp": "2026-11-22T18:43:49.782Z",
+  "error_code": 0,
+  "error_message": null,
+  "elapsed": 10,
+  "credit_count": 1,
+  "notice": null
+ },
+ "data": {
+  "id": "fx0004",
+  "name": "DeFi",
+  "title": "DeFi",
+  "description": "Synthetic DeFi category",
+  "volume": 1166904330.17,
+  "num_tokens": 594,
+  "avg_price_change": 1.185159,
+  "market_cap": 14335486442.83,
+  "market_cap_change": 1.435943,
+  "volume_change": -28.938932,
+  "last_updated": "2021-11-10T10:35:12.354Z",
+  "coins": [
+   {
+    "id": 90160,
+    "name": "DeFi Token A",
+    "symbol": "DEFA",
+    "slug": "defi-token-0",
+    "tags": [
+     "defi"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 50,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 23.910288,
+      "volume_24h": 12259562.57,
+      "percent_change_1h": 0.186923,
+      "percent_change_24h": -0.458966,
+      "percent_change_7d": 2.506621,
+      "percent_change_30d": 3.441849,
+      "market_cap": 316383928.41,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90161,
+    "name": "DeFi Token B",
+    "symbol": "DEFB",
+    "slug": "defi-token-1",
+    "tags": [
+     "defi"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 51,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 91.16235,
+      "volume_24h": 107448973.64,
+      "percent_change_1h": 0.145168,
+      "percent_change_24h": 3.364685,
+      "percent_change_7d": 5.532688,
+      "percent_change_30d": 10.926529,
+      "market_cap": 1414427124.92,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90162,
+    "name": "DeFi Token C",
+    "symbol": "DEFC",
+    "slug": "defi-token-2",
+    "tags": [
+     "defi"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 52,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 95.026679,
+      "volume_24h": 13253743.08,
+      "percent_change_1h": -0.197984,
+      "percent_change_24h": 1.646841,
+      "percent_change_7d": -0.995122,
+      "percent_change_30d": -10.975591,
+      "market_cap": 481797431.21,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90163,
+    "name": "DeFi Token D",
+    "symbol": "DEFD",
+    "slug": "defi-token-3",
+    "tags": [
+     "defi"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 53,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 7.406107,
+      "volume_24h": 305721341.68,
+      "percent_change_1h": 0.323611,
+      "percent_change_24h": 1.052771,
+      "percent_change_7d": 10.884629,
+      "percent_change_30d": 27.69186,
+      "market_cap": 2913567416.77,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90164,
+    "name": "DeFi Token E",
+    "symbol": "DEFE",
+    "slug": "defi-token-4",
+    "tags": [
+     "defi"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 54,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.08949,
+      "volume_24h": 6611939.17,
+      "percent_change_1h": 0.057156,
+      "percent_change_24h": -1.049324,
+      "percent_change_7d": -1.928556,
+      "percent_change_30d": 7.491349,
+      "market_cap": 95523333.55,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90165,
+    "name": "DeFi Token F",
+    "symbol": "DEFF",
+    "slug": "defi-token-5",
+    "tags": [
+     "defi"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 55,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.069772,
+      "volume_24h": 23486102.24,
+      "percent_change_1h": 0.390296,
+      "percent_change_24h": 1.569174,
+      "percent_change_7d": 4.390121,
+      "percent_change_30d": 19.463836,
+      "market_cap": 775959783.46,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90166,
+    "name": "DeFi Token G",
+    "symbol": "DEFG",
+    "slug": "defi-token-6",
+    "tags": [
+     "defi",
+     "restaking"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 56,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 212.9338,
+      "volume_24h": 225453307.29,
+      "percent_change_1h": 0.021421,
+      "percent_change_24h": -0.146841,
+      "percent_change_7d": 4.367355,
+      "percent_change_30d": 4.776412,
+      "market_cap": 2641420715.09,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90167,
+    "name": "DeFi Token H",
+    "symbol": "DEFH",
+    "slug": "defi-token-7",
+    "tags": [
+     "defi"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 57,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.591382,
+      "volume_24h": 60991757.41,
+      "percent_change_1h": -0.237715,
+      "percent_change_24h": 3.841965,
+      "percent_change_7d": 11.338771,
+      "percent_change_30d": 20.273935,
+      "market_cap": 1765657792.96,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90168,
+    "name": "DeFi Token I",
+    "symbol": "DEFI",
+    "slug": "defi-token-8",
+    "tags": [
+     "defi"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 58,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.043761,
+      "volume_24h": 45196983.65,
+      "percent_change_1h": -0.073803,
+      "percent_change_24h": 4.651398,
+      "percent_change_7d": -1.485456,
+      "percent_change_30d": -5.90673,
+      "market_cap": 243746567.89,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90169,
+    "name": "DeFi Token J",
+    "symbol": "DEFJ",
+    "slug": "defi-token-9",
+    "tags": [
+     "defi"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 59,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 171.200126,
+      "volume_24h": 7708980.63,
+      "percent_change_1h": -0.019434,
+      "percent_change_24h": -0.608516,
+      "percent_change_7d": 9.262629,
+      "percent_change_30d": 21.295823,
+      "market_cap": 109888235.12,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90170,
+    "name": "DeFi Token K",
+    "symbol": "DEFK",
+    "slug": "defi-token-10",
+    "tags": [
+     "defi",
+     "ai-agents"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 60,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 207.655934,
+      "volume_24h": 54131781.25,
+      "percent_change_1h": -0.054802,
+      "percent_change_24h": -1.779336,
+      "percent_change_7d": 6.583948,
+      "percent_change_30d": 13.222545,
+      "market_cap": 431947161.43,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90171,
+    "name": "DeFi Token L",
+    "symbol": "DEFL",
+    "slug": "defi-token-11",
+    "tags": [
+     "defi"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 61,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.384354,
+      "volume_24h": 32389760.71,
+      "percent_change_1h": 0.147935,
+      "percent_change_24h": 1.047789,
+      "percent_change_7d": 6.5785,
+      "percent_change_30d": 9.569295,
+      "market_cap": 186517661.17,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90172,
+    "name": "DeFi Token M",
+    "symbol": "DEFM",
+    "slug": "defi-token-12",
+    "tags": [
+     "defi",
+     "ai"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 62,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 5.174594,
+      "volume_24h": 2877397.06,
+      "percent_change_1h": 0.180611,
+      "percent_change_24h": 0.075845,
+      "percent_change_7d": 2.247906,
+      "percent_change_30d": -2.699712,
+      "market_cap": 56479272.97,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90173,
+    "name": "DeFi Token N",
+    "symbol": "DEFN",
+    "slug": "defi-token-13",
+    "tags": [
+     "defi"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 63,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 46.670654,
+      "volume_24h": 4420341.9,
+      "percent_change_1h": -0.175929,
+      "percent_change_24h": -0.508668,
+      "percent_change_7d": 1.062883,
+      "percent_change_30d": 5.211822,
+      "market_cap": 35072729.3,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   }
+  ]
+ }
+}

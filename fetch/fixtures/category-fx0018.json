@@ -1,0 +1,403 @@
+{
+ "_note": "SYNTHETIC fixture in CoinMarketCap response format",
+ "status": {
+  "timestamp": "2026-11-22T18:43:49.782Z",
+  "error_code": 0,
+  "error_message": null,
+  "elapsed": 10,
+  "credit_count": 1,
+  "notice": null
+ },
+ "data": {
+  "id": "fx0018",
+  "name": "Interoperability",
+  "title": "Interoperability",
+  "description": "Synthetic Interoperability category",
+  "volume": 4132477834.31,
+  "num_tokens": 524,
+  "avg_price_change": -3.328378,
+  "market_cap": 56835355888.8,
+  "market_cap_change": -3.622768,
+  "volume_change": -6.9636,
+  "last_updated": "2021-11-10T10:35:12.354Z",
+  "coins": [
+   {
+    "id": 90720,
+    "name": "Interoperability Token A",
+    "symbol": "INTA",
+    "slug": "interop-token-0",
+    "tags": [
+     "interop"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 50,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 1.017368,
+      "volume_24h": 104255920.34,
+      "percent_change_1h": 0.017235,
+      "percent_change_24h": -1.508184,
+      "percent_change_7d": -6.113007,
+      "percent_change_30d": -11.321276,
+      "market_cap": 3586241226.05,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90721,
+    "name": "Interoperability Token B",
+    "symbol": "INTB",
+    "slug": "interop-token-1",
+    "tags": [
+     "interop"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 51,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 31.149204,
+      "volume_24h": 2423925203.62,
+      "percent_change_1h": -0.140526,
+      "percent_change_24h": -2.503833,
+      "percent_change_7d": -0.553907,
+      "percent_change_30d": -5.523432,
+      "market_cap": 14857444984.58,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90722,
+    "name": "Interoperability Token C",
+    "symbol": "INTC",
+    "slug": "interop-token-2",
+    "tags": [
+     "interop"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 52,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 4.422461,
+      "volume_24h": 2683166881.79,
+      "percent_change_1h": -0.176683,
+      "percent_change_24h": -5.740929,
+      "percent_change_7d": 2.829104,
+      "percent_change_30d": 13.809667,
+      "market_cap": 20843385960.85,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90723,
+    "name": "Interoperability Token D",
+    "symbol": "INTD",
+    "slug": "interop-token-3",
+    "tags": [
+     "interop"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 53,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.125539,
+      "volume_24h": 110220158.58,
+      "percent_change_1h": 0.059947,
+      "percent_change_24h": 1.371149,
+      "percent_change_7d": -2.490238,
+      "percent_change_30d": -2.539355,
+      "market_cap": 541906929.62,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90724,
+    "name": "Interoperability Token E",
+    "symbol": "INTE",
+    "slug": "interop-token-4",
+    "tags": [
+     "interop"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 54,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 28.155975,
+      "volume_24h": 58401154.62,
+      "percent_change_1h": 0.243594,
+      "percent_change_24h": -0.393583,
+      "percent_change_7d": -9.818768,
+      "percent_change_30d": -17.285132,
+      "market_cap": 637403586.36,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90725,
+    "name": "Interoperability Token F",
+    "symbol": "INTF",
+    "slug": "interop-token-5",
+    "tags": [
+     "interop"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 55,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.110574,
+      "volume_24h": 57070120.62,
+      "percent_change_1h": -0.176469,
+      "percent_change_24h": -3.55908,
+      "percent_change_7d": -9.285258,
+      "percent_change_30d": -12.566341,
+      "market_cap": 719122123.87,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90726,
+    "name": "Interoperability Token G",
+    "symbol": "INTG",
+    "slug": "interop-token-6",
+    "tags": [
+     "interop",
+     "l1"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 56,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 20.379805,
+      "volume_24h": 128293879.12,
+      "percent_change_1h": -0.029968,
+      "percent_change_24h": -0.602918,
+      "percent_change_7d": -6.770668,
+      "percent_change_30d": -10.120668,
+      "market_cap": 977529099.42,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90727,
+    "name": "Interoperability Token H",
+    "symbol": "INTH",
+    "slug": "interop-token-7",
+    "tags": [
+     "interop"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 57,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 8.45589,
+      "volume_24h": 10623964.86,
+      "percent_change_1h": 0.676451,
+      "percent_change_24h": -2.618798,
+      "percent_change_7d": -7.98511,
+      "percent_change_30d": -10.613129,
+      "market_cap": 127495495.35,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90728,
+    "name": "Interoperability Token I",
+    "symbol": "INTI",
+    "slug": "interop-token-8",
+    "tags": [
+     "interop"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 58,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 12.565654,
+      "volume_24h": 40583796.89,
+      "percent_change_1h": 0.162371,
+      "percent_change_24h": 1.86335,
+      "percent_change_7d": -4.97848,
+      "percent_change_30d": -9.611246,
+      "market_cap": 897940652.36,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90729,
+    "name": "Interoperability Token J",
+    "symbol": "INTJ",
+    "slug": "interop-token-9",
+    "tags": [
+     "interop"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 59,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.049929,
+      "volume_24h": 46158953.13,
+      "percent_change_1h": 0.728635,
+      "percent_change_24h": -0.683025,
+      "percent_change_7d": -9.203277,
+      "percent_change_30d": -27.380175,
+      "market_cap": 430007480.15,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90730,
+    "name": "Interoperability Token K",
+    "symbol": "INTK",
+    "slug": "interop-token-10",
+    "tags": [
+     "interop"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 60,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 1.42143,
+      "volume_24h": 19659777.69,
+      "percent_change_1h": 0.313219,
+      "percent_change_24h": -0.389324,
+      "percent_change_7d": -1.179029,
+      "percent_change_30d": -4.384378,
+      "market_cap": 224026610.47,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90731,
+    "name": "Interoperability Token L",
+    "symbol": "INTL",
+    "slug": "interop-token-11",
+    "tags": [
+     "interop"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 61,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.896404,
+      "volume_24h": 47289237.37,
+      "percent_change_1h": 0.37919,
+      "percent_change_24h": -0.354085,
+      "percent_change_7d": -0.953685,
+      "percent_change_30d": 7.05737,
+      "market_cap": 1491666940.62,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90732,
+    "name": "Interoperability Token M",
+    "symbol": "INTM",
+    "slug": "interop-token-12",
+    "tags": [
+     "interop"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 62,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.100021,
+      "volume_24h": 3863533.07,
+      "percent_change_1h": 0.448434,
+      "percent_change_24h": -3.347078,
+      "percent_change_7d": -5.208844,
+      "percent_change_30d": -9.598666,
+      "market_cap": 53917523.83,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90733,
+    "name": "Interoperability Token N",
+    "symbol": "INTN",
+    "slug": "interop-token-13",
+    "tags": [
+     "interop"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 63,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 101.51942,
+      "volume_24h": 4231001.56,
+      "percent_change_1h": -0.43512,
+      "percent_change_24h": -4.258214,
+      "percent_change_7d": -6.485054,
+      "percent_change_30d": -14.475492,
+      "market_cap": 28480274.27,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90571,
+    "name": "Privacy Token L",
+    "symbol": "PRIL",
+    "slug": "privacy-token-11",
+    "tags": [
+     "privacy",
+     "interop"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 64,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 197.298102,
+      "volume_24h": 2665227.57,
+      "percent_change_1h": -0.214349,
+      "percent_change_24h": 1.484967,
+      "percent_change_7d": 3.310295,
+      "percent_change_30d": 8.546408,
+      "market_cap": 51715823.22,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,376 @@
+{
+ "_note": "SYNTHETIC fixture in CoinMarketCap response format",
+ "status": {
+  "timestamp": "2026-11-22T18:43:49.782Z",
+  "error_code": 0,
+  "error_message": null,
+  "elapsed": 10,
+  "credit_count": 1,
+  "notice": null
+ },
+ "data": {
+  "id": "fx0008",
+  "name": "Memes",
+  "title": "Memes",
+  "description": "Synthetic Memes category",
+  "volume": 5109060141.97,
+  "num_tokens": 341,
+  "avg_price_change": 1.342885,
+  "market_cap": 39656126599.1,
+  "market_cap_change": 1.61392,
+  "volume_change": 18.850987,
+  "last_updated": "2021-11-10T10:35:12.354Z",
+  "coins": [
+   {
+    "id": 90320,
+    "name": "Memes Token A",
+    "symbol": "MEMA",
+    "slug": "memes-token-0",
+    "tags": [
+     "memes"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 50,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.140519,
+      "volume_24h": 197010221.62,
+      "percent_change_1h": 0.293278,
+      "percent_change_24h": 1.062182,
+      "percent_change_7d": -1.037664,
+      "percent_change_30d": -8.123858,
+      "market_cap": 1357290017.08,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90321,
+    "name": "Memes Token B",
+    "symbol": "MEMB",
+    "slug": "memes-token-1",
+    "tags": [
+     "memes"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 51,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 24.896987,
+      "volume_24h": 955200611.42,
+      "percent_change_1h": 0.483338,
+      "percent_change_24h": 3.294973,
+      "percent_change_7d": 11.325085,
+      "percent_change_30d": 12.494085,
+      "market_cap": 4849715640.65,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90322,
+    "name": "Memes Token C",
+    "symbol": "MEMC",
+    "slug": "memes-token-2",
+    "tags": [
+     "memes"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 52,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 1.133935,
+      "volume_24h": 555966388.79,
+      "percent_change_1h": 0.663842,
+      "percent_change_24h": -2.377172,
+      "percent_change_7d": 6.154747,
+      "percent_change_30d": 6.524958,
+      "market_cap": 2549599238.11,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90323,
+    "name": "Memes Token D",
+    "symbol": "MEMD",
+    "slug": "memes-token-3",
+    "tags": [
+     "memes"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 53,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.122716,
+      "volume_24h": 1639404136.13,
+      "percent_change_1h": 0.207476,
+      "percent_change_24h": 1.86239,
+      "percent_change_7d": -5.538565,
+      "percent_change_30d": -6.099692,
+      "market_cap": 15920978921.5,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90324,
+    "name": "Memes Token E",
+    "symbol": "MEME",
+    "slug": "memes-token-4",
+    "tags": [
+     "memes"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 54,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 126.309699,
+      "volume_24h": 131991831.01,
+      "percent_change_1h": 0.020141,
+      "percent_change_24h": 1.457636,
+      "percent_change_7d": 2.955891,
+      "percent_change_30d": 10.218324,
+      "market_cap": 1511419924.06,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90325,
+    "name": "Memes Token F",
+    "symbol": "MEMF",
+    "slug": "memes-token-5",
+    "tags": [
+     "memes"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 55,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.446621,
+      "volume_24h": 55742900.26,
+      "percent_change_1h": -0.251552,
+      "percent_change_24h": 2.808655,
+      "percent_change_7d": 9.088793,
+      "percent_change_30d": 9.751301,
+      "market_cap": 324632545.99,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90326,
+    "name": "Memes Token G",
+    "symbol": "MEMG",
+    "slug": "memes-token-6",
+    "tags": [
+     "memes"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 56,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 206.278719,
+      "volume_24h": 232966522.19,
+      "percent_change_1h": 0.549054,
+      "percent_change_24h": 2.33998,
+      "percent_change_7d": 3.837375,
+      "percent_change_30d": 14.75296,
+      "market_cap": 2407273746.52,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90327,
+    "name": "Memes Token H",
+    "symbol": "MEMH",
+    "slug": "memes-token-7",
+    "tags": [
+     "memes"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 57,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.136591,
+      "volume_24h": 19525193.44,
+      "percent_change_1h": -0.318689,
+      "percent_change_24h": -0.618206,
+      "percent_change_7d": 3.949932,
+      "percent_change_30d": 4.865944,
+      "market_cap": 99165936.21,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90328,
+    "name": "Memes Token I",
+    "symbol": "MEMI",
+    "slug": "memes-token-8",
+    "tags": [
+     "memes"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 58,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.447535,
+      "volume_24h": 53606670.04,
+      "percent_change_1h": 0.653605,
+      "percent_change_24h": 0.137614,
+      "percent_change_7d": -4.277476,
+      "percent_change_30d": 5.762669,
+      "market_cap": 454877339.08,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90329,
+    "name": "Memes Token J",
+    "symbol": "MEMJ",
+    "slug": "memes-token-9",
+    "tags": [
+     "memes"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 59,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 4.767814,
+      "volume_24h": 213190687.07,
+      "percent_change_1h": -0.570053,
+      "percent_change_24h": 0.955485,
+      "percent_change_7d": -2.239019,
+      "percent_change_30d": 6.760456,
+      "market_cap": 1249348530.15,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90330,
+    "name": "Memes Token K",
+    "symbol": "MEMK",
+    "slug": "memes-token-10",
+    "tags": [
+     "memes"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 60,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 21.167014,
+      "volume_24h": 86196403.41,
+      "percent_change_1h": 0.58851,
+      "percent_change_24h": 1.360936,
+      "percent_change_7d": 6.08827,
+      "percent_change_30d": 6.626398,
+      "market_cap": 528701040.21,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90331,
+    "name": "Memes Token L",
+    "symbol": "MEML",
+    "slug": "memes-token-11",
+    "tags": [
+     "memes"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 61,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 9.279976,
+      "volume_24h": 2654923.31,
+      "percent_change_1h": -0.069339,
+      "percent_change_24h": -1.716527,
+      "percent_change_7d": -7.074832,
+      "percent_change_30d": -13.982661,
+      "market_cap": 115487138.42,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90332,
+    "name": "Memes Token M",
+    "symbol": "MEMM",
+    "slug": "memes-token-12",
+    "tags": [
+     "memes"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 62,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 10.522834,
+      "volume_24h": 2750158.27,
+      "percent_change_1h": -0.050622,
+      "percent_change_24h": -1.098704,
+      "percent_change_7d": 4.79221,
+      "percent_change_30d": 12.683308,
+      "market_cap": 29186629.35,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90333,
+    "name": "Memes Token N",
+    "symbol": "MEMN",
+    "slug": "memes-token-13",
+    "tags": [
+     "memes"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 63,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.062895,
+      "volume_24h": 52698694.03,
+      "percent_change_1h": 0.208879,
+      "percent_change_24h": -0.740345,
+      "percent_change_7d": 1.184228,
+      "percent_change_30d": 11.282319,
+      "market_cap": 327224631.94,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,428 @@
+{
+ "_note": "SYNTHETIC fixture in CoinMarketCap response format",
+ "status": {
+  "timestamp": "2026-11-22T18:43:49.782Z",
+  "error_code": 0,
+  "error_message": null,
+  "elapsed": 10,
+  "credit_count": 1,
+  "notice": null
+ },
+ "data": {
+  "id": "fx0013",
+  "name": "Storage",
+  "title": "Storage",
+  "description": "Synthetic Storage category",
+  "volume": 4760795518.33,
+  "num_tokens": 606,
+  "avg_price_change": 1.25158,
+  "market_cap": 43371988162.12,
+  "market_cap_change": 0.888908,
+  "volume_change": -30.588872,
+  "last_updated": "2021-11-10T10:35:12.354Z",
+  "coins": [
+   {
+    "id": 90520,
+    "name": "Storage Token A",
+    "symbol": "STOA",
+    "slug": "storage-token-0",
+    "tags": [
+     "storage"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 50,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 23.364411,
+      "volume_24h": 912243311.45,
+      "percent_change_1h": -0.125595,
+      "percent_change_24h": 2.280182,
+      "percent_change_7d": -0.327028,
+      "percent_change_30d": 1.713603,
+      "market_cap": 4342823105.58,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90521,
+    "name": "Storage Token B",
+    "symbol": "STOB",
+    "slug": "storage-token-1",
+    "tags": [
+     "storage"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 51,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.080144,
+      "volume_24h": 1118637946.09,
+      "percent_change_1h": -0.54992,
+      "percent_change_24h": 1.625521,
+      "percent_change_7d": 2.426626,
+      "percent_change_30d": 3.870897,
+      "market_cap": 5297615003.28,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90522,
+    "name": "Storage Token C",
+    "symbol": "STOC",
+    "slug": "storage-token-2",
+    "tags": [
+     "storage"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 52,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 16.48764,
+      "volume_24h": 882322231.6,
+      "percent_change_1h": 0.286014,
+      "percent_change_24h": 0.429514,
+      "percent_change_7d": 3.553268,
+      "percent_change_30d": 2.179549,
+      "market_cap": 4791492778.03,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90523,
+    "name": "Storage Token D",
+    "symbol": "STOD",
+    "slug": "storage-token-3",
+    "tags": [
+     "storage"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 53,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.905963,
+      "volume_24h": 300794605.86,
+      "percent_change_1h": -0.49042,
+      "percent_change_24h": -0.861245,
+      "percent_change_7d": -2.1832,
+      "percent_change_30d": -13.039504,
+      "market_cap": 2925220884.42,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90524,
+    "name": "Storage Token E",
+    "symbol": "STOE",
+    "slug": "storage-token-4",
+    "tags": [
+     "storage"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 54,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 61.518452,
+      "volume_24h": 107192395.62,
+      "percent_change_1h": 0.926445,
+      "percent_change_24h": 1.323984,
+      "percent_change_7d": 6.684564,
+      "percent_change_30d": 17.050451,
+      "market_cap": 789981861.77,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90525,
+    "name": "Storage Token F",
+    "symbol": "STOF",
+    "slug": "storage-token-5",
+    "tags": [
+     "storage"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 55,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.57959,
+      "volume_24h": 306001661.91,
+      "percent_change_1h": -0.494967,
+      "percent_change_24h": 1.969157,
+      "percent_change_7d": -2.39672,
+      "percent_change_30d": -5.135566,
+      "market_cap": 3651239680.26,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90526,
+    "name": "Storage Token G",
+    "symbol": "STOG",
+    "slug": "storage-token-6",
+    "tags": [
+     "storage"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 56,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.847126,
+      "volume_24h": 20055293,
+      "percent_change_1h": -0.149567,
+      "percent_change_24h": -0.689589,
+      "percent_change_7d": -0.126716,
+      "percent_change_30d": -1.658728,
+      "market_cap": 102364333.52,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90527,
+    "name": "Storage Token H",
+    "symbol": "STOH",
+    "slug": "storage-token-7",
+    "tags": [
+     "storage"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 57,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 76.311986,
+      "volume_24h": 158855221.14,
+      "percent_change_1h": -0.078245,
+      "percent_change_24h": 0.075721,
+      "percent_change_7d": 7.873863,
+      "percent_change_30d": 18.496676,
+      "market_cap": 873675367.73,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90528,
+    "name": "Storage Token I",
+    "symbol": "STOI",
+    "slug": "storage-token-8",
+    "tags": [
+     "storage"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 58,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 3.064896,
+      "volume_24h": 12658189.73,
+      "percent_change_1h": 0.156148,
+      "percent_change_24h": -0.491433,
+      "percent_change_7d": 0.491066,
+      "percent_change_30d": -3.029886,
+      "market_cap": 121151800.96,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90529,
+    "name": "Storage Token J",
+    "symbol": "STOJ",
+    "slug": "storage-token-9",
+    "tags": [
+     "storage"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 59,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.117255,
+      "volume_24h": 74471288.88,
+      "percent_change_1h": 0.281763,
+      "percent_change_24h": 1.826345,
+      "percent_change_7d": 1.648727,
+      "percent_change_30d": 1.618502,
+      "market_cap": 843718385.05,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90530,
+    "name": "Storage Token K",
+    "symbol": "STOK",
+    "slug": "storage-token-10",
+    "tags": [
+     "storage"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 60,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.200188,
+      "volume_24h": 17575170.99,
+      "percent_change_1h": 0.286146,
+      "percent_change_24h": -2.110173,
+      "percent_change_7d": -2.327182,
+      "percent_change_30d": 7.96422,
+      "market_cap": 161317022.39,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90531,
+    "name": "Storage Token L",
+    "symbol": "STOL",
+    "slug": "storage-token-11",
+    "tags": [
+     "storage"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 61,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 5.792455,
+      "volume_24h": 200396741.98,
+      "percent_change_1h": -0.183476,
+      "percent_change_24h": 0.142898,
+      "percent_change_7d": 3.158036,
+      "percent_change_30d": 3.690245,
+      "market_cap": 925100648.61,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90532,
+    "name": "Storage Token M",
+    "symbol": "STOM",
+    "slug": "storage-token-12",
+    "tags": [
+     "storage"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 62,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 3.48798,
+      "volume_24h": 4046301.37,
+      "percent_change_1h": -0.231243,
+      "percent_change_24h": -2.212236,
+      "percent_change_7d": 0.644418,
+      "percent_change_30d": -5.252061,
+      "market_cap": 41694793.88,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90533,
+    "name": "Storage Token N",
+    "symbol": "STON",
+    "slug": "storage-token-13",
+    "tags": [
+     "storage"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 63,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.280924,
+      "volume_24h": 5758571.13,
+      "percent_change_1h": 0.296338,
+      "percent_change_24h": 0.810856,
+      "percent_change_7d": 4.846218,
+      "percent_change_30d": 14.894,
+      "market_cap": 34423966.55,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90040,
+    "name": "AI Agents Token A",
+    "symbol": "AIAA",
+    "slug": "ai-agents-token-0",
+    "tags": [
+     "ai-agents",
+     "storage"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 64,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.099321,
+      "volume_24h": 712785699.04,
+      "percent_change_1h": 0.314397,
+      "percent_change_24h": -0.596143,
+      "percent_change_7d": 1.410758,
+      "percent_change_30d": 2.692668,
+      "market_cap": 6607291164.87,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90762,
+    "name": "Prediction Markets Token C",
+    "symbol": "PREC",
+    "slug": "prediction-token-2",
+    "tags": [
+     "prediction",
+     "storage"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 65,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 5.928243,
+      "volume_24h": 233850272.38,
+      "percent_change_1h": 0.20558,
+      "percent_change_24h": 2.286091,
+      "percent_change_7d": 2.513883,
+      "percent_change_30d": -6.746555,
+      "market_cap": 3188479732.79,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   }
+  ]
+ }
+}

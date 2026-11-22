@@ -1,0 +1,378 @@
+{
+ "_note": "SYNTHETIC fixture in CoinMarketCap response format",
+ "status": {
+  "timestamp": "2026-11-22T18:43:49.782Z",
+  "error_code": 0,
+  "error_message": null,
+  "elapsed": 10,
+  "credit_count": 1,
+  "notice": null
+ },
+ "data": {
+  "id": "fx0022",
+  "name": "Metaverse",
+  "title": "Metaverse",
+  "description": "Synthetic Metaverse category",
+  "volume": 3307528494.23,
+  "num_tokens": 601,
+  "avg_price_change": -0.37671,
+  "market_cap": 43089856769.5,
+  "market_cap_change": 0.146912,
+  "volume_change": 2.571289,
+  "last_updated": "2021-11-10T10:35:12.354Z",
+  "coins": [
+   {
+    "id": 90880,
+    "name": "Metaverse Token A",
+    "symbol": "META",
+    "slug": "metaverse-token-0",
+    "tags": [
+     "metaverse",
+     "cex"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 50,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 2.212216,
+      "volume_24h": 267078769.9,
+      "percent_change_1h": -0.359899,
+      "percent_change_24h": 1.578971,
+      "percent_change_7d": -0.723762,
+      "percent_change_30d": -6.895425,
+      "market_cap": 2210188822.93,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90881,
+    "name": "Metaverse Token B",
+    "symbol": "METB",
+    "slug": "metaverse-token-1",
+    "tags": [
+     "metaverse"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 51,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 1.491347,
+      "volume_24h": 512687768.32,
+      "percent_change_1h": -0.242635,
+      "percent_change_24h": -2.287724,
+      "percent_change_7d": -1.74635,
+      "percent_change_30d": 0.335383,
+      "market_cap": 2419100259.82,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90882,
+    "name": "Metaverse Token C",
+    "symbol": "METC",
+    "slug": "metaverse-token-2",
+    "tags": [
+     "metaverse"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 52,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 65.806688,
+      "volume_24h": 67452547.59,
+      "percent_change_1h": -0.321967,
+      "percent_change_24h": 3.011895,
+      "percent_change_7d": -1.303335,
+      "percent_change_30d": -1.41328,
+      "market_cap": 526066430.93,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90883,
+    "name": "Metaverse Token D",
+    "symbol": "METD",
+    "slug": "metaverse-token-3",
+    "tags": [
+     "metaverse"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 53,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 5.017672,
+      "volume_24h": 38008393.4,
+      "percent_change_1h": 0.51985,
+      "percent_change_24h": -0.270295,
+      "percent_change_7d": 4.295851,
+      "percent_change_30d": 10.312359,
+      "market_cap": 179224316.04,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90884,
+    "name": "Metaverse Token E",
+    "symbol": "METE",
+    "slug": "metaverse-token-4",
+    "tags": [
+     "metaverse"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 54,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 69.912752,
+      "volume_24h": 2657292124.48,
+      "percent_change_1h": -0.088242,
+      "percent_change_24h": 0.595746,
+      "percent_change_7d": 1.690067,
+      "percent_change_30d": -2.560023,
+      "market_cap": 12191213175.45,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90885,
+    "name": "Metaverse Token F",
+    "symbol": "METF",
+    "slug": "metaverse-token-5",
+    "tags": [
+     "metaverse"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 55,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 48.972142,
+      "volume_24h": 637089631.6,
+      "percent_change_1h": 0.384198,
+      "percent_change_24h": -1.184192,
+      "percent_change_7d": 1.805447,
+      "percent_change_30d": 5.286749,
+      "market_cap": 6797207900.16,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90886,
+    "name": "Metaverse Token G",
+    "symbol": "METG",
+    "slug": "metaverse-token-6",
+    "tags": [
+     "metaverse"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 56,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 124.806553,
+      "volume_24h": 44561815.89,
+      "percent_change_1h": 0.190936,
+      "percent_change_24h": -1.398366,
+      "percent_change_7d": -0.139428,
+      "percent_change_30d": 4.891098,
+      "market_cap": 377354695.42,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90887,
+    "name": "Metaverse Token H",
+    "symbol": "METH",
+    "slug": "metaverse-token-7",
+    "tags": [
+     "metaverse"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 57,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 65.546136,
+      "volume_24h": 82551691.41,
+      "percent_change_1h": 0.305153,
+      "percent_change_24h": 1.320359,
+      "percent_change_7d": 1.583541,
+      "percent_change_30d": 14.368753,
+      "market_cap": 1027399953.94,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90888,
+    "name": "Metaverse Token I",
+    "symbol": "METI",
+    "slug": "metaverse-token-8",
+    "tags": [
+     "metaverse"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 58,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.066893,
+      "volume_24h": 5469858.45,
+      "percent_change_1h": -0.316329,
+      "percent_change_24h": -0.381115,
+      "percent_change_7d": 7.491948,
+      "percent_change_30d": 22.274952,
+      "market_cap": 97175821.25,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90889,
+    "name": "Metaverse Token J",
+    "symbol": "METJ",
+    "slug": "metaverse-token-9",
+    "tags": [
+     "metaverse"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 59,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 52.871321,
+      "volume_24h": 238998227.47,
+      "percent_change_1h": -0.138878,
+      "percent_change_24h": -0.068295,
+      "percent_change_7d": -0.838406,
+      "percent_change_30d": -10.353261,
+      "market_cap": 4504054170.18,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90890,
+    "name": "Metaverse Token K",
+    "symbol": "METK",
+    "slug": "metaverse-token-10",
+    "tags": [
+     "metaverse"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 60,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 18.543259,
+      "volume_24h": 169599603.24,
+      "percent_change_1h": 0.179858,
+      "percent_change_24h": 2.516824,
+      "percent_change_7d": -2.509331,
+      "percent_change_30d": -7.638454,
+      "market_cap": 2603179631.21,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90891,
+    "name": "Metaverse Token L",
+    "symbol": "METL",
+    "slug": "metaverse-token-11",
+    "tags": [
+     "metaverse"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 61,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 3.920685,
+      "volume_24h": 192332408.66,
+      "percent_change_1h": -0.141025,
+      "percent_change_24h": 0.40145,
+      "percent_change_7d": -6.244756,
+      "percent_change_30d": -20.836202,
+      "market_cap": 1088375496.96,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90892,
+    "name": "Metaverse Token M",
+    "symbol": "METM",
+    "slug": "metaverse-token-12",
+    "tags": [
+     "metaverse"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 62,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 1.100616,
+      "volume_24h": 4702483.71,
+      "percent_change_1h": -0.168443,
+      "percent_change_24h": 1.731708,
+      "percent_change_7d": 1.002402,
+      "percent_change_30d": 7.33867,
+      "market_cap": 35210641.9,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90893,
+    "name": "Metaverse Token N",
+    "symbol": "METN",
+    "slug": "metaverse-token-13",
+    "tags": [
+     "metaverse",
+     "oracles"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 63,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 1.392507,
+      "volume_24h": 77045921.15,
+      "percent_change_1h": -0.123819,
+      "percent_change_24h": -2.823151,
+      "percent_change_7d": 8.878226,
+      "percent_change_30d": 26.013133,
+      "market_cap": 416134099.41,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   }
+  ]
+ }
+}

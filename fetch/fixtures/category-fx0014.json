@@ -1,0 +1,455 @@
+{
+ "_note": "SYNTHETIC fixture in CoinMarketCap response format",
+ "status": {
+  "timestamp": "2026-11-22T18:43:49.782Z",
+  "error_code": 0,
+  "error_message": null,
+  "elapsed": 10,
+  "credit_count": 1,
+  "notice": null
+ },
+ "data": {
+  "id": "fx0014",
+  "name": "Privacy",
+  "title": "Privacy",
+  "description": "Synthetic Privacy category",
+  "volume": 3729172823.4,
+  "num_tokens": 102,
+  "avg_price_change": 0.339752,
+  "market_cap": 60042362918.14,
+  "market_cap_change": 0.829855,
+  "volume_change": 21.385163,
+  "last_updated": "2021-11-10T10:35:12.354Z",
+  "coins": [
+   {
+    "id": 90560,
+    "name": "Privacy Token A",
+    "symbol": "PRIA",
+    "slug": "privacy-token-0",
+    "tags": [
+     "privacy"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 50,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 20.915128,
+      "volume_24h": 74894104.1,
+      "percent_change_1h": -0.108082,
+      "percent_change_24h": 1.914216,
+      "percent_change_7d": 2.438228,
+      "percent_change_30d": 5.793274,
+      "market_cap": 386049642.56,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90561,
+    "name": "Privacy Token B",
+    "symbol": "PRIB",
+    "slug": "privacy-token-1",
+    "tags": [
+     "privacy"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 51,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 37.559939,
+      "volume_24h": 88107342.29,
+      "percent_change_1h": 0.208772,
+      "percent_change_24h": 0.441517,
+      "percent_change_7d": -0.404134,
+      "percent_change_30d": -2.672443,
+      "market_cap": 1354385557.05,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90562,
+    "name": "Privacy Token C",
+    "symbol": "PRIC",
+    "slug": "privacy-token-2",
+    "tags": [
+     "privacy"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 52,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 16.396992,
+      "volume_24h": 2126492386.24,
+      "percent_change_1h": 0.012124,
+      "percent_change_24h": -0.356013,
+      "percent_change_7d": 0.276956,
+      "percent_change_30d": -2.44394,
+      "market_cap": 12357395433.87,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90563,
+    "name": "Privacy Token D",
+    "symbol": "PRID",
+    "slug": "privacy-token-3",
+    "tags": [
+     "privacy"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 53,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 4.538186,
+      "volume_24h": 1398218344.49,
+      "percent_change_1h": -0.244099,
+      "percent_change_24h": -0.227681,
+      "percent_change_7d": 4.506665,
+      "percent_change_30d": 20.36688,
+      "market_cap": 8961667497.72,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90564,
+    "name": "Privacy Token E",
+    "symbol": "PRIE",
+    "slug": "privacy-token-4",
+    "tags": [
+     "privacy"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 54,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 7.57399,
+      "volume_24h": 258857188.14,
+      "percent_change_1h": -0.150366,
+      "percent_change_24h": 0.281006,
+      "percent_change_7d": -2.941903,
+      "percent_change_30d": -6.58612,
+      "market_cap": 3026660656.46,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90565,
+    "name": "Privacy Token F",
+    "symbol": "PRIF",
+    "slug": "privacy-token-5",
+    "tags": [
+     "privacy"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 55,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 59.872487,
+      "volume_24h": 254493270.44,
+      "percent_change_1h": 0.497356,
+      "percent_change_24h": 1.259671,
+      "percent_change_7d": -4.348199,
+      "percent_change_30d": -13.861636,
+      "market_cap": 6704129437.03,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90566,
+    "name": "Privacy Token G",
+    "symbol": "PRIG",
+    "slug": "privacy-token-6",
+    "tags": [
+     "privacy"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 56,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 48.060812,
+      "volume_24h": 9382748.09,
+      "percent_change_1h": -0.117898,
+      "percent_change_24h": 3.288074,
+      "percent_change_7d": -2.020461,
+      "percent_change_30d": 5.147466,
+      "market_cap": 245896070.74,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90567,
+    "name": "Privacy Token H",
+    "symbol": "PRIH",
+    "slug": "privacy-token-7",
+    "tags": [
+     "privacy"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 57,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.031847,
+      "volume_24h": 12026741.71,
+      "percent_change_1h": 0.322199,
+      "percent_change_24h": -0.529671,
+      "percent_change_7d": -0.629487,
+      "percent_change_30d": -9.295654,
+      "market_cap": 61041340.59,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90568,
+    "name": "Privacy Token I",
+    "symbol": "PRII",
+    "slug": "privacy-token-8",
+    "tags": [
+     "privacy"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 58,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.238494,
+      "volume_24h": 26042716.87,
+      "percent_change_1h": 0.026454,
+      "percent_change_24h": 2.286198,
+      "percent_change_7d": 3.14283,
+      "percent_change_30d": 15.38099,
+      "market_cap": 125101577.76,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90569,
+    "name": "Privacy Token J",
+    "symbol": "PRIJ",
+    "slug": "privacy-token-9",
+    "tags": [
+     "privacy"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 59,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 10.102013,
+      "volume_24h": 57353831.37,
+      "percent_change_1h": -0.336529,
+      "percent_change_24h": 2.258403,
+      "percent_change_7d": 0.003671,
+      "percent_change_30d": 1.577372,
+      "market_cap": 287903269.54,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90570,
+    "name": "Privacy Token K",
+    "symbol": "PRIK",
+    "slug": "privacy-token-10",
+    "tags": [
+     "privacy"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 60,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 2.061978,
+      "volume_24h": 2222533.55,
+      "percent_change_1h": 0.078055,
+      "percent_change_24h": 0.225066,
+      "percent_change_7d": 3.795228,
+      "percent_change_30d": 14.449347,
+      "market_cap": 41435159.2,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90571,
+    "name": "Privacy Token L",
+    "symbol": "PRIL",
+    "slug": "privacy-token-11",
+    "tags": [
+     "privacy",
+     "interop"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 61,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.043808,
+      "volume_24h": 9153606.12,
+      "percent_change_1h": -0.503197,
+      "percent_change_24h": 1.484967,
+      "percent_change_7d": 3.310295,
+      "percent_change_30d": 5.744254,
+      "market_cap": 51715823.22,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90572,
+    "name": "Privacy Token M",
+    "symbol": "PRIM",
+    "slug": "privacy-token-12",
+    "tags": [
+     "privacy"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 62,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.071566,
+      "volume_24h": 49075100.83,
+      "percent_change_1h": -0.320609,
+      "percent_change_24h": 2.916222,
+      "percent_change_7d": -3.28229,
+      "percent_change_30d": -8.264108,
+      "market_cap": 492483069.79,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90573,
+    "name": "Privacy Token N",
+    "symbol": "PRIN",
+    "slug": "privacy-token-13",
+    "tags": [
+     "privacy"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 63,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 57.069595,
+      "volume_24h": 44804089.84,
+      "percent_change_1h": -0.561999,
+      "percent_change_24h": 2.46411,
+      "percent_change_7d": 2.95011,
+      "percent_change_30d": 7.702609,
+      "market_cap": 320568951.53,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90288,
+    "name": "Derivatives Token I",
+    "symbol": "DERI",
+    "slug": "derivatives-token-8",
+    "tags": [
+     "derivatives",
+     "privacy"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 64,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.100533,
+      "volume_24h": 19770542.3,
+      "percent_change_1h": 0.374052,
+      "percent_change_24h": -0.613983,
+      "percent_change_7d": -5.870774,
+      "percent_change_30d": -13.381184,
+      "market_cap": 147554711.38,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90681,
+    "name": "Zero Knowledge Token B",
+    "symbol": "ZKB",
+    "slug": "zk-token-1",
+    "tags": [
+     "zk",
+     "privacy"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 65,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 4.548744,
+      "volume_24h": 2714232094.1,
+      "percent_change_1h": -0.290066,
+      "percent_change_24h": 2.426235,
+      "percent_change_7d": 1.652915,
+      "percent_change_30d": -1.53646,
+      "market_cap": 13298131589.64,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90013,
+    "name": "AI & Big Data Token N",
+    "symbol": "AIN",
+    "slug": "ai-token-13",
+    "tags": [
+     "ai",
+     "privacy"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 66,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 12.001296,
+      "volume_24h": 12775177.05,
+      "percent_change_1h": -0.228236,
+      "percent_change_24h": -3.085136,
+      "percent_change_7d": 2.555593,
+      "percent_change_30d": 13.827929,
+      "market_cap": 171770546.42,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,405 @@
+{
+ "_note": "SYNTHETIC fixture in CoinMarketCap response format",
+ "status": {
+  "timestamp": "2026-11-22T18:43:49.782Z",
+  "error_code": 0,
+  "error_message": null,
+  "elapsed": 10,
+  "credit_count": 1,
+  "notice": null
+ },
+ "data": {
+  "id": "fx0011",
+  "name": "DePIN",
+  "title": "DePIN",
+  "description": "Synthetic DePIN category",
+  "volume": 3930227433,
+  "num_tokens": 432,
+  "avg_price_change": 0.810341,
+  "market_cap": 47960282971.88,
+  "market_cap_change": 1.280328,
+  "volume_change": 21.106553,
+  "last_updated": "2021-11-10T10:35:12.354Z",
+  "coins": [
+   {
+    "id": 90440,
+    "name": "DePIN Token A",
+    "symbol": "DEPA",
+    "slug": "depin-token-0",
+    "tags": [
+     "depin",
+     "rwa"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 50,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.731069,
+      "volume_24h": 26478730.22,
+      "percent_change_1h": -0.417456,
+      "percent_change_24h": 0.607861,
+      "percent_change_7d": 2.491551,
+      "percent_change_30d": 6.121994,
+      "market_cap": 1170417039.28,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90441,
+    "name": "DePIN Token B",
+    "symbol": "DEPB",
+    "slug": "depin-token-1",
+    "tags": [
+     "depin"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 51,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 10.958438,
+      "volume_24h": 610199828.89,
+      "percent_change_1h": -0.505245,
+      "percent_change_24h": 0.37327,
+      "percent_change_7d": -3.173252,
+      "percent_change_30d": -4.017319,
+      "market_cap": 6241397639.2,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90442,
+    "name": "DePIN Token C",
+    "symbol": "DEPC",
+    "slug": "depin-token-2",
+    "tags": [
+     "depin"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 52,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 73.575057,
+      "volume_24h": 53318954.14,
+      "percent_change_1h": 0.335203,
+      "percent_change_24h": 2.989675,
+      "percent_change_7d": 2.653476,
+      "percent_change_30d": -0.452767,
+      "market_cap": 1024091115.9,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90443,
+    "name": "DePIN Token D",
+    "symbol": "DEPD",
+    "slug": "depin-token-3",
+    "tags": [
+     "depin"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 53,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 1.923321,
+      "volume_24h": 180385510,
+      "percent_change_1h": -0.426412,
+      "percent_change_24h": -0.277022,
+      "percent_change_7d": 1.748955,
+      "percent_change_30d": 11.046221,
+      "market_cap": 3763568126.75,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90444,
+    "name": "DePIN Token E",
+    "symbol": "DEPE",
+    "slug": "depin-token-4",
+    "tags": [
+     "depin"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 54,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 1.725904,
+      "volume_24h": 625747866.99,
+      "percent_change_1h": -0.33102,
+      "percent_change_24h": 0.103423,
+      "percent_change_7d": -1.542923,
+      "percent_change_30d": -6.743289,
+      "market_cap": 5135127396,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90445,
+    "name": "DePIN Token F",
+    "symbol": "DEPF",
+    "slug": "depin-token-5",
+    "tags": [
+     "depin",
+     "zk"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 55,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.032415,
+      "volume_24h": 17089502.8,
+      "percent_change_1h": -0.174682,
+      "percent_change_24h": -1.247019,
+      "percent_change_7d": 3.835359,
+      "percent_change_30d": -3.223105,
+      "market_cap": 372831671.72,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90446,
+    "name": "DePIN Token G",
+    "symbol": "DEPG",
+    "slug": "depin-token-6",
+    "tags": [
+     "depin",
+     "gaming"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 56,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 178.670266,
+      "volume_24h": 480775472.07,
+      "percent_change_1h": -0.02308,
+      "percent_change_24h": 3.040459,
+      "percent_change_7d": 1.328584,
+      "percent_change_30d": 3.212437,
+      "market_cap": 8414602574,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90447,
+    "name": "DePIN Token H",
+    "symbol": "DEPH",
+    "slug": "depin-token-7",
+    "tags": [
+     "depin"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 57,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 19.077147,
+      "volume_24h": 172728069.47,
+      "percent_change_1h": -0.54122,
+      "percent_change_24h": 1.928097,
+      "percent_change_7d": -0.309594,
+      "percent_change_30d": 8.190672,
+      "market_cap": 7064241187.85,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90448,
+    "name": "DePIN Token I",
+    "symbol": "DEPI",
+    "slug": "depin-token-8",
+    "tags": [
+     "depin"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 58,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.041348,
+      "volume_24h": 269182499.08,
+      "percent_change_1h": -0.192473,
+      "percent_change_24h": 0.975064,
+      "percent_change_7d": 6.544454,
+      "percent_change_30d": 11.725676,
+      "market_cap": 3411063452.28,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90449,
+    "name": "DePIN Token J",
+    "symbol": "DEPJ",
+    "slug": "depin-token-9",
+    "tags": [
+     "depin"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 59,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 47.441794,
+      "volume_24h": 34104735.82,
+      "percent_change_1h": 0.001811,
+      "percent_change_24h": 0.004937,
+      "percent_change_7d": 5.170695,
+      "percent_change_30d": 4.648848,
+      "market_cap": 318787861.5,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90450,
+    "name": "DePIN Token K",
+    "symbol": "DEPK",
+    "slug": "depin-token-10",
+    "tags": [
+     "depin"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 60,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.03521,
+      "volume_24h": 2897737.31,
+      "percent_change_1h": 0.753338,
+      "percent_change_24h": -0.361271,
+      "percent_change_7d": 2.104725,
+      "percent_change_30d": 11.679486,
+      "market_cap": 80942925.28,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90451,
+    "name": "DePIN Token L",
+    "symbol": "DEPL",
+    "slug": "depin-token-11",
+    "tags": [
+     "depin"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 61,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 66.556247,
+      "volume_24h": 17864053.74,
+      "percent_change_1h": -0.369932,
+      "percent_change_24h": 2.754301,
+      "percent_change_7d": 4.173629,
+      "percent_change_30d": -0.505333,
+      "market_cap": 289397318.26,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90452,
+    "name": "DePIN Token M",
+    "symbol": "DEPM",
+    "slug": "depin-token-12",
+    "tags": [
+     "depin"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 62,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.51641,
+      "volume_24h": 33515696.03,
+      "percent_change_1h": -0.104851,
+      "percent_change_24h": 0.548745,
+      "percent_change_7d": 4.958872,
+      "percent_change_30d": 15.278198,
+      "market_cap": 209696941.18,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90453,
+    "name": "DePIN Token N",
+    "symbol": "DEPN",
+    "slug": "depin-token-13",
+    "tags": [
+     "depin"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 63,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.658205,
+      "volume_24h": 28233491.29,
+      "percent_change_1h": -0.274234,
+      "percent_change_24h": 1.623968,
+      "percent_change_7d": 5.985874,
+      "percent_change_30d": 6.665025,
+      "market_cap": 269461779.49,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90366,
+    "name": "Gaming Token G",
+    "symbol": "GAMG",
+    "slug": "gaming-token-6",
+    "tags": [
+     "gaming",
+     "depin"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 64,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 2.728858,
+      "volume_24h": 73266370.7,
+      "percent_change_1h": 0.297195,
+      "percent_change_24h": 0.239904,
+      "percent_change_7d": -7.172427,
+      "percent_change_30d": -8.962441,
+      "market_cap": 602599348.82,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,431 @@
+{
+ "_note": "SYNTHETIC fixture in CoinMarketCap response format",
+ "status": {
+  "timestamp": "2026-11-22T18:43:49.782Z",
+  "error_code": 0,
+  "error_message": null,
+  "elapsed": 10,
+  "credit_count": 1,
+  "notice": null
+ },
+ "data": {
+  "id": "fx0017",
+  "name": "Zero Knowledge Proofs",
+  "title": "Zero Knowledge Proofs",
+  "description": "Synthetic Zero Knowledge category",
+  "volume": 3578105409.22,
+  "num_tokens": 20,
+  "avg_price_change": 1.7999,
+  "market_cap": 35527602407.34,
+  "market_cap_change": 1.747023,
+  "volume_change": -16.149475,
+  "last_updated": "2021-11-10T10:35:12.354Z",
+  "coins": [
+   {
+    "id": 90680,
+    "name": "Zero Knowledge Token A",
+    "symbol": "ZKA",
+    "slug": "zk-token-0",
+    "tags": [
+     "zk"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 50,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.23844,
+      "volume_24h": 77708935.4,
+      "percent_change_1h": 0.334756,
+      "percent_change_24h": -1.39496,
+      "percent_change_7d": 5.113027,
+      "percent_change_30d": 3.273557,
+      "market_cap": 621950972.78,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90681,
+    "name": "Zero Knowledge Token B",
+    "symbol": "ZKB",
+    "slug": "zk-token-1",
+    "tags": [
+     "zk",
+     "privacy"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 51,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.042219,
+      "volume_24h": 1190367997.25,
+      "percent_change_1h": 0.642375,
+      "percent_change_24h": 2.426235,
+      "percent_change_7d": 1.652915,
+      "percent_change_30d": 4.62366,
+      "market_cap": 13298131589.64,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90682,
+    "name": "Zero Knowledge Token C",
+    "symbol": "ZKC",
+    "slug": "zk-token-2",
+    "tags": [
+     "zk"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 52,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.275147,
+      "volume_24h": 295046503,
+      "percent_change_1h": -0.203796,
+      "percent_change_24h": -2.320298,
+      "percent_change_7d": 1.108133,
+      "percent_change_30d": 12.800604,
+      "market_cap": 1615552974.07,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90683,
+    "name": "Zero Knowledge Token D",
+    "symbol": "ZKD",
+    "slug": "zk-token-3",
+    "tags": [
+     "zk"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 53,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 92.122522,
+      "volume_24h": 731677430.32,
+      "percent_change_1h": -0.498843,
+      "percent_change_24h": 1.904821,
+      "percent_change_7d": 8.656877,
+      "percent_change_30d": 18.955317,
+      "market_cap": 7330133726.78,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90684,
+    "name": "Zero Knowledge Token E",
+    "symbol": "ZKE",
+    "slug": "zk-token-4",
+    "tags": [
+     "zk"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 54,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 3.006383,
+      "volume_24h": 94511483.02,
+      "percent_change_1h": -0.064201,
+      "percent_change_24h": -0.088221,
+      "percent_change_7d": -1.785649,
+      "percent_change_30d": -4.709601,
+      "market_cap": 1359242266.04,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90685,
+    "name": "Zero Knowledge Token F",
+    "symbol": "ZKF",
+    "slug": "zk-token-5",
+    "tags": [
+     "zk"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 55,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.040291,
+      "volume_24h": 41412348.18,
+      "percent_change_1h": 0.142573,
+      "percent_change_24h": 4.086767,
+      "percent_change_7d": 4.586405,
+      "percent_change_30d": 2.262804,
+      "market_cap": 1406705058.8,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90686,
+    "name": "Zero Knowledge Token G",
+    "symbol": "ZKG",
+    "slug": "zk-token-6",
+    "tags": [
+     "zk"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 56,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 2.585502,
+      "volume_24h": 7492758.23,
+      "percent_change_1h": -0.189788,
+      "percent_change_24h": 1.734654,
+      "percent_change_7d": 5.81305,
+      "percent_change_30d": 8.371363,
+      "market_cap": 276308966.17,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90687,
+    "name": "Zero Knowledge Token H",
+    "symbol": "ZKH",
+    "slug": "zk-token-7",
+    "tags": [
+     "zk"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 57,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.037536,
+      "volume_24h": 11110013.59,
+      "percent_change_1h": 0.401343,
+      "percent_change_24h": 0.285545,
+      "percent_change_7d": 4.127491,
+      "percent_change_30d": 3.644682,
+      "market_cap": 60496118.99,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90688,
+    "name": "Zero Knowledge Token I",
+    "symbol": "ZKI",
+    "slug": "zk-token-8",
+    "tags": [
+     "zk"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 58,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.039906,
+      "volume_24h": 44537831.37,
+      "percent_change_1h": 0.019112,
+      "percent_change_24h": 1.460892,
+      "percent_change_7d": 3.206922,
+      "percent_change_30d": 8.677207,
+      "market_cap": 349323287.41,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90689,
+    "name": "Zero Knowledge Token J",
+    "symbol": "ZKJ",
+    "slug": "zk-token-9",
+    "tags": [
+     "zk"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 59,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.108806,
+      "volume_24h": 20848602.96,
+      "percent_change_1h": 0.083777,
+      "percent_change_24h": 0.988854,
+      "percent_change_7d": 3.820338,
+      "percent_change_30d": 16.970237,
+      "market_cap": 105679826.19,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90690,
+    "name": "Zero Knowledge Token K",
+    "symbol": "ZKK",
+    "slug": "zk-token-10",
+    "tags": [
+     "zk"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 60,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.112067,
+      "volume_24h": 4352930.09,
+      "percent_change_1h": -0.139277,
+      "percent_change_24h": -2.971415,
+      "percent_change_7d": -1.570865,
+      "percent_change_30d": 1.217472,
+      "market_cap": 25173727.78,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90691,
+    "name": "Zero Knowledge Token L",
+    "symbol": "ZKL",
+    "slug": "zk-token-11",
+    "tags": [
+     "zk"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 61,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 1.790826,
+      "volume_24h": 9937628.98,
+      "percent_change_1h": -0.484549,
+      "percent_change_24h": 0.740865,
+      "percent_change_7d": 3.644144,
+      "percent_change_30d": -4.199076,
+      "market_cap": 50079148.49,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90692,
+    "name": "Zero Knowledge Token M",
+    "symbol": "ZKM",
+    "slug": "zk-token-12",
+    "tags": [
+     "zk"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 62,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 5.686873,
+      "volume_24h": 4576184.5,
+      "percent_change_1h": 0.372171,
+      "percent_change_24h": 1.647263,
+      "percent_change_7d": -5.446936,
+      "percent_change_30d": -6.278584,
+      "market_cap": 44444848.39,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90693,
+    "name": "Zero Knowledge Token N",
+    "symbol": "ZKN",
+    "slug": "zk-token-13",
+    "tags": [
+     "zk"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 63,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 3.950981,
+      "volume_24h": 7090821.92,
+      "percent_change_1h": -0.511234,
+      "percent_change_24h": -1.075165,
+      "percent_change_7d": 2.792664,
+      "percent_change_30d": 1.38531,
+      "market_cap": 38124672.86,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90245,
+    "name": "Lending Token F",
+    "symbol": "LENF",
+    "slug": "lending-token-5",
+    "tags": [
+     "lending",
+     "dex",
+     "zk",
+     "derivatives"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 64,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 69.828603,
+      "volume_24h": 261914954.09,
+      "percent_change_1h": 0.447451,
+      "percent_change_24h": 1.208024,
+      "percent_change_7d": -6.585041,
+      "percent_change_30d": -25.502771,
+      "market_cap": 1467903069.75,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90445,
+    "name": "DePIN Token F",
+    "symbol": "DEPF",
+    "slug": "depin-token-5",
+    "tags": [
+     "depin",
+     "zk"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 65,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 67.88136,
+      "volume_24h": 21087875.52,
+      "percent_change_1h": 0.301577,
+      "percent_change_24h": -1.247019,
+      "percent_change_7d": 3.835359,
+      "percent_change_30d": 4.50896,
+      "market_cap": 372831671.72,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   }
+  ]
+ }
+}

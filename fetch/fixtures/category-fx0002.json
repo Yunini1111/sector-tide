@@ -1,0 +1,403 @@
+{
+ "_note": "SYNTHETIC fixture in CoinMarketCap response format",
+ "status": {
+  "timestamp": "2026-11-22T18:43:49.782Z",
+  "error_code": 0,
+  "error_message": null,
+  "elapsed": 10,
+  "credit_count": 1,
+  "notice": null
+ },
+ "data": {
+  "id": "fx0002",
+  "name": "Layer 1",
+  "title": "Layer 1",
+  "description": "Synthetic Layer 1 category",
+  "volume": 117043831820.29,
+  "num_tokens": 600,
+  "avg_price_change": 0.664862,
+  "market_cap": 1213779607061.08,
+  "market_cap_change": 0.65448,
+  "volume_change": 1.706248,
+  "last_updated": "2021-11-10T10:35:12.354Z",
+  "coins": [
+   {
+    "id": 90080,
+    "name": "Layer 1 Token A",
+    "symbol": "LA",
+    "slug": "l1-token-0",
+    "tags": [
+     "l1"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 50,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 37.100391,
+      "volume_24h": 3463977703.87,
+      "percent_change_1h": 0.019007,
+      "percent_change_24h": 1.22833,
+      "percent_change_7d": 1.809353,
+      "percent_change_30d": 3.191766,
+      "market_cap": 20114632703.59,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90081,
+    "name": "Layer 1 Token B",
+    "symbol": "LB",
+    "slug": "l1-token-1",
+    "tags": [
+     "l1"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 51,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 14.855993,
+      "volume_24h": 69904652048.04,
+      "percent_change_1h": 0.581695,
+      "percent_change_24h": 0.358726,
+      "percent_change_7d": 3.395508,
+      "percent_change_30d": 13.651203,
+      "market_cap": 458137189829.23,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90082,
+    "name": "Layer 1 Token C",
+    "symbol": "LC",
+    "slug": "l1-token-2",
+    "tags": [
+     "l1"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 52,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 116.076638,
+      "volume_24h": 814549784.77,
+      "percent_change_1h": -0.150392,
+      "percent_change_24h": 0.909826,
+      "percent_change_7d": 5.031222,
+      "percent_change_30d": 4.632902,
+      "market_cap": 15279043379.92,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90083,
+    "name": "Layer 1 Token D",
+    "symbol": "LD",
+    "slug": "l1-token-3",
+    "tags": [
+     "l1"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 53,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.625026,
+      "volume_24h": 686968766.98,
+      "percent_change_1h": 0.253843,
+      "percent_change_24h": -2.036901,
+      "percent_change_7d": 7.872769,
+      "percent_change_30d": 17.222985,
+      "market_cap": 24541062958.89,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90084,
+    "name": "Layer 1 Token E",
+    "symbol": "LE",
+    "slug": "l1-token-4",
+    "tags": [
+     "l1"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 54,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.332484,
+      "volume_24h": 3344930089.22,
+      "percent_change_1h": 0.179125,
+      "percent_change_24h": 2.9863,
+      "percent_change_7d": 5.810545,
+      "percent_change_30d": 21.189669,
+      "market_cap": 51354554495.85,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90085,
+    "name": "Layer 1 Token F",
+    "symbol": "LF",
+    "slug": "l1-token-5",
+    "tags": [
+     "l1"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 55,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 53.002742,
+      "volume_24h": 15351793450.13,
+      "percent_change_1h": -0.14033,
+      "percent_change_24h": 1.737822,
+      "percent_change_7d": 0.155842,
+      "percent_change_30d": -8.043734,
+      "market_cap": 96484970316.26,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90086,
+    "name": "Layer 1 Token G",
+    "symbol": "LG",
+    "slug": "l1-token-6",
+    "tags": [
+     "l1",
+     "cex"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 56,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 42.209566,
+      "volume_24h": 4471285229.04,
+      "percent_change_1h": -0.163142,
+      "percent_change_24h": 1.275965,
+      "percent_change_7d": -6.376193,
+      "percent_change_30d": -12.924461,
+      "market_cap": 75733564355.48,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90087,
+    "name": "Layer 1 Token H",
+    "symbol": "LH",
+    "slug": "l1-token-7",
+    "tags": [
+     "l1"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 57,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 38.85123,
+      "volume_24h": 5011903583.08,
+      "percent_change_1h": 0.28651,
+      "percent_change_24h": 0.807132,
+      "percent_change_7d": -0.460993,
+      "percent_change_30d": -3.919105,
+      "market_cap": 24897607953.03,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90088,
+    "name": "Layer 1 Token I",
+    "symbol": "LI",
+    "slug": "l1-token-8",
+    "tags": [
+     "l1"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 58,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.044597,
+      "volume_24h": 245601189.99,
+      "percent_change_1h": 0.267755,
+      "percent_change_24h": -0.056589,
+      "percent_change_7d": 2.49943,
+      "percent_change_30d": 2.953026,
+      "market_cap": 2733961717.69,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90089,
+    "name": "Layer 1 Token J",
+    "symbol": "LJ",
+    "slug": "l1-token-9",
+    "tags": [
+     "l1"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 59,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 1.391041,
+      "volume_24h": 22723308824.67,
+      "percent_change_1h": 0.15265,
+      "percent_change_24h": -0.652864,
+      "percent_change_7d": 4.394882,
+      "percent_change_30d": 9.044217,
+      "market_cap": 113169993340.58,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90090,
+    "name": "Layer 1 Token K",
+    "symbol": "LK",
+    "slug": "l1-token-10",
+    "tags": [
+     "l1"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 60,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.219049,
+      "volume_24h": 320090955.39,
+      "percent_change_1h": -0.269208,
+      "percent_change_24h": 1.604482,
+      "percent_change_7d": -7.619318,
+      "percent_change_30d": -13.816387,
+      "market_cap": 1886721877.03,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90091,
+    "name": "Layer 1 Token L",
+    "symbol": "LL",
+    "slug": "l1-token-11",
+    "tags": [
+     "l1"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 61,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.759012,
+      "volume_24h": 159923110.87,
+      "percent_change_1h": 0.650744,
+      "percent_change_24h": 0.555798,
+      "percent_change_7d": 1.419568,
+      "percent_change_30d": -3.52173,
+      "market_cap": 1426253940.45,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90092,
+    "name": "Layer 1 Token M",
+    "symbol": "LM",
+    "slug": "l1-token-12",
+    "tags": [
+     "l1"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 62,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 2.742617,
+      "volume_24h": 12548868011.41,
+      "percent_change_1h": -0.320813,
+      "percent_change_24h": 1.2495,
+      "percent_change_7d": 1.617659,
+      "percent_change_30d": 2.224882,
+      "market_cap": 79903335866.19,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90093,
+    "name": "Layer 1 Token N",
+    "symbol": "LN",
+    "slug": "l1-token-13",
+    "tags": [
+     "l1"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 63,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.036457,
+      "volume_24h": 599772965.62,
+      "percent_change_1h": 0.043437,
+      "percent_change_24h": 3.594482,
+      "percent_change_7d": -0.068061,
+      "percent_change_30d": 3.539727,
+      "market_cap": 4383263815.26,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90726,
+    "name": "Interoperability Token G",
+    "symbol": "INTG",
+    "slug": "interop-token-6",
+    "tags": [
+     "interop",
+     "l1"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 64,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 170.348007,
+      "volume_24h": 47992869.63,
+      "percent_change_1h": -0.442968,
+      "percent_change_24h": -0.602918,
+      "percent_change_7d": -6.770668,
+      "percent_change_30d": -10.95464,
+      "market_cap": 977529099.42,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,429 @@
+{
+ "_note": "SYNTHETIC fixture in CoinMarketCap response format",
+ "status": {
+  "timestamp": "2026-11-22T18:43:49.782Z",
+  "error_code": 0,
+  "error_message": null,
+  "elapsed": 10,
+  "credit_count": 1,
+  "notice": null
+ },
+ "data": {
+  "id": "fx0000",
+  "name": "AI & Big Data",
+  "title": "AI & Big Data",
+  "description": "Synthetic AI & Big Data category",
+  "volume": 1758336508.65,
+  "num_tokens": 323,
+  "avg_price_change": -0.690556,
+  "market_cap": 27082675945.67,
+  "market_cap_change": -0.053032,
+  "volume_change": -13.768195,
+  "last_updated": "2021-11-10T10:35:12.354Z",
+  "coins": [
+   {
+    "id": 90000,
+    "name": "AI & Big Data Token A",
+    "symbol": "AIA",
+    "slug": "ai-token-0",
+    "tags": [
+     "ai"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 50,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 229.460526,
+      "volume_24h": 41622141.65,
+      "percent_change_1h": -0.194402,
+      "percent_change_24h": -0.652186,
+      "percent_change_7d": -7.210649,
+      "percent_change_30d": -19.766451,
+      "market_cap": 250803268.83,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90001,
+    "name": "AI & Big Data Token B",
+    "symbol": "AIB",
+    "slug": "ai-token-1",
+    "tags": [
+     "ai"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 51,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 2.427516,
+      "volume_24h": 105957391.41,
+      "percent_change_1h": 0.267032,
+      "percent_change_24h": -2.595189,
+      "percent_change_7d": -2.602416,
+      "percent_change_30d": -8.577539,
+      "market_cap": 490625679.14,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90002,
+    "name": "AI & Big Data Token C",
+    "symbol": "AIC",
+    "slug": "ai-token-2",
+    "tags": [
+     "ai"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 52,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 13.975591,
+      "volume_24h": 11505937.77,
+      "percent_change_1h": -0.17122,
+      "percent_change_24h": -1.501559,
+      "percent_change_7d": -6.837448,
+      "percent_change_30d": -23.492432,
+      "market_cap": 202439896.37,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90003,
+    "name": "AI & Big Data Token D",
+    "symbol": "AID",
+    "slug": "ai-token-3",
+    "tags": [
+     "ai"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 53,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.478769,
+      "volume_24h": 70957453.02,
+      "percent_change_1h": -0.345203,
+      "percent_change_24h": -3.417296,
+      "percent_change_7d": -6.560854,
+      "percent_change_30d": -14.838727,
+      "market_cap": 509610949.07,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90004,
+    "name": "AI & Big Data Token E",
+    "symbol": "AIE",
+    "slug": "ai-token-4",
+    "tags": [
+     "ai"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 54,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.03395,
+      "volume_24h": 83221849.33,
+      "percent_change_1h": 0.470604,
+      "percent_change_24h": -1.639504,
+      "percent_change_7d": -1.860874,
+      "percent_change_30d": 4.283572,
+      "market_cap": 609807217.7,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90005,
+    "name": "AI & Big Data Token F",
+    "symbol": "AIF",
+    "slug": "ai-token-5",
+    "tags": [
+     "ai"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 55,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.373359,
+      "volume_24h": 1234670417.57,
+      "percent_change_1h": -0.415033,
+      "percent_change_24h": -1.504995,
+      "percent_change_7d": -5.758739,
+      "percent_change_30d": -19.301383,
+      "market_cap": 6809335457.22,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90006,
+    "name": "AI & Big Data Token G",
+    "symbol": "AIG",
+    "slug": "ai-token-6",
+    "tags": [
+     "ai"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 56,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 0.04032,
+      "volume_24h": 299594576.65,
+      "percent_change_1h": -0.345154,
+      "percent_change_24h": 2.491485,
+      "percent_change_7d": -5.085663,
+      "percent_change_30d": -21.108987,
+      "market_cap": 3303682990.82,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90007,
+    "name": "AI & Big Data Token H",
+    "symbol": "AIH",
+    "slug": "ai-token-7",
+    "tags": [
+     "ai"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 57,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 16.329958,
+      "volume_24h": 81405048.91,
+      "percent_change_1h": -0.080236,
+      "percent_change_24h": -0.578309,
+      "percent_change_7d": -7.164207,
+      "percent_change_30d": -19.280416,
+      "market_cap": 1057161394.2,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90008,
+    "name": "AI & Big Data Token I",
+    "symbol": "AII",
+    "slug": "ai-token-8",
+    "tags": [
+     "ai"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 58,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 3.485947,
+      "volume_24h": 93665758.96,
+      "percent_change_1h": -0.029513,
+      "percent_change_24h": 0.733518,
+      "percent_change_7d": -2.61245,
+      "percent_change_30d": -14.062296,
+      "market_cap": 1110853343.82,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90009,
+    "name": "AI & Big Data Token J",
+    "symbol": "AIJ",
+    "slug": "ai-token-9",
+    "tags": [
+     "ai"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 59,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 53.292308,
+      "volume_24h": 500720206.09,
+      "percent_change_1h": 0.467666,
+      "percent_change_24h": 0.925573,
+      "percent_change_7d": -10.731871,
+      "percent_change_30d": -24.614898,
+      "market_cap": 3393884628.03,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90010,
+    "name": "AI & Big Data Token K",
+    "symbol": "AIK",
+    "slug": "ai-token-10",
+    "tags": [
+     "ai"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 60,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 31.386312,
+      "volume_24h": 4272257.81,
+      "percent_change_1h": -0.365505,
+      "percent_change_24h": -2.410696,
+      "percent_change_7d": -5.783157,
+      "percent_change_30d": -4.709487,
+      "market_cap": 32687529.34,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90011,
+    "name": "AI & Big Data Token L",
+    "symbol": "AIL",
+    "slug": "ai-token-11",
+    "tags": [
+     "ai"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 61,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 4.049562,
+      "volume_24h": 6298453.33,
+      "percent_change_1h": -0.004183,
+      "percent_change_24h": -2.975067,
+      "percent_change_7d": -4.388477,
+      "percent_change_30d": -5.514958,
+      "market_cap": 34928397.93,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90012,
+    "name": "AI & Big Data Token M",
+    "symbol": "AIM",
+    "slug": "ai-token-12",
+    "tags": [
+     "ai"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 62,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 186.603106,
+      "volume_24h": 264795695.18,
+      "percent_change_1h": -0.385831,
+      "percent_change_24h": 1.27323,
+      "percent_change_7d": -1.968054,
+      "percent_change_30d": 6.357266,
+      "market_cap": 2371211881.24,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90013,
+    "name": "AI & Big Data Token N",
+    "symbol": "AIN",
+    "slug": "ai-token-13",
+    "tags": [
+     "ai",
+     "privacy"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 63,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 42.452151,
+      "volume_24h": 25853466.71,
+      "percent_change_1h": 0.193027,
+      "percent_change_24h": -3.085136,
+      "percent_change_7d": 2.555593,
+      "percent_change_30d": 3.664952,
+      "market_cap": 171770546.42,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90809,
+    "name": "Exchange Tokens Token J",
+    "symbol": "CEXJ",
+    "slug": "cex-token-9",
+    "tags": [
+     "cex",
+     "ai"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 64,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 1.838047,
+      "volume_24h": 122325885.05,
+      "percent_change_1h": -0.256521,
+      "percent_change_24h": -0.242262,
+      "percent_change_7d": -0.705583,
+      "percent_change_30d": -4.199186,
+      "market_cap": 1260858303.44,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   },
+   {
+    "id": 90172,
+    "name": "DeFi Token M",
+    "symbol": "DEFM",
+    "slug": "defi-token-12",
+    "tags": [
+     "defi",
+     "ai"
+    ],
+    "num_market_pairs": 50,
+    "date_added": "2021-01-01T00:00:00.000Z",
+    "cmc_rank": 65,
+    "is_active": 1,
+    "quote": {
+     "USD": {
+      "price": 4.77113,
+      "volume_24h": 1374589.11,
+      "percent_change_1h": -0.264697,
+      "percent_change_24h": 0.075845,
+      "percent_change_7d": 2.247906,
+      "percent_change_30d": 5.655762,
+      "market_cap": 56479272.97,
+      "last_updated": "2026-11-22T18:43:49.782Z"
+     }
+    }
+   }
+  ]
+ }
+}

@@ -1,13 +1,22 @@
-# Every two hours: fetch a fresh CoinMarketCap snapshot, build the static site, deploy to Pages.
+# Fetch a CoinMarketCap snapshot, build the static site, deploy to Pages.
 # Data is never committed to git — it lives only in the deployed Pages artifact, and each run
 # starts from the previously deployed snapshot (display-only, rolling 7-day window).
+#
+# SCHEDULE IS OFF until the API plan upgrade is confirmed. To enable, uncomment `schedule`
+# AND set the repository variable CMC_SOURCE=live. Turn it off again when the plan drops back
+# to Basic (after the hackathon judging window).
 name: snapshot-and-deploy
 
 on:
-  schedule:
-    - cron: '7 */2 * * *'
+  # schedule:
+  #   - cron: '7 */2 * * *'
   workflow_dispatch:
     inputs:
+      source:
+        description: 'Data source'
+        type: choice
+        options: [fixture, live]
+        default: fixture
       backfill:
         description: 'Rebuild 7-day history from historical quotes (~75 credits)'
         type: boolean
@@ -42,15 +51,20 @@ jobs:
           curl -fsS "$base/snapshot.json" -o public/data/snapshot.json || rm -f public/data/snapshot.json
           curl -fsS "$base/history.json"  -o public/data/history.json  || rm -f public/data/history.json
 
-      - name: Fetch from CoinMarketCap
-        if: github.event_name != 'push' || hashFiles('public/data/snapshot.json') == ''
+      - name: Fetch from CoinMarketCap (live)
+        if: (inputs.source || vars.CMC_SOURCE || 'fixture') == 'live' && (github.event_name != 'push' || hashFiles('public/data/snapshot.json') == '')
         continue-on-error: true
         env:
+          CMC_SOURCE: live
           CMC_API_KEY: ${{ secrets.CMC_API_KEY }}
         run: npm run fetch
 
+      - name: Build from fixtures (synthetic, no API calls)
+        if: (inputs.source || vars.CMC_SOURCE || 'fixture') != 'live' && hashFiles('public/data/snapshot.json') == ''
+        run: npm run fixture
+
       - name: Backfill history
-        if: github.event_name == 'workflow_dispatch' && inputs.backfill
+        if: github.event_name == 'workflow_dispatch' && inputs.backfill && inputs.source == 'live'
         continue-on-error: true
         env:
           CMC_API_KEY: ${{ secrets.CMC_API_KEY }}
