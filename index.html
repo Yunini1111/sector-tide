@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Sector Tide</title>
+  <meta name="description" content="Which crypto sectors are gaining and which are fading — sector rotation, visualised with CoinMarketCap data." />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232a6fd1'/%3E%3Cpath d='M4 19c4-5 8-5 12 0s8 5 12 0' stroke='white' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" />
+  <script>
+    try {
+      const t = localStorage.getItem('st-theme');
+      if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><rect width="32" height="32" rx="8" class="logo-bg"/><path d="M4 19c4-5 8-5 12 0s8 5 12 0" class="logo-wave"/><path d="M4 12c4-4 8-4 12 0s8 4 12 0" class="logo-wave thin"/></svg>
+      <span>Sector Tide</span>
+    </div>
+    <a class="cmc" href="https://coinmarketcap.com/" target="_blank" rel="noopener">Data provided by <b>CoinMarketCap.com</b></a>
+    <div class="top-right">
+      <span class="updated" id="updated"></span>
+      <button class="icon-btn" id="theme" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z" fill="currentColor"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <div class="banner" id="synthetic" hidden>Synthetic preview data — not live CoinMarketCap data</div>
+
+  <section class="context" id="context" aria-label="Market context"></section>
+
+  <section class="controls" aria-label="Controls">
+    <div class="seg" role="radiogroup" aria-label="Change window">
+      <button role="radio" data-win="24h" aria-checked="true">24h</button>
+      <button role="radio" data-win="7d" aria-checked="false">7d</button>
+    </div>
+    <div class="replay">
+      <button class="icon-btn" id="play" aria-label="Replay the last hours">
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path class="i-play" d="M7 4l13 8-13 8z" fill="currentColor"/><path class="i-pause" d="M6 4h4v16H6zM14 4h4v16h-4z" fill="currentColor"/></svg>
+      </button>
+      <input type="range" id="scrub" min="0" max="0" value="0" aria-label="Time" />
+      <span class="when" id="when">Live</span>
+    </div>
+    <div class="scale" aria-hidden="true"><span id="scale-lo"></span><i id="scale-bar"></i><span id="scale-hi"></span></div>
+  </section>
+
+  <nav class="tabs" aria-label="Views">
+    <button data-tab="map" aria-selected="true">Map</button>
+    <button data-tab="rot" aria-selected="false">Rotation</button>
+    <button data-tab="rank" aria-selected="false">Rank</button>
+  </nav>
+
+  <main class="grid">
+    <section class="card v-map" data-view="map">
+      <h2>Sector map <small>size ≈ √market cap · colour = change</small></h2>
+      <div id="treemap" class="chart"></div>
+    </section>
+    <section class="card v-rot" data-view="rot">
+      <h2>Rotation <small>vs median sector</small></h2>
+      <div class="axis-hint y">24h ↑</div>
+      <div id="rotation" class="chart"></div>
+      <div class="axis-hint x">7d →</div>
+    </section>
+    <section class="card v-rank" data-view="rank">
+      <h2>Ranking <small id="rank-win">24h</small></h2>
+      <div id="ranking" class="chart"></div>
+    </section>
+    <section class="card v-detail" id="detail" aria-live="polite"></section>
+  </main>
+
+  <footer class="foot">
+    <div class="notes">
+      <div><h3>Read it</h3>
+        <p><b>Map</b> — each tile is a sector; bigger tile, bigger market cap; green rising, red falling.</p>
+        <p><b>Rotation</b> — sectors drift clockwise: Improving → Leading → Weakening → Lagging. Right = stronger over 7 days, up = stronger today, both vs the median sector. The line is the selected sector's path over recent hours.</p>
+        <p><b>Replay</b> — press play to watch the sectors drift over recent days.</p>
+      </div>
+      <div><h3>Method</h3>
+        <p>Sector 24h change is CoinMarketCap's market-cap change for the category. Sector 7d change is the market-cap-weighted 7-day change of its largest constituents. Snapshots refresh every two hours; only the window needed for display is kept.</p>
+        <p id="meta-note"></p>
+      </div>
+      <div><h3>Source</h3>
+        <p><a href="https://coinmarketcap.com/" target="_blank" rel="noopener">Data provided by CoinMarketCap.com</a>. Not financial advice.</p>
+        <p><a href="https://github.com/Yunini1111/sector-tide" target="_blank" rel="noopener">Source code</a> · built for the CoinMarketCap API hackathon.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div id="tip" role="tooltip" hidden></div>
+  <script type="module" src="./src/main.ts"></script>
+</body>
+</html>

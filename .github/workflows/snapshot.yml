@@ -1,0 +1,75 @@
+# Every two hours: fetch a fresh CoinMarketCap snapshot, build the static site, deploy to Pages.
+# Data is never committed to git — it lives only in the deployed Pages artifact, and each run
+# starts from the previously deployed snapshot (display-only, rolling 7-day window).
+name: snapshot-and-deploy
+
+on:
+  schedule:
+    - cron: '7 */2 * * *'
+  workflow_dispatch:
+    inputs:
+      backfill:
+        description: 'Rebuild 7-day history from historical quotes (~75 credits)'
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - name: Restore previously deployed snapshot
+        run: |
+          mkdir -p public/data
+          base="https://${GITHUB_REPOSITORY_OWNER,,}.github.io/${GITHUB_REPOSITORY#*/}/data"
+          curl -fsS "$base/snapshot.json" -o public/data/snapshot.json || rm -f public/data/snapshot.json
+          curl -fsS "$base/history.json"  -o public/data/history.json  || rm -f public/data/history.json
+
+      - name: Fetch from CoinMarketCap
+        if: github.event_name != 'push' || hashFiles('public/data/snapshot.json') == ''
+        continue-on-error: true
+        env:
+          CMC_API_KEY: ${{ secrets.CMC_API_KEY }}
+        run: npm run fetch
+
+      - name: Backfill history
+        if: github.event_name == 'workflow_dispatch' && inputs.backfill
+        continue-on-error: true
+        env:
+          CMC_API_KEY: ${{ secrets.CMC_API_KEY }}
+        run: node fetch/backfill.mjs
+
+      - name: Check a snapshot exists
+        run: test -s public/data/snapshot.json
+
+      - run: npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

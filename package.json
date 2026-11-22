@@ -1,0 +1,19 @@
+{
+  "name": "sector-tide",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Crypto sector rotation, visualised with CoinMarketCap data.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "fetch": "node fetch/fetch.mjs",
+    "fixture": "node fetch/fixture.mjs"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^8.3.8"
+  }
+}
