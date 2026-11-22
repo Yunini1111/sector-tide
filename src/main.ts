@@ -361,6 +361,7 @@ async function boot() {
   // Narratives needs community-attention endpoints; hide the screen switch when the plan lacks them
   const hasHeat = state.snap!.sectors.filter((s) => s.heat).length >= 3;
   $('.views').hidden = !hasHeat;
+  $('#narr-note').hidden = !hasHeat;
   try { render(); } catch (e) {
     console.error(e);
     $('main.grid').innerHTML = `<section class="card"><h2>Data unavailable</h2><p class="t-s">The snapshot could not be displayed.</p></section>`;
