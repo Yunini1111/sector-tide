@@ -1,7 +1,7 @@
 {
  "_note": "SYNTHETIC fixture in CoinMarketCap response format",
  "status": {
-  "timestamp": "2026-11-22T18:43:49.782Z",
+  "timestamp": "2026-11-22T18:50:59.489Z",
   "error_code": 0,
   "error_message": null,
   "elapsed": 10,
@@ -332,7 +332,7 @@
    "market_cap": 500000000000,
    "market_cap_change": 0.4,
    "volume_change": 1,
-   "last_updated": "2026-11-22T18:43:49.782Z"
+   "last_updated": "2026-11-22T18:50:59.489Z"
   }
  ]
 }

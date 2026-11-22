@@ -1,7 +1,7 @@
 {
  "_note": "SYNTHETIC fixture in CoinMarketCap response format",
  "status": {
-  "timestamp": "2026-11-22T18:43:49.782Z",
+  "timestamp": "2026-11-22T18:50:59.489Z",
   "error_code": 0,
   "error_message": null,
   "elapsed": 10,
@@ -42,7 +42,7 @@
       "percent_change_7d": -0.507067,
       "percent_change_30d": -1.03599,
       "market_cap": 2836966335.74,
-      "last_updated": "2026-11-22T18:43:49.782Z"
+      "last_updated": "2026-11-22T18:50:59.489Z"
      }
     }
    },
@@ -67,7 +67,7 @@
       "percent_change_7d": 7.075001,
       "percent_change_30d": 7.443502,
       "market_cap": 440816032.2,
-      "last_updated": "2026-11-22T18:43:49.782Z"
+      "last_updated": "2026-11-22T18:50:59.489Z"
      }
     }
    },
@@ -92,7 +92,7 @@
       "percent_change_7d": 3.158842,
       "percent_change_30d": 7.102648,
       "market_cap": 1588724047.35,
-      "last_updated": "2026-11-22T18:43:49.782Z"
+      "last_updated": "2026-11-22T18:50:59.489Z"
      }
     }
    },
@@ -118,7 +118,7 @@
       "percent_change_7d": 3.837841,
       "percent_change_30d": 9.960396,
       "market_cap": 261354319.15,
-      "last_updated": "2026-11-22T18:43:49.782Z"
+      "last_updated": "2026-11-22T18:50:59.489Z"
      }
     }
    },
@@ -143,7 +143,7 @@
       "percent_change_7d": -1.32797,
       "percent_change_30d": 2.331139,
       "market_cap": 4386438502.86,
-      "last_updated": "2026-11-22T18:43:49.782Z"
+      "last_updated": "2026-11-22T18:50:59.489Z"
      }
     }
    },
@@ -168,7 +168,7 @@
       "percent_change_7d": 0.006552,
       "percent_change_30d": 9.853189,
       "market_cap": 93154490.11,
-      "last_updated": "2026-11-22T18:43:49.782Z"
+      "last_updated": "2026-11-22T18:50:59.489Z"
      }
     }
    },
@@ -193,7 +193,7 @@
       "percent_change_7d": 10.431632,
       "percent_change_30d": 26.220896,
       "market_cap": 160571171.42,
-      "last_updated": "2026-11-22T18:43:49.782Z"
+      "last_updated": "2026-11-22T18:50:59.489Z"
      }
     }
    },
@@ -218,7 +218,7 @@
       "percent_change_7d": -2.033357,
       "percent_change_30d": -4.276117,
       "market_cap": 48167253.79,
-      "last_updated": "2026-11-22T18:43:49.782Z"
+      "last_updated": "2026-11-22T18:50:59.489Z"
      }
     }
    },
@@ -243,7 +243,7 @@
       "percent_change_7d": 2.105618,
       "percent_change_30d": 3.293095,
       "market_cap": 83224895.83,
-      "last_updated": "2026-11-22T18:43:49.782Z"
+      "last_updated": "2026-11-22T18:50:59.489Z"
      }
     }
    },
@@ -268,7 +268,7 @@
       "percent_change_7d": 0.741285,
       "percent_change_30d": -0.448354,
       "market_cap": 2041078088.94,
-      "last_updated": "2026-11-22T18:43:49.782Z"
+      "last_updated": "2026-11-22T18:50:59.489Z"
      }
     }
    },
@@ -293,7 +293,7 @@
       "percent_change_7d": 0.442082,
       "percent_change_30d": -5.651751,
       "market_cap": 195210267.16,
-      "last_updated": "2026-11-22T18:43:49.782Z"
+      "last_updated": "2026-11-22T18:50:59.489Z"
      }
     }
    },
@@ -318,7 +318,7 @@
       "percent_change_7d": 7.320937,
       "percent_change_30d": 15.786051,
       "market_cap": 225812110.98,
-      "last_updated": "2026-11-22T18:43:49.782Z"
+      "last_updated": "2026-11-22T18:50:59.489Z"
      }
     }
    },
@@ -343,7 +343,7 @@
       "percent_change_7d": 9.299472,
       "percent_change_30d": 12.336044,
       "market_cap": 49856934.78,
-      "last_updated": "2026-11-22T18:43:49.782Z"
+      "last_updated": "2026-11-22T18:50:59.489Z"
      }
     }
    },
@@ -368,7 +368,7 @@
       "percent_change_7d": 4.431603,
       "percent_change_30d": 13.400666,
       "market_cap": 1654516958.74,
-      "last_updated": "2026-11-22T18:43:49.782Z"
+      "last_updated": "2026-11-22T18:50:59.489Z"
      }
     }
    },
@@ -396,7 +396,7 @@
       "percent_change_7d": -6.585041,
       "percent_change_30d": -20.689814,
       "market_cap": 1467903069.75,
-      "last_updated": "2026-11-22T18:43:49.782Z"
+      "last_updated": "2026-11-22T18:50:59.489Z"
      }
     }
    }

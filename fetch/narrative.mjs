@@ -1,8 +1,10 @@
 // Narrative map inputs: community attention per sector.
 // Attention sources (each optional; any that the plan cannot reach are skipped and flagged):
-//   /v1/content/posts/latest        posts → sector via related_coins or tag keywords, weighted by engagement
-//   /v1/community/trending/token    trending tokens → sector via constituent ids, weighted by trending_score
-//   /v1/community/trending/topic    topics → sector via related_tokens or keywords, weighted by trending_score
+//   /v1/content/posts/latest?id=    posts about one coin (the API requires exactly one of id/slug/symbol),
+//                                    queried for each sector's largest constituent when POSTS_PER_RUN > 0
+//   /v1/community/trending/token    trending tokens (limit ≤ 5) → sector via constituent ids
+//   /v1/community/trending/topic    trending topics (limit ≤ 5) → sector via related tokens or keywords
+// Verified 2026-11-23: all three return 403 on the Basic plan; the narrative screen then hides itself.
 // Money stays the sector's own CMC category market-cap / volume change (see fetch.mjs).
 import { cmc, redact } from './cmc.mjs';
 
@@ -14,11 +16,20 @@ async function tryGet(path, label) {
   catch (e) { console.warn(`narrative: ${label} unavailable — ${redact(e.message)}`); return null; }
 }
 
-/** @param sectors [{id, kw, coinIds:Set}] */
+const POSTS_PER_RUN = +(process.env.POSTS_PER_RUN ?? 0);
+
+/** @param sectors [{id, kw, coinIds:Set, topCoin:number|null}] */
 export async function attention(sectors) {
-  const posts = await tryGet('/v1/content/posts/latest?limit=100', 'posts');
-  const tokens = await tryGet('/v1/community/trending/token?limit=50', 'trending-token');
-  const topics = await tryGet('/v1/community/trending/topic?limit=20', 'trending-topic');
+  const tokens = await tryGet('/v1/community/trending/token?limit=5', 'trending-token');
+  const topics = await tryGet('/v1/community/trending/topic?limit=5', 'trending-topic');
+  let posts = null;
+  if (POSTS_PER_RUN > 0) {
+    for (const s of sectors.filter((x) => x.topCoin).slice(0, POSTS_PER_RUN)) {
+      const got = await tryGet(`/v1/content/posts/latest?id=${s.topCoin}`, `posts ${s.id}`);
+      if (!got) break; // plan lacks the endpoint: stop after the first refusal
+      posts = (posts ?? []).concat(got.map((p) => ({ ...p, related_coins: p.related_coins ?? [s.topCoin] })));
+    }
+  }
   const available = { posts: !!posts, tokens: !!tokens, topics: !!topics };
   if (!posts && !tokens && !topics) return { available, bySector: null, topics: [] };
 

@@ -104,7 +104,7 @@ async function main() {
 
   // 3b. attention per sector (narrative map); skipped gracefully when the plan lacks the endpoints
   const narrative = NARRATIVE
-    ? await attention(picked.map(({ s }) => ({ id: s.key, kw: s.kw, coinIds: new Set((sectors.find((x) => x.id === s.key)?.coins ?? []).map((c) => c.id)) })))
+    ? await attention(picked.map(({ s }) => ({ id: s.key, kw: s.kw, coinIds: new Set((sectors.find((x) => x.id === s.key)?.coins ?? []).map((c) => c.id)), topCoin: sectors.find((x) => x.id === s.key)?.coins?.[0]?.id ?? null })))
     : { available: { posts: false, tokens: false, topics: false }, bySector: null, topics: [] };
   for (const sec of sectors) sec.heat = narrative.bySector?.[sec.id] ?? null;
 

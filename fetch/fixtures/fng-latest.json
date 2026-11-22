@@ -1,7 +1,7 @@
 {
  "_note": "SYNTHETIC fixture in CoinMarketCap response format",
  "status": {
-  "timestamp": "2026-11-22T18:43:49.782Z",
+  "timestamp": "2026-11-22T18:50:59.489Z",
   "error_code": 0,
   "error_message": null,
   "elapsed": 10,
@@ -10,7 +10,7 @@
  },
  "data": {
   "value": 31,
-  "update_time": "2026-11-22T18:43:49.782Z",
+  "update_time": "2026-11-22T18:50:59.489Z",
   "value_classification": "Fear"
  }
 }

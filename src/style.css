@@ -307,3 +307,4 @@ body[data-screen="narr"] .v-map, body[data-screen="narr"] .v-rot, body[data-scre
 }
 @media (min-width: 1500px) { body[data-screen="narr"] .v-detail { grid-column: 1 / -1; } }
 @media (max-width: 1099px) { .updated { display: none; } }
+.views[hidden] { display: none; }

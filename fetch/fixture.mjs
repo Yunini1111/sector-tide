@@ -94,7 +94,7 @@ write('content-posts-latest', Array.from({ length: 100 }, (_, i) => {
     related_coins: [c.id], tags: [pick(s.kw)], sentiment: pick(['bullish', 'bullish', 'neutral', 'bearish']) };
 }));
 
-write('community-trending-token', Array.from({ length: 30 }, (_, i) => {
+write('community-trending-token', Array.from({ length: 5 }, (_, i) => { // API caps limit at 5
   const s = weightedSector(); const c = sectorCoins.get(s.key)[Math.floor(rnd() * 5)];
   return { id: c.id, name: c.name, symbol: c.symbol, slug: c.slug, rank: 50 + i, trending_rank: i + 1, trending_score: r(98 - i * 2.8 + gauss(), 1),
     mention_count: Math.round(12000 / (i + 1) ** 0.7), post_count: Math.round(3000 / (i + 1) ** 0.7), engagement_score: Math.round(80000 / (i + 1) ** 0.8),
@@ -104,7 +104,7 @@ write('community-trending-token', Array.from({ length: 30 }, (_, i) => {
 const topicNames = [['AI agents go on-chain', 'ai-agents'], ['Memecoin season talk', 'memes'], ['Prediction markets volume record', 'prediction'],
   ['Tokenized treasuries', 'rwa'], ['Perp DEX wars', 'derivatives'], ['Privacy coins delisting debate', 'privacy'], ['Restaking yields', 'restaking'],
   ['L2 fee cuts', 'l2'], ['GPU compute networks', 'ai'], ['Oracle upgrades', 'oracles'], ['Exchange token burns', 'cex'], ['Gaming launches', 'gaming']];
-write('community-trending-topic', topicNames.map(([name, key], i) => {
+write('community-trending-topic', topicNames.slice(0, 5).map(([name, key], i) => {
   const s = SECTORS.find((x) => x.key === key);
   return { id: name.toLowerCase().replace(/\W+/g, '-'), name, slug: name.toLowerCase().replace(/\W+/g, '-'), description: 'synthetic topic',
     trending_rank: i + 1, trending_score: r(96 - i * 6 + gauss(), 1), post_count: Math.round(5000 / (i + 1)), comment_count: Math.round(20000 / (i + 1)),
@@ -114,7 +114,7 @@ write('community-trending-topic', topicNames.map(([name, key], i) => {
 
 // ---- run the real transform on these fixtures
 const out = join(HERE, '..', 'public', 'data');
-execFileSync(process.execPath, [join(HERE, 'fetch.mjs')], { stdio: 'inherit', env: { ...process.env, CMC_SOURCE: 'fixture', OUT_DIR: out, PREV_BASE: join(FIX, '__none__') } });
+execFileSync(process.execPath, [join(HERE, 'fetch.mjs')], { stdio: 'inherit', env: { ...process.env, CMC_SOURCE: 'fixture', POSTS_PER_RUN: '1', OUT_DIR: out, PREV_BASE: join(FIX, '__none__') } });
 
 // ---- seed 7 days of synthetic history (2h steps) behind the fresh point
 const snap = JSON.parse(readFileSync(join(out, 'snapshot.json'), 'utf8'));

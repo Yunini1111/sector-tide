@@ -1,7 +1,7 @@
 {
  "_note": "SYNTHETIC fixture in CoinMarketCap response format",
  "status": {
-  "timestamp": "2026-11-22T18:43:49.782Z",
+  "timestamp": "2026-11-22T18:50:59.489Z",
   "error_code": 0,
   "error_message": null,
   "elapsed": 10,
@@ -15,7 +15,7 @@
    "slug": "ai-agents-go-on-chain",
    "description": "synthetic topic",
    "trending_rank": 1,
-   "trending_score": 94.3,
+   "trending_score": 95.4,
    "post_count": 5000,
    "comment_count": 20000,
    "engagement_score": 150000,
@@ -29,7 +29,7 @@
     "agent",
     "agents"
    ],
-   "created_at": "2026-11-22T18:43:49.782Z"
+   "created_at": "2026-11-22T18:50:59.489Z"
   },
   {
    "id": "memecoin-season-talk",
@@ -41,7 +41,7 @@
    "post_count": 2500,
    "comment_count": 10000,
    "engagement_score": 75000,
-   "sentiment": "negative",
+   "sentiment": "positive",
    "related_tokens": [
     90320,
     90321,
@@ -51,7 +51,7 @@
     "meme",
     "memes"
    ],
-   "created_at": "2026-11-22T18:43:49.782Z"
+   "created_at": "2026-11-22T18:50:59.489Z"
   },
   {
    "id": "prediction-markets-volume-record",
@@ -59,11 +59,11 @@
    "slug": "prediction-markets-volume-record",
    "description": "synthetic topic",
    "trending_rank": 3,
-   "trending_score": 84.3,
+   "trending_score": 84.7,
    "post_count": 1667,
    "comment_count": 6667,
    "engagement_score": 50000,
-   "sentiment": "negative",
+   "sentiment": "neutral",
    "related_tokens": [
     90760,
     90761,
@@ -73,7 +73,7 @@
     "prediction market",
     "prediction markets"
    ],
-   "created_at": "2026-11-22T18:43:49.782Z"
+   "created_at": "2026-11-22T18:50:59.489Z"
   },
   {
    "id": "tokenized-treasuries",
@@ -85,7 +85,7 @@
    "post_count": 1250,
    "comment_count": 5000,
    "engagement_score": 37500,
-   "sentiment": "positive",
+   "sentiment": "neutral",
    "related_tokens": [
     90400,
     90401,
@@ -95,7 +95,7 @@
     "rwa",
     "real world asset"
    ],
-   "created_at": "2026-11-22T18:43:49.782Z"
+   "created_at": "2026-11-22T18:50:59.489Z"
   },
   {
    "id": "perp-dex-wars",
@@ -103,11 +103,11 @@
    "slug": "perp-dex-wars",
    "description": "synthetic topic",
    "trending_rank": 5,
-   "trending_score": 71.7,
+   "trending_score": 72,
    "post_count": 1000,
    "comment_count": 4000,
    "engagement_score": 30000,
-   "sentiment": "positive",
+   "sentiment": "neutral",
    "related_tokens": [
     90280,
     90281,
@@ -117,161 +117,7 @@
     "perp",
     "perps"
    ],
-   "created_at": "2026-11-22T18:43:49.782Z"
-  },
-  {
-   "id": "privacy-coins-delisting-debate",
-   "name": "Privacy coins delisting debate",
-   "slug": "privacy-coins-delisting-debate",
-   "description": "synthetic topic",
-   "trending_rank": 6,
-   "trending_score": 66.2,
-   "post_count": 833,
-   "comment_count": 3333,
-   "engagement_score": 25000,
-   "sentiment": "positive",
-   "related_tokens": [
-    90560,
-    90561,
-    90562
-   ],
-   "tags": [
-    "privacy",
-    "private"
-   ],
-   "created_at": "2026-11-22T18:43:49.782Z"
-  },
-  {
-   "id": "restaking-yields",
-   "name": "Restaking yields",
-   "slug": "restaking-yields",
-   "description": "synthetic topic",
-   "trending_rank": 7,
-   "trending_score": 58.1,
-   "post_count": 714,
-   "comment_count": 2857,
-   "engagement_score": 21429,
-   "sentiment": "negative",
-   "related_tokens": [
-    90640,
-    90641,
-    90642
-   ],
-   "tags": [
-    "restaking",
-    "eigenlayer"
-   ],
-   "created_at": "2026-11-22T18:43:49.782Z"
-  },
-  {
-   "id": "l2-fee-cuts",
-   "name": "L2 fee cuts",
-   "slug": "l2-fee-cuts",
-   "description": "synthetic topic",
-   "trending_rank": 8,
-   "trending_score": 54.1,
-   "post_count": 625,
-   "comment_count": 2500,
-   "engagement_score": 18750,
-   "sentiment": "negative",
-   "related_tokens": [
-    90120,
-    90121,
-    90122
-   ],
-   "tags": [
-    "layer 2",
-    "layer-2"
-   ],
-   "created_at": "2026-11-22T18:43:49.782Z"
-  },
-  {
-   "id": "gpu-compute-networks",
-   "name": "GPU compute networks",
-   "slug": "gpu-compute-networks",
-   "description": "synthetic topic",
-   "trending_rank": 9,
-   "trending_score": 49.2,
-   "post_count": 556,
-   "comment_count": 2222,
-   "engagement_score": 16667,
-   "sentiment": "negative",
-   "related_tokens": [
-    90000,
-    90001,
-    90002
-   ],
-   "tags": [
-    "ai",
-    "artificial intelligence"
-   ],
-   "created_at": "2026-11-22T18:43:49.782Z"
-  },
-  {
-   "id": "oracle-upgrades",
-   "name": "Oracle upgrades",
-   "slug": "oracle-upgrades",
-   "description": "synthetic topic",
-   "trending_rank": 10,
-   "trending_score": 43.1,
-   "post_count": 500,
-   "comment_count": 2000,
-   "engagement_score": 15000,
-   "sentiment": "positive",
-   "related_tokens": [
-    90480,
-    90481,
-    90482
-   ],
-   "tags": [
-    "oracle",
-    "oracles"
-   ],
-   "created_at": "2026-11-22T18:43:49.782Z"
-  },
-  {
-   "id": "exchange-token-burns",
-   "name": "Exchange token burns",
-   "slug": "exchange-token-burns",
-   "description": "synthetic topic",
-   "trending_rank": 11,
-   "trending_score": 36.4,
-   "post_count": 455,
-   "comment_count": 1818,
-   "engagement_score": 13636,
-   "sentiment": "neutral",
-   "related_tokens": [
-    90800,
-    90801,
-    90802
-   ],
-   "tags": [
-    "exchange token",
-    "cex"
-   ],
-   "created_at": "2026-11-22T18:43:49.782Z"
-  },
-  {
-   "id": "gaming-launches",
-   "name": "Gaming launches",
-   "slug": "gaming-launches",
-   "description": "synthetic topic",
-   "trending_rank": 12,
-   "trending_score": 29.8,
-   "post_count": 417,
-   "comment_count": 1667,
-   "engagement_score": 12500,
-   "sentiment": "neutral",
-   "related_tokens": [
-    90360,
-    90361,
-    90362
-   ],
-   "tags": [
-    "gaming",
-    "game"
-   ],
-   "created_at": "2026-11-22T18:43:49.782Z"
+   "created_at": "2026-11-22T18:50:59.489Z"
   }
  ]
 }

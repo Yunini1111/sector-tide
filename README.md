@@ -51,11 +51,11 @@ GitHub Actions (manual for now)                   GitHub Pages (static)
 | `GET /v1/global-metrics/quotes/latest` | total market cap, BTC/ETH dominance and their 24h change | 1 |
 | `GET /v3/fear-and-greed/latest` | sentiment context | 1 |
 | `GET /v2/cryptocurrency/quotes/historical` | one-off 7-day backfill of rotation history (`fetch/backfill.mjs`) | ≈75, once |
-| `GET /v1/content/posts/latest` | narrative map: community posts → sector attention | 1 *(availability on our plan not yet verified)* |
-| `GET /v1/community/trending/token` | narrative map: trending tokens → sector attention | 1 *(not yet verified)* |
-| `GET /v1/community/trending/topic` | narrative map: trending topics → sectors | 1 *(not yet verified)* |
+| `GET /v1/content/posts/latest?id=` | narrative map: posts about each sector's largest coin → attention | 1 per coin, opt-in (`POSTS_PER_RUN`) · **403 on Basic** |
+| `GET /v1/community/trending/token?limit=5` | narrative map: trending tokens → sector attention | 1 · **403 on Basic** |
+| `GET /v1/community/trending/topic?limit=5` | narrative map: trending topics → sectors | 1 · **403 on Basic** |
 
-About **7 credits per run** for the rotation screen, plus up to 3 for the narrative screen. If an attention endpoint is unavailable on the current plan, the narrative screen degrades gracefully: it uses the sources it has, or shows an "unavailable" card.
+About **7 credits per run** for the rotation screen, plus up to 3 for the narrative screen. The attention endpoints return 403 on the Basic plan. The narrative screen uses whichever sources it gets, and its switch hides itself when none are available.
 
 ## Real API calls (evidence)
 
@@ -156,7 +156,7 @@ backfill ok: 84 reconstructed points (+1 live), credits 72
 - The category taxonomy is broad and noisy. There are 361 categories, many of them VC portfolios, ecosystems or event baskets, and a coin can sit in several sectors (RENDER is in Gaming, NFT and Metaverse). We curated 24 thematic sectors ([`fetch/sectors.mjs`](fetch/sectors.mjs)).
 - *Layer 1* includes BTC and is ~80% of all sector market cap, so the treemap uses √market cap for area.
 - The categories `last_updated` field reports 2021 even though the values are live.
-- `/ohlcv/historical` and `/cryptocurrency/trending/latest` returned 403 on our plan, so we did not depend on them.
+- `/ohlcv/historical`, `/cryptocurrency/trending/latest` and all three community-attention endpoints (`content/posts/latest`, `community/trending/token|topic`) returned 403 on our plan. The docs also differ from the live API: posts need a coin `id`/`slug`/`symbol`, and trending lists cap `limit` at 5. The narrative screen is therefore built and tested against fixtures, and switches itself on only when the plan provides the data.
 - A monthly credit budget pushes the design toward rotation and caching rather than polling everything.
 
 ## Run it locally

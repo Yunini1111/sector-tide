@@ -22,7 +22,7 @@ export function fixtureName(path) {
   const base = p.split('/').filter(Boolean).slice(1).join('-')
     .replace(/^cryptocurrency-/, '').replace(/^global-metrics-quotes-/, 'global-').replace(/^fear-and-greed-/, 'fng-');
   const id = new URLSearchParams(q).get('id');
-  return id && base === 'category' ? `${base}-${id}` : base;
+  return id && base === 'category' ? `${base}-${id}` : base; // posts?id=… share one fixture file
 }
 
 export async function cmc(path, label = path) {
