@@ -60,7 +60,8 @@ jobs:
         run: npm run fetch
 
       - name: Build from fixtures (synthetic, no API calls)
-        if: (inputs.source || vars.CMC_SOURCE || 'fixture') != 'live' && hashFiles('public/data/snapshot.json') == ''
+        # never replace data on a live deployment with fixtures (e.g. if the restore curl failed)
+        if: (inputs.source || vars.CMC_SOURCE || 'fixture') != 'live' && vars.CMC_SOURCE != 'live' && hashFiles('public/data/snapshot.json') == ''
         run: npm run fixture
 
       - name: Backfill history
